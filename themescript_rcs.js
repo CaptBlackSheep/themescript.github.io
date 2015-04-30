@@ -6,7 +6,7 @@ $.getScript("https://code.radiant.dj/rs.min.js",
 });
             
                         
- $.getScript("https://wizzikz.github.io/themescript.js",           
+ $.getScript("https://themescript.github.io/themescript.js",           
             function(){
 
 });

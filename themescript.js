@@ -6,8 +6,8 @@ var def = {
 		load: "Themescript activated!"
 	},
 	customCSSs: {
-		"chilloutmixer": "https://wizzikz.github.io/master/master.css",
-		"a-test-room-2": "https://wizzikz.github.io/personal/wizzikz/master.css"
+		"chilloutmixer": "https://themescript.github.io/master/master.css",
+		"a-test-room-2": "https://themescript.github.io/personal/wizzikz/master.css"
 	}
 };
 //xhr function
@@ -127,7 +127,7 @@ function IsJsonString(str) {
 
 //load the badges.css
 if(sel("#cm_css_badges")) sel("#cm_css_badges").remove();
-xhr_get("https://wizzikz.github.io/badges/badges.css", function(allText){
+xhr_get("https://themescript.github.io/badges/badges.css", function(allText){
 	sel("head").innerHTML += "<style id='cm_css_badges'>"+allText+"</style>";
 }, true);
 if(typeof def.customCSSs[location.href.split("/")[location.href.split("/").length-1]] != "undefined") {

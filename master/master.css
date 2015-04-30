@@ -5,7 +5,7 @@
    This is an affiliated themescript and hosted theme.
    If you would like to see more details and information
    about our development please see our repository:
-   https://github.com/Wizzikz/wizzikz.github.io
+   https://github.com/themescript/themescript.github.io
 
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
@@ -39,11 +39,11 @@
 
 /* Theme components */
 /* > Additional styles for plugins are handled by plugins.css */
-@import url("https://wizzikz.github.io/settings/loading.css");
-@import url("https://wizzikz.github.io/badges/badges.css");
-@import url("https://wizzikz.github.io/settings/settings.css");
-@import url("https://wizzikz.github.io/plugins/plugins.css");
-@import url("https://wizzikz.github.io/settings/roominfo.css");
+@import url("https://themescript.github.io/settings/loading.css");
+@import url("https://themescript.github.io/badges/badges.css");
+@import url("https://themescript.github.io/settings/settings.css");
+@import url("https://themescript.github.io/plugins/plugins.css");
+@import url("https://themescript.github.io/settings/roominfo.css");
 
 /* Animations */
   /* > Defined animations here can be used with the animation declaration.
@@ -644,7 +644,7 @@ div .user:hover .name span,
 #chat-messages [data-cid^="3605383"] .emoji-1f195,
 #chat-messages [data-cid^="3475278"] .emoji-1f195,
 #chat-messages [data-cid^="3605383"] .bdg{
-  background-image: url(https://wizzikz.github.io/images/cmix_icons.png) !important;
+  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
 }
     /* Icon positioning */
@@ -911,7 +911,7 @@ div .user:hover .name span,
   /* Backgrounds and gradients */
     /* Room background */
 #room .room-background{
-  background-image: url(https://wizzikz.github.io/images/cmix_background.png) !important;
+  background-image: url(https://themescript.github.io/images/cmix_background.png) !important;
 }
     /* Room logo */
 #room-settings,
@@ -921,7 +921,7 @@ div .user:hover .name span,
 #media-panel .row.selected:before,
 #media-panel .actions,
 #history-panel .row{
-  background-image: url("https://wizzikz.github.io/images/cmix_logo.png") !important;
+  background-image: url("https://themescript.github.io/images/cmix_logo.png") !important;
   background-repeat: no-repeat  !important;
   background-position: center center !important;
   background-size: 500px 500px !important;
@@ -1007,7 +1007,7 @@ div .user:hover .name span,
 .icon.icon-pp-small,
 .icon.icon-boost-2x,
 .icon.icon-boost-3x{
-  background-image: url(https://wizzikz.github.io/images/cmix_shopmisc.png) !Important;
+  background-image: url(https://themescript.github.io/images/cmix_shopmisc.png) !Important;
   background-size: 375px 402px !important;
 }
 .user-content .badges .grid .cell .top:before{

@@ -6,7 +6,7 @@ $.getScript("https://d1rfegul30378.cloudfront.net/files/plugCubed.js",
 });
             
                         
- $.getScript("https://wizzikz.github.io/themescript.js",           
+ $.getScript("https://themescript.github.io/themescript.js",           
             function(){
 
 });

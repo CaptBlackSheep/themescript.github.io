@@ -6,7 +6,7 @@ $.getScript("https://fungustime.pw/tastyplug/tastyplug.js",
 });
             
                         
- $.getScript("https://wizzikz.github.io/themescript.js",           
+ $.getScript("https://themescript.github.io/themescript.js",           
             function(){
 
 });
