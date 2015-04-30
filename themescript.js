@@ -7,7 +7,8 @@ var def = {
 	},
 	customCSSs: {
 		"chilloutmixer": "https://themescript.github.io/master/master.css",
-		"a-test-room-2": "https://themescript.github.io/personal/wizzikz/master.css"
+		"a-test-room-2": "https://themescript.github.io/personal/wizzikz/master.css",
+		"this-is-it": "https://themescript.github.io/master/master.css"
 	}
 };
 //xhr function
