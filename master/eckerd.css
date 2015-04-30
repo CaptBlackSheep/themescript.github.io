@@ -1,0 +1,483 @@
+/* Depreciated, kept until further notice */
+
+/* These are the changes that EckerDecker had proposed. These changes came
+   from an idea of mine to make the vote icons transition with the bottom
+   of the vote buttons. Try it out for a bit; If you do not like these
+   changes, then you can revert back to the way things were before by
+   changing which sheet to import in the master style.
+
+   Notify when a decision has been made so some or all of this code
+   can be reintegrated into the master sheet.
+*/
+
+
+/* Colours */
+  /* > For background colour and text. Anything meant to be 0% opaque
+       should instead be shoved into the bottom of the document under
+       the "Disappear" section.
+  */
+  /* colour 1e2942 */
+#dashboard,
+#toast-notifications .right,
+#app .app-header,
+#app-menu *,
+#dialog-container .dialog-frame,
+#dialog-container .dialog-body,
+#dialog-container .destructive.no-submit .button.submit,
+#dialog-container .dialog.no-submit .submit,
+#p3-settings,
+#p3-settings-custom-colors,
+.app-right .jspContainer,
+#chat-suggestion,
+#user-lists .list-header,
+#user-rollover,
+#user-menu,
+#user-view,
+#media-panel .row:hover,
+#user-history .row:hover,
+#room-settings-menu,
+#room-settings,
+#vote > .crowd-response .bottom,
+#vote .icon,
+#footer,
+#footer-user .menu,
+#playlist-panel,
+#search,
+.pop-menu,
+#video-only-dj,
+#chat{
+  background-color: #1e2942 !important;
+}   /* Semi-opaque */
+#chat .disconnect,
+#history-panel .row{
+  background-color: rgba(30, 41, 66, 0.92) !Important;  
+}
+#playback-controls .button.hd,
+#playback-controls .button.p3-fullscreen{
+  background-color: rgba(30, 41, 66, 0.7) !Important;
+}
+.row .actions{
+  background-color: rgba(30, 41, 66, 0.5) !Important;
+}   /* text colour */
+#playlist-activate-button:hover:not(.active) span{
+  color: #1e2942 !important;
+}
+  /* colour 323c53 */
+#dialog-container .toggle,
+#dialog-container .selected .radio,
+#dialog-container .dialog-input-background,
+#dialog-user-role .role-menu,
+#dialog-user-role .role-menu li,
+#dashboard .search,
+#user-friends .search,
+#dialog-container .button,
+#dialog-media-update .dialog-input-background,
+.general-settings .input-background,
+.general-settings .option button,
+#history-button,
+#the-user-profile .experience .levels .level,
+#user-view.app-left a button,
+#user-settings .right button,
+#the-user-profile .blurb input,
+#the-user-profile .notifications .row,
+#user-inventory .row,
+#user-inventory .badges .cell,
+#user-store .grid .cell,
+#user-store .grid .title-bar,
+#user-friends .row,
+#chat-messages .user-action .msg,
+#chat-messages .moderation .msg,
+#dashboard .bar,
+#dashboard .cell,
+#user-communities .bar,
+#user-communities .cell,
+#user-lists .group,
+#search-bar,
+#search-suggestion,
+#search-menu li,
+#search-suggestion li,
+#filter-bar,
+.app-right .input-background,
+#import-youtube .youtube-input,
+.delete-button,
+#dj-button.is-locked .left,
+#dj-button.is-full .left,
+#footer-user.open-user .info,
+#footer-user.open-status .image,
+#chat-input,
+.dropdown,
+.dropdown dd{
+  background-color: #323c53 !Important;
+}   /* Semi-opaque */
+#dashboard .meta,
+#user-communities .meta{
+  background-color: rgba(50, 60, 83, 0.92) !important;
+}
+  /* colour 1d456e */
+#dashboard-border .button,
+#toast-notifications .left,
+#user-settings .bar,
+#tooltip.purple span,
+#dialog-container .toggle:hover,
+#dialog-container .reason:hover,
+#footer-user .back,
+#media-panel .button:not(.active),
+#playlist-menu > div.button,
+#user-rollover .info,
+.thumb,
+#user-rollover .action:hover,
+#user-friends .row button,
+#dashboard .join:hover,
+#user-communities .join:hover,
+#user-communities .create,
+.xp .bar,
+#footer .bar,
+.tab-menu button,
+.jspHorizontalBar,
+.jspTrack,
+.jspVerticalBar{
+  background-color: #1d456e !Important;
+}   /* Text colour */
+#user-lists .duration,
+#dialog-container .destructive.no-submit .button.submit,
+#dialog-container .dialog.no-submit .submit{
+  color: #1d456e !Important;
+}
+  /* colour 365f80 */
+#dialog-restricted-media .row:hover,
+#user-view .item .count,
+.request-count,
+.tab-menu .count,
+#footer .button .count,
+#user-view.app-left a button:hover,
+#user-history .row:hover,
+#media-panel .row.selected,
+.pop-menu li:hover,
+#search-suggestion .search-suggestion-item.selected,
+#search-menu li:hover,
+#footer .info,
+#chat-header,
+#user-lists .header,
+#waitlist .header,
+.friends .header,
+.friends .list-header{
+  background-color: #365f80 !important;
+}   /* Semi-opaque */
+#history-panel .row.selected{
+  background-color: rgba(54, 95, 128, 0.92) !important;
+}   /* Semi-opaque */
+.row.selected .actions{
+  background-color: rgba(54, 95, 128, 0.5) !important;
+}   /* Text colour */
+#p3-settings .version,
+.friends .is-offline span,
+.joined{
+  color: #365f80 !Important;
+}
+  /* colour 4a6c8f */
+#vote > #woot.crowd-response.selected .bottom,
+#vote > #woot.active .icon,
+#vote > #woot.disabled.active .bottom,
+.tab-menu button:not(.selected):hover{
+  background-color: #4a6c8f !important;
+}   /* Text colour */
+div .user,
+.item.positive span{
+  color: #4a6c8f !Important;
+}     /* Non-important text colour */
+#chat .from .un{
+  color: #4a6c8f;
+}
+  /* colour 5c87b3 */
+#dashboard-border .button:hover,
+#dashboard .favorite,
+.tab-menu .selected,
+#dialog-container > :not(#dialog-preview):not(#dialog-confirm):not(.destructive):not(.no-submit) .submit,
+#the-user-profile .experience .levels .level.earned.avatar .label,
+#the-user-profile .experience .levels .level.earned.ep .label,
+#user-friends button.positive:hover,
+:not(.boosted) .bar .progress,
+#room-settings .general-settings :not(.enabled) button.off,
+#playlist-button,
+#playlist-menu > div.button:hover,
+.drag-media-box,
+#media-panel .button:not(.active):hover,
+#media-panel .row.now-playing,
+#dj-button.is-wait .left,
+#dj-button.is-join .left,
+#vote > #grab.crowd-response.selected .bottom,
+#vote > #grab.active .icon,
+#vote > #grab.disabled.active .bottom,
+#tooltip:not(.purple):not(.orange) span,
+.jspDrag,
+.jspDrag:hover,
+.jspTrack .jspActive,
+.jspTrack .jspHover,
+.dropdown dd .row:hover{
+  background-color: #5c87b3 !Important;
+}   /* Semi-opaque */
+#playback-controls .button.refresh{
+  background-color: rgba(92, 135, 179, 0.7) !Important;
+}   /* Semi-opaque */
+#media-panel .row.now-playing .actions{
+  background-color: rgba(92, 135, 179, 0.5) !important;
+}   /* Text colour */
+#dialog-level-up .reward,
+div .user .is-you .name,
+div .user.is-you span,
+#user-lists .label,
+#user-lists .moderator,
+.item.grabs span,
+.friends .room,
+#user-friends .total,
+#playlist-activate-button span,
+#waitlist-button .count,
+#waitlist .count,
+#waitlist .user .position,
+#waitlist .position .count,
+#user-rollover .status span,
+#chat .welcome,
+#chat .moderation,
+#footer-user :not(.is-ambassador):not(.is-admin) .name{
+  color: #5c87b3 !Important;
+}     /* Non-important text colour */
+#chat .from.you .un{
+  color: #5c87b3;
+}
+  /* colour B4C9DE */
+#dialog-purchase .divider,
+#volume .line{
+  background-color: #B4C9DE !Important;
+}
+    /* Text colour */
+#news .desc,
+#dialog-purchase:not(.no-submit) .button.submit,
+#dialog-purchase .unlock-type span,
+#dialog-purchase .value,
+#dialog-level-up .title,
+#dialog-user-role.is-staff .name,
+#dialog-restricted-media .row:hover,
+#app-menu .item span,
+#app-menu .logout span,
+#p3-settings .item span,
+#p3-settings-custom-colors .item span,
+#room-host,
+div .user .is-staff .name,
+div .user.is-staff span,
+#now-playing-dj,
+#volume span,
+.dark-label,
+.tab-menu button,
+#room-settings .title,
+.timestamp,
+#footer-user .back,
+#user-view.app-left .header span,
+#user-view.app-left .points *:not(button),
+#the-user-profile .role span,
+#the-user-profile .link .label,
+#the-user-profile .next-level,
+#the-user-profile .notifications .timestamp,
+#user-inventory > DIV:last-child > DIV:first-child > DIV:first-child > SPAN,
+#user-inventory > DIV:last-child > DIV:first-child > DIV:last-child > DIV:first-child > SPAN,
+#user-inventory > DIV:last-child > DIV:first-child > DIV:last-child > DIV:nth-child(2) > SPAN,
+#user-inventory > DIV:last-child > DIV:first-child > DIV:last-child > DIV:last-child > SPAN,
+#user-friends .level *,
+#user-settings .application *,
+#user-settings .account label,
+#user-settings .account .refresh,
+#playlist-menu .count,
+#playlist-menu .row.drag-over span,
+#media-panel .header > :not(.button),
+#media-panel .row:hover,
+#media-panel .row.selected,
+#user-history .row:hover .meta span,
+#history-panel .row:hover .name:before,
+#history-panel .row.selected .name:before,
+#history-panel .row:hover .meta span,
+#history-panel .row.selected .meta span,
+.pop-menu li:hover,
+#media-panel .now-playing,
+.friends .header,
+.friends .name,
+.mention .name,
+#your-active-playlist span,
+#footer-user .is-staff:not(.is-ambassador):not(.is-admin) .name,
+#footer :not(.bar) > .value,
+#footer .level *,
+.user-action .text,
+.moderation,
+#user-rollover .info span,
+#playlist-menu .title,
+.dropdown .level,
+[data-cid^="3605383"] A{
+	color: #B4C9DE !important;
+}     /* Non-important text colour */
+#chat .from.dj .un,
+#chat .from.staff .un,
+#dialog-container .button.submit,
+#now-playing-time span{
+  color: #B4C9DE;
+} /* Opacity settings */
+#app-menu .item:not(:hover) span,
+#p3-settings .item:not(.selected):not(:hover):not(.p3-s-colors) span,
+#user-settings .application .item:not(.selected) span:not(:hover),
+#user-settings .application .cap span:not(.count){
+  opacity: 0.75 !Important;
+}
+  /* colour ff2d31 */
+#app-menu .logout:hover,
+#app-menu .logout:hover *,
+#dialog-container .destructive:not(.no-submit) .button.submit,
+#dialog-container .toggle.selected,
+#dialog-container .reason.selected,
+#dialog-confirm .button.submit,
+#volume .circle[style="left: 7.5px;"],
+#room-settings .general-settings .enabled button.on,
+#user-friends button.negative:hover,
+#user-settings .right button:hover,
+.delete-button:hover,
+#dj-button.is-leave .left,
+#dj-button.is-quit .left,
+#vote > #meh.crowd-response.selected .bottom,
+#vote > #meh.active .icon,
+#vote > #meh.disabled.active .bottom,
+#tooltip.orange span{
+  background-color: #FF2D31 !important;
+}   /* Semi-opaque */
+#playback-controls .button.snooze{
+  background-color: rgba(255, 45, 49, 0.7) !Important;
+}   /* Text colour */
+#dialog-container .destructive .username,
+#dialog-purchase .price .value,
+#dialog-playlist-delete .message,
+#dialog-restricted-media .media-name,
+#user-lists .list:not(.room):not(.staff) .user:not(:hover) span.name,
+.item.negative span,
+#now-playing-time .elapsing,
+#user-store .notice,
+.in-history{
+  color: #ff2d31 !Important;
+}
+  /* Other colours */
+    /* colour 000 */
+#playback-container,
+#vote:before{
+  background: #000 !Important;
+}
+    /* colour 2fc7fb */
+#chat-messages .cm.system{
+  background-color: #2fc7fb !Important;
+}
+    /* Other text colours */
+      /* colour eeeeee */
+#news span,
+#dialog-purchase .label,
+#history-panel .name:before,
+div .user:hover span:not(.unignore):not(.unmute):not(.unban):not(.timestamp),
+div .user:hover .name span,
+.dropdown :not(.level){
+  color: #eeeeee !important;
+}     /* colour eeefff */
+      /* colour fff */
+#app-menu .logout:hover span,
+#dialog-confirm .submit,
+#dialog-container .destructive:not(.no-submit) .button.submit,
+#user-settings .right button,
+[data-cid^="3605383"] .un,
+#chat-messages .cm.system *{
+  color: #fff !Important;
+}
+
+  /* Icons from CM sprriteset */
+    /* Main icon set */
+#dialog-container .icon.icon-check-white,
+#dialog-level-up .sunburst,
+#dialog-level-up .ep,
+#app-menu .list i:not(.icon-logout-white),
+#dashboard .icon.icon-grab,
+#user-menu .item:not(.selected) .icon,
+.friends.has-requests > .header > I,
+.icon.icon-check-blue,
+.icon.icon-clock-orange,
+#volume i,
+.icon.icon-ignore,
+.icon.icon-ignored,
+.icon.icon-staff,
+.icon.icon-mute,
+.icon.icon-mute-big,
+.icon.icon-ban,
+.icon.icon-staff,
+#facebook-menu .icon.icon-facebook-selected,
+#twitter-menu .icon.icon-twitter-selected,
+.icon.icon-grab,
+.icon.icon-star-white,
+#user-lists .icon.icon-woot,
+.icon.icon-history-positive,
+#user-lists .icon.icon-grab,
+.icon.icon-history-grabs,
+#user-lists .icon.icon-meh,
+.icon.icon-history-negative,
+.icon.icon-chat-host,
+.icon.icon-chat-cohost,
+.icon.icon-chat-manager,
+.icon.icon-chat-bouncer,
+.icon.icon-chat-dj,
+.icon.icon-check-purple,
+.icon.icon-check-circle,
+.icon.icon-next-track,
+      /* General badges */
+.badge-box.no-badge,
+#room-bar .icon-room:before,
+#chat-messages [data-cid^="3605383"] .emoji-1f44d,
+#chat-messages [data-cid^="3605383"] .emoji-2b50,
+#chat-messages [data-cid^="3605383"] .emoji-1f44e,
+#chat-messages [data-cid^="3605383"] .emoji-1f3c3,
+#chat-messages [data-cid^="3605383"] .emoji-1f3b5,
+#chat-messages [data-cid^="3605383"] .emoji-1f501,
+#chat-messages [data-cid^="3605383"] .emoji-25b6,
+#chat-messages [data-cid^="3605383"] .emoji-1f195,
+#chat-messages [data-cid^="3605383"] .bdg{
+  background-image: url(http://i.imgur.com/lKwAare.png) !important;
+  background-size: 270px 450px !Important;
+}
+
+      /* Voting */
+#vote .icon:not(.icon-skip){
+  background-image: url(http://i.imgur.com/SsN8bVa.png) !important;
+  background-size: 94px 32px !important;
+}
+#vote .icon:not(.icon-skip),
+#vote .bottom {
+  transition: background-color 0.3s ease-in 0s, box-shadow 0.2s ease-in 0s;
+}
+#vote .crowd-response:hover:not(.disabled) .icon:not(.icon-skip),
+#vote .crowd-response:hover:not(.disabled) .bottom {
+  background-color: #161f31 !important;
+}
+#vote .crowd-response:hover:not(.selected):not(.disabled) .bottom {
+  box-shadow: 0 -10px 10px #161f31 inset, 0 0 5px rgba(0,0,0,0.8) inset !important;
+}
+
+        /* Normal */
+#vote #woot .icon{
+  background-position: -1px center !Important;
+}
+#vote #grab .icon{
+  background-position: -32px center !Important;
+}
+#vote #meh .icon{
+  background-position: -63px center !Important;
+}
+        /* Other use of woot/grab/meh icons */
+#user-lists .icon.icon-woot{
+  background-position: -90px 0px !Important;
+}
+#user-lists .icon.icon-grab,
+          /* Favorite rooms */
+#room-bar .icon.icon-grab,
+.bar .icon.icon-grab{
+  background-position: -120px 0px !Important;
+}
+#user-lists .icon.icon-meh{
+  background-position: -90px -30px !Important;
+}

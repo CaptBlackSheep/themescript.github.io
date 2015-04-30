@@ -1,0 +1,194 @@
+/* --- Usability enhancement ---
+   This script is intended to not just make plugmixer more aesthetically
+   pleasing when in use with the Chillout Mixer theme, but also to improve
+   how enabled and disabled playlists look in the playlist manager.
+*/
+
+/* Colours */
+  /* Colour 1e2942 */
+#plugmixer-bar,
+#plugmixer-actions,
+#plugmixer-footer{
+  background-color: #1e2942 !Important;
+}   /* Semi-opaque */
+.plugmixer-selection,
+.plugmixer-playlist,
+.plugmixer-playlist.plugmixer-playlist-synced{
+  background-color: rgba(30, 41, 66, 0.84) !important;
+}
+  /* Colour 1d456e */
+    /* Text colour */
+#plugmixer-url,
+#plugmixer-version{
+  color: #1d456e !Important;
+}
+  /* Colour 365f80 */
+.plugmixer-selection:hover .plugmixer-selection-actions,
+.plugmixer-playlist-syncing,
+.plugmixer-playlist-syncing:hover,
+#playlist-menu .row[style="opacity: 0.4;"] .count:before,
+#playlist-menu .row[style="opacity: 0.4;"] .count:after,
+#playlist-menu .row[style="opacity: 1;"] .count:before,
+#playlist-menu .row[style="opacity: 1;"] .count:after{
+  background-color: #365f80 !important;
+}   /* Semi-opaque */
+#plugmixer-new-selection,
+.plugmixer-playlist:hover{
+  background-color: rgba(54, 95, 128, 0.84) !important;
+}
+  /* Colour 5c87b3 */
+#plugmixer-number,
+#plugmixer-action-button button{
+  background-color: #5c87b3 !important;
+}
+  /* Colour B4C9DE */
+    /* Text colour */
+#plugmixer-active,
+#plugmixer-message,
+.plugmixer-card-link,
+#plugmixer-login .plugmixer-youtube-title,
+#plugmixer-login .plugmixer-youtube-understand,
+.plugmixer-playlist.plugmixer-playlist-synced,
+.plugmixer-selection-playlists,
+#plugmixer-number-text,
+#playlist-menu .row[style="opacity: 1;"]{
+  color: #B4C9DE !important;
+}
+  /* Colour ff2d31 */
+    /* Text colour */
+#plugmixer-inactive,
+#plugmixer-youtube-warning{
+  color: #ff2d31 !important;
+}
+  /* Other colours */
+    /* Colour 000 */
+#plugmixer-expanded{
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+    /* Colour eeeeee */
+      /* Text colour */
+#plugmixer-number{
+  color: #eeeeee !Important;
+}
+    /* Colour fff */
+      /* Text colour */
+#plugmixer-title{
+  color: #fff !Important;
+}
+/* Text formatting */
+#plugmixer-message:hover{
+  text-decoration: underline !Important;
+}
+
+/* Borders */
+#plugmixer-footer{
+  border-bottom: 2px solid #1e2942 !Important;
+}
+
+/* Shadows */
+#plugmixer-youtube-warning{
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.50),
+              inset 0px 0px 0px 150px rgba(0, 0, 0, 0.50)!Important;
+}
+  /* Text */
+#plugmixer-youtube-warning,
+.plugmixer-youtube-understand{
+  text-shadow: 0px 0px 6px black,
+               0px 0px 6px black,
+               0px 0px 6px black !important;
+}
+
+/* Icons */
+  /* From CM spriteset */
+.plugmixer-selection-button,
+#playlist-menu .row .count:before{
+  background-image: url(http://i.imgur.com/cCkZK4a.png) !important;
+  background-size: 270px 480px !important;
+  margin-top: 1px !Important;
+} /* Icon positions */
+.plugmixer-selection-playonly{
+  background-position: -255px 0px !important;
+}
+.plugmixer-selection-enable,
+#playlist-menu .row[style="opacity: 0.4;"] .count:before{
+  background-position: -255px -15px !important;
+}
+.plugmixer-selection-disable,
+#playlist-menu .row[style="opacity: 1;"] .count:before{
+  background-position: -255px -30px !important;
+}
+.plugmixer-selection-delete{
+  background-position: -255px -45px !important;
+}
+
+/* Repositioning */
+.plugmixer-selection-button{
+  margin-top: 1px !Important;
+}
+
+/* Miscellaneous */
+  /* Make active playlist like count badge */
+#plugmixer-number{
+  font-size: 12px !important;
+  height: 17px !Important;
+  line-height: 17px !Important;
+  width: 14px !important;
+  padding-left: 6px !Important;
+  padding-right: 6px !Important;
+  margin-top: 5px !Important;
+  border-radius: 8.5px !Important;
+}
+
+/* Playlist enable / disable enhancements */
+  /* Icon base */
+  /* > Define border colour here.
+     > Match border colour to background colour specified in the colours section
+  */
+#playlist-menu .row[style="opacity: 1;"] .count:hover:before,
+#playlist-menu .row[style="opacity: 0.4;"] .count:hover:before{
+  position: absolute !Important;
+  top: -1px !important;
+  right: calc(0% + 53px) !Important;
+  width: 15px !Important;
+  height: 15px !Important;
+  content: "" !important;
+  border: 2px solid #365f80 !Important;
+}
+  /* Text base */
+#playlist-menu .row[style="opacity: 1;"] .count:after,
+#playlist-menu .row[style="opacity: 0.4;"] .count:after{
+  position: absolute !Important;
+  right: 0% !important;
+  width: 49px !important;
+  height: 19px !Important;
+  text-align: right !Important;
+  padding-right: 4px !Important
+}
+    /* Text */
+#playlist-menu .row[style="opacity: 0.4;"] .count:hover:after{
+  content: "Enable" !important;
+}
+#playlist-menu .row[style="opacity: 1;"] .count:hover:after{
+  content: "Disable" !important;
+}
+  /* Set default width for count (resizes hitbox) */
+#playlist-menu .row .count{
+  width: 72px !Important;
+  text-align: right !Important;
+}
+
+/* Disappear */
+#plugmixer.plugmixer-hover > #plugmixer-bar:not(:hover),
+.plugmixer-selection-actions{
+  background-color: transparent !Important
+}
+#plugmixer,
+#plugmixer-actions,
+#plugmixer-action-button button{
+  background-image: none !Important;
+  border: none !important;
+}
+
+#playlist-menu .row[style="opacity: 0.4;"]{
+  opacity: 1 !Important;
+}

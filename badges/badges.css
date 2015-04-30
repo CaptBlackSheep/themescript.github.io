@@ -1,0 +1,129 @@
+.badge-box {
+    background: transparent;
+}
+
+/*
+
+             Custom Badges
+
+
+To add custom badges, copy the following template,
+fill out what is required and add it to the bottom
+of the file. Please don't change users badges without
+their permission and refrain from adding badges that
+may appear inappropriate.
+
+To get a user ID, type '/whois USERNAME' in plug.dj chat,
+while using plugCubed!
+
+
+TEMPLATE:
+
+/* USERNAME */
+#chat-messages [data-cid^="USERID"] .bdg{
+  background-image: url(IMAGE_URL) !important;}
+
+/* No badge */
+.badge-box.no-badge{
+  background-position: -120px -90px !Important;}
+
+/* Community, bot */
+#room-bar .icon-room:before,
+#chat-messages [data-cid^="3605383"] .bdg{
+  background-position: -30px -90px !Important;}
+
+/* Host: Nighthawk */
+#room-bar .icon-room:after,
+#chat-messages [data-cid^="3818522"] .bdg {
+  background-image: url(http://i.imgur.com/Q7K1HZX.png) !important;}
+/* Style developer: HEEBEEJEEBEES */
+#chat-messages [data-cid^="4404282"] .bdg{
+  background-image: url(http://i.imgur.com/VwUmpGs.gif) !Important;}
+
+#chat-messages [data-cid^="4404282"] .badge-box{
+  border-radius: 0px !Important;}
+
+/* Style director: Wizzikz */
+#chat-messages [data-cid^="3573261"] .bdg{
+  background-image: url(http://i.imgur.com/250XnQN.png) !important;}
+
+/* FunkyBrewster */
+#chat-messages [data-cid^="4152442"] .bdg {
+  background-image: url(http://i.imgur.com/7GRiLHj.png) !important;}
+
+/* Wobble */
+#chat-messages [data-cid^="5052240"] .bdg {
+  background-image: url(http://i.imgur.com/JnxK79f.png) !important;}
+
+/* RyoGTO */
+#chat-messages [data-cid^="5533920"] .bdg {
+  background-image: url(http://i.imgur.com/xAM3NjO.jpg) !important;}
+
+/* HecticLad */
+#chat-messages [data-cid^="4500966"] .bdg {
+  background-image: url(http://i.imgur.com/ZkdaTtg.png);}   /* Fellers */
+#chat-messages [data-cid^="3605741"] .bdg {
+  background-image: url(http://i.imgur.com/JnxK79f.png) !important;}
+
+/* Woots */
+#chat-messages [data-cid^="3475278"] .bdg {
+  background-image: url(http://i.imgur.com/ZQKUEcO.gif) !important;}
+
+/* Phazym */
+#chat-messages [data-cid^="3818329"] .bdg {
+  background-image: url(https://wizzikz.github.io/badges/phazym.png) !important;}
+
+/* Rightclik */
+#chat-messages [data-cid^="3834890"] .bdg {
+  /* background-image: url(http://i.imgur.com/SNODayh.png) !important; */
+  background-image: url(http://i.imgur.com/FoQw9Rh.png) !important;}
+
+/* AKJAMS */
+#chat-messages [data-cid^="3420990"] .bdg {
+  background-image: url(http://i.imgur.com/z5Lcql4.png) !important;}
+
+/* Obzerv */
+#chat-messages [data-cid^="3767595"] .bdg{
+  background-image: url(http://i.imgur.com/W1Jchuk.png) !important;}
+
+/* Powedered Toast Man */
+#chat-messages [data-cid^="4103934"] .bdg {
+  background-image: url(http://i.imgur.com/8lTuDQC.jpg) !important;}
+
+/* Lushbear */
+#chat-messages [data-cid^="5021393"] .bdg {
+  background-image: url(http://i.imgur.com/btv65Gh.png) !important;}
+
+/* derelict */
+#chat-messages [data-cid^="3869450"] .bdg{
+  background-image: url(http://i.imgur.com/d55KwPP.png) !important;}
+
+/* Backend: EckerDecker */
+#chat-messages [data-cid^="4386405"] .bdg{
+  background-image: url(http://i.imgur.com/Bbbo9fN.png) !important;}
+
+/* Ã Â¹â‚¬Ã Â¸ÂªÃ Â¸Â·Ã Â¸Â­Ã Â¸â„¢Ã Â¸Â±Ã Â¸â€” */
+#chat-messages [data-cid^="4206657"] .bdg{
+  background-image: url(http://i.imgur.com/SZWAMwD.jpg) !important;}
+
+/* MrDaft */
+#chat-messages [data-cid^="6148494"] .bdg{
+  background-image: url(http://i.imgur.com/eIXxyop.png) !important;}
+
+/* T-Roy */
+#chat-messages [data-cid^="3748769"] .bdg{
+  /* background-image: url(http://i.imgur.com/wPhqWUw.png) !important; */
+  background-image: url(http://i.imgur.com/xWVLFBL.png) !important;}
+
+/* leafweed */
+#chat-messages [data-cid^="4178820"] .bdg{
+  background-image: url(http://i.imgur.com/lcO6Wge.gif) !important;}
+
+/* atomjack */
+#chat-messages [data-cid^="3724170"] .bdg{
+  background-image: url(http://i.imgur.com/XkFZ24y.gif) !important;}
+
+/* TerminallyChill */
+#chat-messages [data-cid^="3537523"] .bdg{
+  background-image: url(http://i.imgur.com/Jk4TVtp.png) !important;
+}

@@ -1,0 +1,31 @@
+/* RCS (In development) */
+
+#rcs-menu .header {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 46px;
+    border-bottom: 0px solid #1e2942;
+        border-bottom-width: 0px;
+        border-bottom-style: solid;
+        border-bottom-color: #1e2942;
+}
+
+#footer {
+    background: transparent;
+}
+
+#dj-button.is-leave .left {
+    border-left: none;
+}
+
+#dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
+    background: transparent;
+    border-radius: 5px;
+    border-left-width: px;
+}
+
+#rcs-menu .group {
+    background:  #FF2D31;
+}
