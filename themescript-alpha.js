@@ -156,6 +156,14 @@ function loadCSSs(loadBadges, loadMaster) {
 		}
 	}
 }
+function removeCSSs(loadBadges, loadMaster) {
+	if(loadBadges) {
+		if(sel("#cm_css_badges")) sel("#cm_css_badges").remove();
+	}
+	if(loadMaster) {
+		if(sel("#cm_css_main")) sel("#cm_css_main").remove();
+	}
+}
 
 
 // adding a new item in settings
@@ -180,6 +188,7 @@ if(def.browser.hasLocalStorage) {
 				if(ts_toggle.className.indexOf("selected") >= 0) {
 					ts_toggle.classList.remove("selected");
 					localStorage.setItem("ts-toggle", "false");
+					removeCSSs(true, true);
 				} else {
 					ts_toggle.classList.add("selected");
 					localStorage.setItem("ts-toggle", "true");
