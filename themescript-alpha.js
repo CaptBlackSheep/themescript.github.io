@@ -175,13 +175,13 @@ if(def.browser.hasLocalStorage) {
 			var settings_panel = sel("#user-settings .container"),
 				setting_inner = def.settings_item_inner;
 			
-			var ts_toggle = sel(".ts-toggle");
 			if(localStorage.getItem("ts-toggle") == "true") {
 				setting_inner.replace("__CLASS__", " selected");
 			}
 			if(setting_inner.indexOf("__CLASS__") >= 0) setting_inner.replace("__CLASS__", "");
 			settings_panel.innerHTML += setting_inner;
 			
+			var ts_toggle = sel(".ts-toggle");
 			ts_toggle.addEventListener("click", function() {
 				if(ts_toggle.className.indexOf("selected") >= 0) {
 					ts_toggle.classList.remove("selected");
