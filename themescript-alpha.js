@@ -179,6 +179,7 @@ if(def.browser.hasLocalStorage) {
 				setting_inner.replace("__CLASS__", " selected");
 			}
 			if(setting_inner.indexOf("__CLASS__") >= 0) setting_inner.replace("__CLASS__", "");
+			console.log("setting_inner: "+setting_inner);
 			settings_panel.innerHTML += setting_inner;
 			
 			var ts_toggle = sel(".ts-toggle");
