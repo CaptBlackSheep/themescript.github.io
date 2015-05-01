@@ -4,7 +4,8 @@ var def = {
 	settings_item_inner: '<div class="header"><span>Themescript</span></div><div class="left"><div class="item ts-toggle selected"><i class="icon icon-check-blue"></i><span>Turn on / off themescript</span></div></div><div class="right"></div>',
 	toast_closed: false,
 	plugin: {
-		load: "Themescript activated!"
+		load: "Themescript activated!",
+		loaded: false
 	},
 	customCSSs: {
 		"chilloutmixer": "https://themescript.github.io/master/master.css",
@@ -160,27 +161,30 @@ function loadCSSs(loadBadges, loadMaster) {
 // adding a new item in settings
 if(def.browser.hasLocalStorage) {
 	var open_settings_btn = sel("#footer-user .button.settings");
-	open_settings_btn.addEventListener("click", function() {
-		var settings_panel = sel("#user-settings .container");
-		settings_panel.innerHTML += def.settings_item_inner;
-		var ts_toggle = sel(".ts-toggle");
-		if(localStorage.getItem("ts-toggle") == "true") {
-			if(!ts_toggle.classList.has("selected")) {
-				ts_toggle.classList.add("selected");
+	if(!def.plugin.loaded) {
+		def.plugin.loaded = true;
+		open_settings_btn.addEventListener("click", function() {
+			var settings_panel = sel("#user-settings .container");
+			settings_panel.innerHTML += def.settings_item_inner;
+			var ts_toggle = sel(".ts-toggle");
+			if(localStorage.getItem("ts-toggle") == "true") {
+				if(!ts_toggle.classList.has("selected")) {
+					ts_toggle.classList.add("selected");
+				}
+			} else if(localStorage.getItem("ts-toggle") == "false"){
+				if(ts_toggle.classList.has("selected")) {
+					ts_toggle.classList.remove("selected");
+				}
 			}
-		} else if(localStorage.getItem("ts-toggle") == "false"){
-			if(ts_toggle.classList.has("selected")) {
-				ts_toggle.classList.remove("selected");
-			}
-		}
-		ts_toggle.addEventListener("click", function() {
-			if(ts_toggle.classList.has("selected")) {
-				ts_toggle.classList.remove("selected");
-				localStorage.setItem("ts-toggle", "false");
-			} else {
-				ts_toggle.classList.add("selected");
-				localStorage.setItem("ts-toggle", "true");
-			}
+			ts_toggle.addEventListener("click", function() {
+				if(ts_toggle.classList.has("selected")) {
+					ts_toggle.classList.remove("selected");
+					localStorage.setItem("ts-toggle", "false");
+				} else {
+					ts_toggle.classList.add("selected");
+					localStorage.setItem("ts-toggle", "true");
+				}
+			});
 		});
-	});
+	}
 }
