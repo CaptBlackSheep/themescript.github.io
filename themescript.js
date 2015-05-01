@@ -172,12 +172,12 @@ if(def.browser.hasLocalStorage) {
 					ts_toggle.classList.add("selected");
 				}
 			} else if(localStorage.getItem("ts-toggle") == "false"){
-				if(ts_toggle.className.indexOf("selected") > 0) {
+				if(ts_toggle.className.indexOf("selected") >= 0) {
 					ts_toggle.classList.remove("selected");
 				}
 			}
 			ts_toggle.addEventListener("click", function() {
-				if(ts_toggle.classList.has("selected")) {
+				if(ts_toggle.className.indexOf("selected") >= 0) {
 					ts_toggle.classList.remove("selected");
 					localStorage.setItem("ts-toggle", "false");
 				} else {
