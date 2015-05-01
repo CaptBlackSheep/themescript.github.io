@@ -158,16 +158,19 @@ function loadCSSs(loadBadges, loadMaster) {
 // adding a new item in settings
 if(def.browser.hasLocalStorage) {
 	if(!localStorage.hasOwnProperty("ts-toggle")) localStorage.setItem("ts-toggle","true");
-	var settings_panel = sel("#user-settings .container");
-	settings_panel.innerHTML += def.settings_item_inner;
-	var ts_toggle = sel(".ts-toggle");
-	ts_toggle.addEventListener("click", function() {
-		if(ts_toggle.classList.has("selected")) {
-			ts_toggle.classList.remove("selected");
-			localStorage.setItem("ts-toggle", "false");
-		} else {
-			ts_toggle.classList.add("selected");
-			localStorage.setItem("ts-toggle", "true");
-		}
+	var open_settings_btn = sel("#footer-user .button.settings");
+	open_settings_btn.addEventListener("click", function() {
+		var settings_panel = sel("#user-settings .container");
+		settings_panel.innerHTML += def.settings_item_inner;
+		var ts_toggle = sel(".ts-toggle");
+		ts_toggle.addEventListener("click", function() {
+			if(ts_toggle.classList.has("selected")) {
+				ts_toggle.classList.remove("selected");
+				localStorage.setItem("ts-toggle", "false");
+			} else {
+				ts_toggle.classList.add("selected");
+				localStorage.setItem("ts-toggle", "true");
+			}
+		});
 	});
 }
