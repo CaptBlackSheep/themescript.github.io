@@ -168,11 +168,11 @@ if(def.browser.hasLocalStorage) {
 			settings_panel.innerHTML += def.settings_item_inner;
 			var ts_toggle = sel(".ts-toggle");
 			if(localStorage.getItem("ts-toggle") == "true") {
-				if(!ts_toggle.classList.has("selected")) {
+				if(ts_toggle.className.indexOf("selected") < 0) {
 					ts_toggle.classList.add("selected");
 				}
 			} else if(localStorage.getItem("ts-toggle") == "false"){
-				if(ts_toggle.classList.has("selected")) {
+				if(ts_toggle.className.indexOf("selected") > 0) {
 					ts_toggle.classList.remove("selected");
 				}
 			}
