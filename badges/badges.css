@@ -71,7 +71,7 @@ TEMPLATE:
 
 /* Phazym */
 #chat-messages [data-cid^="3818329"] .bdg {
-  background-image: url(https://wizzikz.github.io/badges/phazym.png) !important;}
+  background-image: url(https://themescript.github.io/badges/phazym.png) !important;}
 
 /* Rightclik */
 #chat-messages [data-cid^="3834890"] .bdg {
@@ -126,4 +126,9 @@ TEMPLATE:
 /* TerminallyChill */
 #chat-messages [data-cid^="3537523"] .bdg{
   background-image: url(http://i.imgur.com/Jk4TVtp.png) !important;
+}
+
+/* Druidiot */
+#chat-messages [data-cid^="5502961"] .bdg{
+  background-image: url(https://themescript.github.io/badges/druidiot.png) !important;
 }

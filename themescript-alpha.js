@@ -1,13 +1,19 @@
 //some defaults
 var def = {
 	notif_inner: "<div style=\"opacity: 1;top:0px;z-index:12;transition:all 0.3s linear;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-ms-transition:all 0.3s linear;-o-transition:all 0.3s linear;\"class=\"notification cmt-load\"><div class=\"left\"><i class=\"icon icon-about-white\"></i></div><div class=\"right\"><span style=\"top: 25px;\">__TEXT__</span></div></div>",
+	settings_item_inner: '<div class="header"><span>Themescript</span></div><div class="left"><div class="item ts-toggle selected"><i class="icon icon-check-blue"></i><span>Turn on / off themescript</span></div></div><div class="right"></div>',
 	toast_closed: false,
 	plugin: {
-		load: "Themescript activated!"
+		load: "Themescript activated!",
+		loaded: false
 	},
 	customCSSs: {
 		"chilloutmixer": "https://themescript.github.io/master/master.css",
-		"a-test-room-2": "https://themescript.github.io/personal/wizzikz/master.css"
+		"a-test-room-2": "https://themescript.github.io/personal/wizzikz/master.css",
+		"allhousemusic": "https://themescript.github.io/master/master.css"
+	},
+	browser: {
+		hasLocalStorage: (typeof(Storage) !== "undefined")
 	}
 };
 //xhr function
@@ -98,13 +104,7 @@ function hideToast()
 				if(parsed.data.length>0) {
 					if(parsed.data[0].hasOwnProperty("meta")) {
 						if(parsed.data[0].meta.hasOwnProperty("slug")) {
-							if(sel("#cm_css_main")) sel("#cm_css_main").remove();
-							if(typeof def.customCSSs[location.href.split("/")[location.href.split("/").length-1]] != "undefined") {
-								if(sel("#cm_css_main")) sel("#cm_css_main").remove();
-								xhr_get(def.customCSSs[location.href.split("/")[location.href.split("/").length-1]], function(allText){
-									sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
-								}, true);
-							}
+							loadCSSs(false, true);
 						}
 					}
 				}
@@ -125,14 +125,66 @@ function IsJsonString(str) {
 	return true;
 }
 
-//load the badges.css
-if(sel("#cm_css_badges")) sel("#cm_css_badges").remove();
-xhr_get("https://themescript.github.io/badges/badges.css", function(allText){
-	sel("head").innerHTML += "<style id='cm_css_badges'>"+allText+"</style>";
-}, true);
-if(typeof def.customCSSs[location.href.split("/")[location.href.split("/").length-1]] != "undefined") {
-	if(sel("#cm_css_main")) sel("#cm_css_main").remove();
-	xhr_get(def.customCSSs[location.href.split("/")[location.href.split("/").length-1]], function(allText){
-		sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
-	}, true);
+//load the badges.css and master.css
+if(!localStorage.hasOwnProperty("ts-toggle")) localStorage.setItem("ts-toggle","true");
+loadCSSs(true, true);
+function loadCSSs(loadBadges, loadMaster) {
+	var loadThem = false;
+	if(def.browser.hasLocalStorage) {
+		if(localStorage.hasOwnProperty("ts-toggle")) {
+			if(localStorage.getItem("ts-toggle") == "true") {
+				loadThem = true;
+			}
+		}
+	} else {
+		loadThem = true;
+	}
+	if(loadThem) {
+		if(loadBadges) {
+			if(sel("#cm_css_badges")) sel("#cm_css_badges").remove();
+			xhr_get("https://themescript.github.io/badges/badges.css", function(allText){
+				sel("head").innerHTML += "<style id='cm_css_badges'>"+allText+"</style>";
+			}, true);
+		}
+		if(loadMaster) {
+			if(typeof def.customCSSs[location.href.split("/")[location.href.split("/").length-1]] != "undefined") {
+				if(sel("#cm_css_main")) sel("#cm_css_main").remove();
+				xhr_get(def.customCSSs[location.href.split("/")[location.href.split("/").length-1]], function(allText){
+					sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
+				}, true);
+			}
+		}
+	}
+}
+
+
+// adding a new item in settings
+if(def.browser.hasLocalStorage) {
+	var open_settings_btn = sel("#footer-user .button.settings");
+	if(!def.plugin.loaded) {
+		def.plugin.loaded = true;
+		open_settings_btn.addEventListener("click", function() {
+			var settings_panel = sel("#user-settings .container");
+			settings_panel.innerHTML += def.settings_item_inner;
+			var ts_toggle = sel(".ts-toggle");
+			if(localStorage.getItem("ts-toggle") == "true") {
+				if(ts_toggle.className.indexOf("selected") < 0) {
+					ts_toggle.classList.add("selected");
+				}
+			} else if(localStorage.getItem("ts-toggle") == "false"){
+				if(ts_toggle.className.indexOf("selected") >= 0) {
+					ts_toggle.classList.remove("selected");
+				}
+			}
+			ts_toggle.addEventListener("click", function() {
+				if(ts_toggle.className.indexOf("selected") >= 0) {
+					ts_toggle.classList.remove("selected");
+					localStorage.setItem("ts-toggle", "false");
+				} else {
+					ts_toggle.classList.add("selected");
+					localStorage.setItem("ts-toggle", "true");
+				}
+			});
+		});
+	}
 }
