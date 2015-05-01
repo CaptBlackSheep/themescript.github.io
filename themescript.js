@@ -8,7 +8,8 @@ var def = {
 	},
 	customCSSs: {
 		"chilloutmixer": "https://themescript.github.io/master/master.css",
-		"a-test-room-2": "https://themescript.github.io/personal/wizzikz/master.css"
+		"a-test-room-2": "https://themescript.github.io/personal/wizzikz/master.css",
+		"allhousemusic": "https://themescript.github.io/master/master.css"
 	},
 	browser: {
 		hasLocalStorage: (typeof(Storage) !== "undefined")
@@ -124,6 +125,7 @@ function IsJsonString(str) {
 }
 
 //load the badges.css and master.css
+if(!localStorage.hasOwnProperty("ts-toggle")) localStorage.setItem("ts-toggle","true");
 loadCSSs(true, true);
 function loadCSSs(loadBadges, loadMaster) {
 	var loadThem = false;
@@ -157,12 +159,20 @@ function loadCSSs(loadBadges, loadMaster) {
 
 // adding a new item in settings
 if(def.browser.hasLocalStorage) {
-	if(!localStorage.hasOwnProperty("ts-toggle")) localStorage.setItem("ts-toggle","true");
 	var open_settings_btn = sel("#footer-user .button.settings");
 	open_settings_btn.addEventListener("click", function() {
 		var settings_panel = sel("#user-settings .container");
 		settings_panel.innerHTML += def.settings_item_inner;
 		var ts_toggle = sel(".ts-toggle");
+		if(localStorage.getItem("ts-toggle") == "true") {
+			if(!ts_toggle.classList.has("selected")) {
+				ts_toggle.classList.add("selected");
+			}
+		} else if(localStorage.getItem("ts-toggle") == "false"){
+			if(ts_toggle.classList.has("selected")) {
+				ts_toggle.classList.remove("selected");
+			}
+		}
 		ts_toggle.addEventListener("click", function() {
 			if(ts_toggle.classList.has("selected")) {
 				ts_toggle.classList.remove("selected");
