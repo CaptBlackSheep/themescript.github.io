@@ -1,11 +1,12 @@
 //some defaults
+var ts_loaded = (typeof def != "undefined");
+
 var def = {
 	notif_inner: "<div style=\"opacity: 1;top:0px;z-index:12;transition:all 0.3s linear;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-ms-transition:all 0.3s linear;-o-transition:all 0.3s linear;\"class=\"notification cmt-load\"><div class=\"left\"><i class=\"icon icon-about-white\"></i></div><div class=\"right\"><span style=\"top: 25px;\">__TEXT__</span></div></div>",
 	settings_item_inner: '<div class="header"><span>Themescript</span></div><div class="left"><div class="item ts-toggle"><i class="icon icon-check-blue"></i><span>Turn on / off themescript</span></div></div><div class="right"></div>',
 	toast_closed: false,
 	plugin: {
-		load: "Themescript activated!",
-		loaded: false
+		load: "Themescript activated!"
 	},
 	customCSSs: {
 		"chilloutmixer": "https://themescript.github.io/master/master.css",
@@ -169,13 +170,11 @@ function removeCSSs(loadBadges, loadMaster) {
 // adding a new item in settings
 if(def.browser.hasLocalStorage) {
 	var open_settings_btn = sel("#footer-user .button.settings");
-	if(!def.plugin.loaded) {
-		def.plugin.loaded = true;
+	if(!ts_loaded) {
 		open_settings_btn.addEventListener("click", function() {
 			var settings_panel = sel("#user-settings .container");
-			
-			if(!def.plugin.loaded) 
-				settings_panel.innerHTML += def.settings_item_inner;
+
+			settings_panel.innerHTML += def.settings_item_inner;
 			
 			var ts_toggle = sel(".ts-toggle");
 			setTimeout(function(){
@@ -183,23 +182,18 @@ if(def.browser.hasLocalStorage) {
 					ts_toggle.className+=" selected";
 				}
 			},10);
-			
-			if(!def.plugin.loaded) {
-				ts_toggle.addEventListener("click", function() {
-					if(ts_toggle.className.indexOf("selected") >= 0) {
-						ts_toggle.classList.remove("selected");
-						localStorage.setItem("ts-toggle", "false");
-						removeCSSs(true, true);
-					} else {
-						ts_toggle.classList.add("selected");
-						localStorage.setItem("ts-toggle", "true");
-						loadCSSs(true, true);
-					}
-				});
-			}
+
+			ts_toggle.addEventListener("click", function() {
+				if(ts_toggle.className.indexOf("selected") >= 0) {
+					ts_toggle.classList.remove("selected");
+					localStorage.setItem("ts-toggle", "false");
+					removeCSSs(true, true);
+				} else {
+					ts_toggle.classList.add("selected");
+					localStorage.setItem("ts-toggle", "true");
+					loadCSSs(true, true);
+				}
+			});
 		});
 	}
 }
-
-if(!def.plugin.loaded)
-	def.plugin.loaded = true;
