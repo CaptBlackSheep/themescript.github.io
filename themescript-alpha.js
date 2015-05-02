@@ -174,7 +174,7 @@ if(def.browser.hasLocalStorage) {
 		open_settings_btn.addEventListener("click", function() {
 			var settings_panel = sel("#user-settings .container");
 			
-			if(document.querySelectorAll(".ts-toggle").length == 0) 
+			if(!def.plugin.loaded) 
 				settings_panel.innerHTML += def.settings_item_inner;
 			
 			var ts_toggle = sel(".ts-toggle");
@@ -184,17 +184,22 @@ if(def.browser.hasLocalStorage) {
 				}
 			},10);
 			
-			ts_toggle.addEventListener("click", function() {
-				if(ts_toggle.className.indexOf("selected") >= 0) {
-					ts_toggle.classList.remove("selected");
-					localStorage.setItem("ts-toggle", "false");
-					removeCSSs(true, true);
-				} else {
-					ts_toggle.classList.add("selected");
-					localStorage.setItem("ts-toggle", "true");
-					loadCSSs(true, true);
-				}
-			});
+			if(!def.plugin.loaded) {
+				ts_toggle.addEventListener("click", function() {
+					if(ts_toggle.className.indexOf("selected") >= 0) {
+						ts_toggle.classList.remove("selected");
+						localStorage.setItem("ts-toggle", "false");
+						removeCSSs(true, true);
+					} else {
+						ts_toggle.classList.add("selected");
+						localStorage.setItem("ts-toggle", "true");
+						loadCSSs(true, true);
+					}
+				});
+			}
 		});
 	}
 }
+
+if(!def.plugin.loaded)
+	def.plugin.loaded = true;
