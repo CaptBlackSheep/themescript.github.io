@@ -176,10 +176,9 @@ if(def.browser.hasLocalStorage) {
 				setting_inner = def.settings_item_inner;
 			
 			if(localStorage.getItem("ts-toggle") == "true") {
-				setting_inner.replace("__CLASS__", " selected");
-				console.log("s_i:" +setting_inner+ ", ..." +setting_inner.replace("__CLASS__", " selected"))
+				setting_inner = setting_inner.replace("__CLASS__", " selected");
 			} else if(localStorage.getItem("ts-toggle") == "false") {
-				setting_inner.replace("__CLASS__", "");
+				setting_inner = setting_inner.replace("__CLASS__", "");
 			}
 			console.log("setting_inner: "+setting_inner);
 			settings_panel.innerHTML += setting_inner;
