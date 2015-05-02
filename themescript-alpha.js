@@ -174,7 +174,7 @@ if(def.browser.hasLocalStorage) {
 		open_settings_btn.addEventListener("click", function() {
 			var settings_panel = sel("#user-settings .container");
 			
-			if(!def.plugin.loaded) 
+			if(document.querySelectorAll(".ts-toggle").length == 1) 
 				settings_panel.innerHTML += def.settings_item_inner;
 			
 			var ts_toggle = sel(".ts-toggle");
@@ -198,6 +198,3 @@ if(def.browser.hasLocalStorage) {
 		});
 	}
 }
-
-if(!def.plugin.loaded) 
-	def.plugin.loaded = true;
