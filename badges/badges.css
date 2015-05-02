@@ -133,14 +133,4 @@ TEMPLATE:
   background-image: url(https://themescript.github.io/badges/druidiot.png) !important;
 }
 
-/* Badge separator */
-/* > Do not edit past this line unless necessary */
-#chat-messages .cm:before{
-  content: '' !important;
-  position: absolute !important;
-  background-color: #cfcfcf !Important;
-  width: 1px !important;
-  height: 30px !Important;
-  top: 8px !Important;
-  left: 42px !important;
-}
+
