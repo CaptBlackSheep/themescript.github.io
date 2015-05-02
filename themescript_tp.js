@@ -1,12 +1,2 @@
-$.getScript("https://fungustime.pw/tastyplug/tastyplug.js",       
-            
-            
-            function(){
-
-});
-            
-                        
- $.getScript("https://themescript.github.io/themescript.js",           
-            function(){
-
-});
+$.getScript("https://fungustime.pw/tastyplug/tastyplug.js");
+$.getScript("https://themescript.github.io/themescript.js");
