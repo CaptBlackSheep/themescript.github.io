@@ -191,6 +191,7 @@ if(def.browser.hasLocalStorage) {
 				} else {
 					ts_toggle.classList.add("selected");
 					localStorage.setItem("ts-toggle", "true");
+					loadCSSs(true, true);
 				}
 			});
 		});
