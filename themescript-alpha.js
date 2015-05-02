@@ -1,7 +1,7 @@
 //some defaults
 var def = {
 	notif_inner: "<div style=\"opacity: 1;top:0px;z-index:12;transition:all 0.3s linear;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-ms-transition:all 0.3s linear;-o-transition:all 0.3s linear;\"class=\"notification cmt-load\"><div class=\"left\"><i class=\"icon icon-about-white\"></i></div><div class=\"right\"><span style=\"top: 25px;\">__TEXT__</span></div></div>",
-	settings_item_inner: '<div class="header"><span>Themescript</span></div><div class="left"><div class="item ts-toggle__CLASS__"><i class="icon icon-check-blue"></i><span>Turn on / off themescript</span></div></div><div class="right"></div>',
+	settings_item_inner: '<div class="header"><span>Themescript</span></div><div class="left"><div class="item ts-toggle"><i class="icon icon-check-blue"></i><span>Turn on / off themescript</span></div></div><div class="right"></div>',
 	toast_closed: false,
 	plugin: {
 		load: "Themescript activated!",
@@ -172,18 +172,15 @@ if(def.browser.hasLocalStorage) {
 	if(!def.plugin.loaded) {
 		def.plugin.loaded = true;
 		open_settings_btn.addEventListener("click", function() {
-			var settings_panel = sel("#user-settings .container"),
-				setting_inner = def.settings_item_inner;
+			var settings_panel = sel("#user-settings .container");
 			
-			if(localStorage.getItem("ts-toggle") == "true") {
-				setting_inner = setting_inner.replace("__CLASS__", " selected");
-			} else if(localStorage.getItem("ts-toggle") == "false") {
-				setting_inner = setting_inner.replace("__CLASS__", "");
-			}
-			settings_panel.innerHTML += setting_inner;
+			settings_panel.innerHTML += def.settings_item_inner;
 			
 			var ts_toggle = sel(".ts-toggle");
-			console.log(ts_toggle.className);
+			if(localStorage.getItem("ts-toggle") == "true") {
+				ts_toggle.className+=" selected";
+			}
+			
 			ts_toggle.addEventListener("click", function() {
 				if(ts_toggle.className.indexOf("selected") >= 0) {
 					ts_toggle.classList.remove("selected");
