@@ -180,10 +180,10 @@ if(def.browser.hasLocalStorage) {
 			} else if(localStorage.getItem("ts-toggle") == "false") {
 				setting_inner = setting_inner.replace("__CLASS__", "");
 			}
-			console.log("setting_inner: "+setting_inner);
 			settings_panel.innerHTML += setting_inner;
 			
 			var ts_toggle = sel(".ts-toggle");
+			console.log(ts_toggle.className);
 			ts_toggle.addEventListener("click", function() {
 				if(ts_toggle.className.indexOf("selected") >= 0) {
 					ts_toggle.classList.remove("selected");
