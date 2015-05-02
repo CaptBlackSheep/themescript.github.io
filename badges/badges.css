@@ -1,27 +1,38 @@
+/* Why is this here? */
 .badge-box {
     background: transparent;
 }
 
-/*
+/* Badge separator */
+/* > Do not edit past this line unless necessary */
+#chat-messages .message:before,
+#chat-messages .emote:before{
+  content: '' !important;
+  position: absolute !important;
+  background-color: #cfcfcf !Important;
+  width: 1px !important;
+  height: 30px !Important;
+  top: 8px !Important;
+  left: 42px !important;
+}
 
-             Custom Badges
+/* Custom Badges
+   > To add custom badges, copy the following template,
+     fill out what is required and add it to the bottom
+     of the file. Please don't change users badges without
+     their permission and refrain from adding badges that
+     may appear inappropriate.
 
-
-To add custom badges, copy the following template,
-fill out what is required and add it to the bottom
-of the file. Please don't change users badges without
-their permission and refrain from adding badges that
-may appear inappropriate.
-
-To get a user ID, type '/whois USERNAME' in plug.dj chat,
-while using plugCubed!
-
-
-TEMPLATE:
-
+   > TEMPLATE:
+   
 /* USERNAME */
 #chat-messages [data-cid^="USERID"] .bdg{
   background-image: url(IMAGE_URL) !important;}
+  
+/* User ID can be obtained in one of three ways;
+   > Without addons: Inspect a user's message
+   > plugCubed: "/whois $user"
+   > RCS: In a user's roll-over panel
 
 /* No badge */
 .badge-box.no-badge{
