@@ -177,9 +177,11 @@ if(def.browser.hasLocalStorage) {
 			settings_panel.innerHTML += def.settings_item_inner;
 			
 			var ts_toggle = sel(".ts-toggle");
-			if(localStorage.getItem("ts-toggle") == "true") {
-				ts_toggle.className+=" selected";
-			}
+			setTimeout(function(){
+				if(localStorage.getItem("ts-toggle") == "true") {
+					ts_toggle.className+=" selected";
+				}
+			},10);
 			
 			ts_toggle.addEventListener("click", function() {
 				if(ts_toggle.className.indexOf("selected") >= 0) {
