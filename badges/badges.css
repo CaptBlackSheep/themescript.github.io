@@ -1,11 +1,10 @@
-/* Why is this here? */
 .badge-box {
     background: transparent;
 }
 
 /* Badge separator */
 /* > Do not edit past this line unless necessary */
-#chat-messages .message:before,
+/*#chat-messages .message:before,
 #chat-messages .emote:before{
   content: '' !important;
   position: absolute !important;
