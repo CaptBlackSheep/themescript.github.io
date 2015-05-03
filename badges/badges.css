@@ -9,7 +9,7 @@
 #chat-messages .emote:before{
   content: '' !important;
   position: absolute !important;
-  background-color: #cfcfcf !Important;
+  background-color: rgba(207, 207, 207, 0.34) !Important;
   width: 1px !important;
   height: 30px !Important;
   top: 8px !Important;
