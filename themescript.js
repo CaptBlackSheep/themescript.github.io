@@ -15,7 +15,8 @@ var def = {
 	},
 	browser: {
 		hasLocalStorage: (typeof(Storage) !== "undefined")
-	}
+	},
+	settings_added_listener: false
 };
 //xhr function
 function createXHR()
@@ -169,31 +170,42 @@ function removeCSSs(loadBadges, loadMaster) {
 
 // adding a new item in settings
 if(def.browser.hasLocalStorage) {
-	var open_settings_btn = sel("#footer-user .button.settings");
+	//var open_settings_btn = sel("#footer-user .button.settings");
 	if(!ts_loaded) {
-		open_settings_btn.addEventListener("click", function() {
-			var settings_panel = sel("#user-settings .container");
-
-			settings_panel.innerHTML += def.settings_item_inner;
-			
-			var ts_toggle = sel(".ts-toggle");
-			setTimeout(function(){
-				if(localStorage.getItem("ts-toggle") == "true") {
-					ts_toggle.className+=" selected";
-				}
-			},10);
-
-			ts_toggle.addEventListener("click", function() {
-				if(ts_toggle.className.indexOf("selected") >= 0) {
-					ts_toggle.classList.remove("selected");
-					localStorage.setItem("ts-toggle", "false");
-					removeCSSs(true, true);
-				} else {
-					ts_toggle.classList.add("selected");
-					localStorage.setItem("ts-toggle", "true");
-					loadCSSs(true, true);
-				}
-			});
+		$("#footer-user .button:not(.settings)").on('click', function() {
+			if(!def.settings_added_listener) {
+				$("#user-menu .item.settings").on('click', function() {
+					settings_click_listener();
+				});
+				def.settings_added_listener = true;
+			}
+		});
+		$("#footer-user .button.settings").on('click', function() {
+			settings_click_listener();
 		});
 	}
+}
+function settings_click_listener() {
+	var settings_panel = sel("#user-settings .container");
+
+		settings_panel.innerHTML += def.settings_item_inner;
+		
+	var ts_toggle = sel(".ts-toggle");
+	setTimeout(function(){
+		if(localStorage.getItem("ts-toggle") == "true") {
+			ts_toggle.className+=" selected";
+		}
+	},10);
+	
+	ts_toggle.addEventListener("click", function() {
+		if(ts_toggle.className.indexOf("selected") >= 0) {
+			ts_toggle.classList.remove("selected");
+			localStorage.setItem("ts-toggle", "false");
+			removeCSSs(true, true);
+		} else {
+			ts_toggle.classList.add("selected");
+			localStorage.setItem("ts-toggle", "true");
+			loadCSSs(true, true);
+		}
+	});
 }
