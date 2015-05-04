@@ -171,7 +171,12 @@ function removeCSSs(loadBadges, loadMaster) {
 if(def.browser.hasLocalStorage) {
 	//var open_settings_btn = sel("#footer-user .button.settings");
 	if(!ts_loaded) {
-		$("#footer-user .button").on('click',function() {
+		$("#footer-user .button.settings").on('click', function() {
+			$("#user-menu .item.settings").on('click', function() {
+				settings_click_listener();
+			});
+		});
+		$("#footer-user .button:not(.settings)").on('click', function() {
 			settings_click_listener();
 		});
 	}
