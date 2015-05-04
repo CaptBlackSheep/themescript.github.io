@@ -193,7 +193,7 @@ if(def.browser.hasLocalStorage) {
 						def.settings_added_listener = true;
 					}
 					def.settings_acc_added_listener = true;
-				}
+				});
 		});
 	}
 }
