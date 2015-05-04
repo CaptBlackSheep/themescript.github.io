@@ -194,6 +194,7 @@ if(def.browser.hasLocalStorage) {
 					}
 					def.settings_acc_added_listener = true;
 				});
+			}
 		});
 	}
 }
