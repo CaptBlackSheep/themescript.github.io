@@ -151,8 +151,8 @@ function loadCSSs(loadBadges, loadMaster) {
 			}, true);
 		}
 		if(loadMaster) {
+			if(sel("#cm_css_main")) sel("#cm_css_main").remove();
 			if(typeof def.customCSSs[location.href.split("/")[location.href.split("/").length-1]] != "undefined") {
-				if(sel("#cm_css_main")) sel("#cm_css_main").remove();
 				xhr_get(def.customCSSs[location.href.split("/")[location.href.split("/").length-1]], function(allText){
 					sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
 				}, true);
