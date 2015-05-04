@@ -180,7 +180,7 @@ if(def.browser.hasLocalStorage) {
 				def.settings_added_listener = true;
 			}
 		});
-		$("#footer-user .button.settings").on('click', function() {
+		$("#footer-user .button.settings, #user-settings .tab-menu .application:not(.selected)").on('click', function() {
 			settings_click_listener();
 		});
 	}
