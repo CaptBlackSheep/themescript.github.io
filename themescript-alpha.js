@@ -15,7 +15,8 @@ var def = {
 	},
 	browser: {
 		hasLocalStorage: (typeof(Storage) !== "undefined")
-	}
+	},
+	settings_added_listener: false
 };
 //xhr function
 function createXHR()
@@ -172,9 +173,12 @@ if(def.browser.hasLocalStorage) {
 	//var open_settings_btn = sel("#footer-user .button.settings");
 	if(!ts_loaded) {
 		$("#footer-user .button:not(.settings)").on('click', function() {
-			$("#user-menu .item.settings").on('click', function() {
-				settings_click_listener();
-			});
+			if(!def.settings_added_listener) {
+				$("#user-menu .item.settings").on('click', function() {
+					settings_click_listener();
+				});
+				def.settings_added_listener = true;
+			}
 		});
 		$("#footer-user .button.settings").on('click', function() {
 			settings_click_listener();
