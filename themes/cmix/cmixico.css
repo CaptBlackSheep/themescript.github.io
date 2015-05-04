@@ -1,1 +1,341 @@
-This document is intentionally blank.
+/* Icons */
+  /* From default spriteset */
+#news .icon.icon-news-grey{
+  background-position: -69px -245px !important;
+}
+  /* From CM spriteset */
+    /* Main icon set */
+#dialog-container .icon.icon-check-white,
+#dialog-level-up .sunburst,
+#dialog-level-up .pp,
+#app-menu .list i:not(.icon-logout-white),
+#dashboard .icon.icon-grab,
+#user-menu .item:not(.selected) .icon,
+.friends.has-requests > .header > I,
+.icon.icon-check-blue,
+.icon.icon-clock-orange,
+#volume i,
+.icon.icon-ignore,
+.icon.icon-ignored,
+.icon.icon-staff,
+.icon.icon-mute,
+.icon.icon-mute-big,
+.icon.icon-ban,
+.icon.icon-staff,
+#facebook-menu .icon.icon-facebook-selected,
+#twitter-menu .icon.icon-twitter-selected,
+#vote .icon:not(.icon-skip),
+.icon.icon-grab,
+.icon.icon-star-white,
+#user-lists .icon.icon-woot,
+.icon.icon-history-positive,
+#user-lists .icon.icon-grab,
+.icon.icon-history-grabs,
+#user-lists .icon.icon-meh,
+#chat-button i,
+#users-button i,
+#waitlist-button i,
+#friends-button i,
+#chat-sound-button i,
+#chat-emoji-button i,
+#chat-timestamp-button i,
+.icon.icon-mention-off,
+.p3-s-stream,
+.p3-s-stream.selected,
+.p3-s-clear,
+#chat-popout-button i,
+.icon.icon-history-negative,
+.icon.icon-chat-host,
+.icon.icon-chat-cohost,
+.icon.icon-chat-manager,
+.icon.icon-chat-bouncer,
+.icon.icon-chat-dj,
+.icon.icon-check-purple,
+.icon.icon-check-circle,
+.icon.icon-next-track,
+      /* General badges */
+.badge-box.no-badge,
+#room-bar .icon-room:before,
+    /* Bot staff icons and emoji */
+#chat-messages [data-cid^="3605383"] .icon.icon-chat-manager,
+#chat-messages [data-cid^="3475278"] .icon.icon-chat-bouncer,/*
+#chat-messages [data-cid^="3475278"] .emoji-2139,  These icons do
+#chat-messages [data-cid^="3475278"] .emoji-1f4be, not exist yet. */
+#chat-messages [data-cid^="3605383"] .emoji-1f44d,
+#chat-messages [data-cid^="3475278"] .emoji-1f195,
+#chat-messages [data-cid^="3605383"] .emoji-2b50,
+#chat-messages [data-cid^="3605383"] .emoji-1f44e,
+#chat-messages [data-cid^="3605383"] .emoji-1f3c3,
+#chat-messages [data-cid^="3605383"] .emoji-1f3b5,
+#chat-messages [data-cid^="3475278"] .emoji-1f3b5,
+#chat-messages [data-cid^="3605383"] .emoji-1f501,
+#chat-messages [data-cid^="3475278"] .emoji-1f501,
+#chat-messages [data-cid^="3605383"] .emoji-25b6,
+#chat-messages [data-cid^="3475278"] .emoji-25b6,
+#chat-messages [data-cid^="3605383"] .emoji-1f195,
+#chat-messages [data-cid^="3475278"] .emoji-1f195,
+#chat-messages [data-cid^="3605383"] .bdg{
+  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
+  background-size: 270px 480px !Important;
+}
+    /* Icon positioning */
+      /* Has friend requests */
+.friends.has-requests > .header > I{
+  background-position: -90px -90px !important;
+}
+      /* Dialog: Level up */
+#dialog-level-up .sunburst{
+  background-position: 0px -240px !Important;
+}
+#dialog-level-up .pp{
+  background-position: -180px 0px !Important;
+}     /* App and user menus */
+#app-menu .community i,
+#user-menu .icon-community-grey{
+  background-position: 0px -150px !Important;
+}
+#app-menu .events i{
+  background-position: -30px -150px !Important;
+}
+#app-menu .support i{
+  background-position: -60px -150px !Important;
+}
+#app-menu .blog i{
+  background-position: -90px -150px !Important;
+}
+#app-menu .about i{
+  background-position: -120px -150px !Important;
+}
+#app-menu .logout .icon-logout-grey{
+  background-position: -150px -150px !Important;
+}
+#user-menu .icon-user-grey{
+  background-position: -180px -150px !Important;
+}
+#user-menu .icon-inventory-grey{
+  background-position: -210px -150px !Important;
+}
+#user-menu .icon-store-grey{
+  background-position: -240px -150px !Important;
+}
+#user-menu .icon-users-grey{
+  background-position: 0px -180px !Important;
+}
+#user-menu .icon-history-grey{
+  background-position: -30px -180px !Important;
+}
+#user-menu .icon-settings-grey{
+  background-position: -60px -180px !Important;
+}     /* Header menu buttons */
+#chat-button i{
+  background-position: -90px -180px !Important;
+}
+#users-button i{
+  background-position: -120px -180px !Important;
+}
+#waitlist-button i{
+  background-position: -150px -180px !Important;
+}
+#friends-button i{
+  background-position: 0px -180px !Important;
+}       /* Chat header buttons */
+.icon-chat-sound-on{
+  background-position: -180px -180px !Important;
+}
+.icon-chat-sound-off{
+  background-position: -150px -60px !Important;
+}
+.icon.icon-emoji-on{
+  background-position: -210px -180px !Important;
+}
+.icon.icon-emoji-off{
+  background-position: -240px -180px !Important;
+}
+.icon.icon-timestamps-12{
+  background-position: 0px -210px !Important;
+}
+.icon.icon-timestamps-24{
+  background-position: -30px -210px !Important;
+}
+.icon.icon-timestamps-off{
+  background-position: -60px -210px !Important;
+}
+.icon.icon-mention-off{
+  background-position: -90px -210px !Important;
+}
+.p3-s-stream{
+  background-position: -120px -210px !Important;
+}
+.p3-s-stream.selected{
+  background-position: -150px -210px !Important;
+}
+.p3-s-clear{
+  background-position: -180px -210px !Important;
+}
+#chat-popout-button i{
+  background-position: -210px -210px !Important;
+}
+      /* Moderation / People */
+.icon.icon-ignore{
+  background-position: 0px -120px !Important;
+}
+.icon.icon-ignored{
+  background-position: -30px -120px !Important
+}
+.icon.icon-staff{
+  background-position: -150px -120px !Important;
+}
+.icon.icon-mute{
+  background-position: -120px -120px !Important;
+}
+.icon.icon-mute-big{
+  background-position: -90px -120px !Important;
+}
+.icon.icon-ban{
+  background-position: -60px -120px !Important;
+}
+.icon.icon-clock-orange{
+  background-position: -150px -90px !Important;
+}
+      /* Volume states */
+#volume .icon{
+  background-position: -150px 0px !Important;
+}
+#volume .icon.icon-volume-off{
+  background-position: -150px -60px !Important;
+}
+#volume .icon.icon-volume-off-once{
+  background-position: -150px -30px !Important;
+}
+      /* Socmed */
+        /* Default */
+#facebook-menu .icon.icon-facebook-selected{
+  background-position: 0px 0px !Important;
+}
+#twitter-menu .icon.icon-twitter-selected{
+  background-position: 0px -30px !important;
+}       /* Hover */
+#facebook-menu:hover .icon.icon-facebook-selected{
+  background-position: -30px 0px !important;
+}
+#twitter-menu:hover .icon.icon-twitter-selected{
+  background-position: -30px -30px !important;
+}     /* Currency and buff icons */
+        /* Boosts */
+.icon.icon-boost-2x{
+  background-position: -325px -296px !Important;
+}
+.icon.icon-boost-3x{
+  background-position: -325px -346px !Important;
+}       /* Tokens */
+          /* Medium */
+#the-user-profile .icon.icon-badge-pp{
+  background-position: -325px -196px !Important;
+}         /* Small */
+.icon.icon-pp-small{
+  background-position: -315px -166px !Important;
+}
+      /* Bot staff icons */
+        /* ChilloutMixerBot */
+#chat-messages [data-cid^="3605383"] .icon.icon-chat-manager{
+  background-position: -225px -75px !Important;
+}       /* Woots */
+#chat-messages [data-cid^="3475278"] .icon.icon-chat-bouncer{
+  background-position: -240px -75px !Important;
+}     /* Voting */
+        /* Overlay */
+#vote #woot .icon,
+#vote #meh .icon{
+  background-position: -90px -60px !Important;
+}
+#vote #grab .icon{
+  background-position: -120px -60px !Important;
+}
+#vote #woot .icon{
+  transform: scaley(-1) !important;
+}
+        /* Other use of woot/grab/meh icons */
+#user-lists .icon.icon-woot{
+  background-position: -90px 0px !Important;
+}
+#user-lists .icon.icon-grab,
+          /* Favourite rooms */
+#room-bar .icon.icon-grab,
+.bar .icon.icon-grab{
+  background-position: -120px 0px !Important;
+}
+#user-lists .icon.icon-meh{
+  background-position: -90px -30px !Important;
+}       /* Results *//*
+#chat-messages [data-cid^="3475278"] .emoji-2139{ Placeholder code
+  background-position: -240px -120px !Important;  for new icons
+}
+#chat-messages [data-cid^="3475278"] .emoji-1f4be{
+   background-position: -255px -135px !Important;
+} */
+#chat-messages [data-cid^="3605383"] .emoji-1f44d,
+.icon.icon-history-positive{
+  background-position: -97px -7px !Important;
+}
+#chat-messages [data-cid^="3605383"] .emoji-2b50,
+.icon.icon-history-grabs{
+  background-position: -127px -7px !important;
+}
+#chat-messages [data-cid^="3605383"] .emoji-1f44e,
+.icon.icon-history-negative{
+  background-position: -97px -37px !Important;
+}         /* Emoji replacement specific to bot messages */
+#chat-messages [data-cid^="3605383"] .emoji-1f3c3{
+  background-position: -45px -74px !important;
+}
+#chat-messages [data-cid^="3605383"] .emoji-1f3b5,
+#chat-messages [data-cid^="3475278"] .emoji-1f3b5{
+  background-position: -225px -135px !Important;
+}
+#chat-messages [data-cid^="3605383"] .emoji-1f501,
+#chat-messages [data-cid^="3475278"] .emoji-1f501{
+  background-position: -210px -120px !Important;
+}
+#chat-messages [data-cid^="3605383"] .emoji-25b6,
+#chat-messages [data-cid^="3475278"] .emoji-25b6{
+  background-position: -180px -120px !Important;
+}
+#chat-messages [data-cid^="3605383"] .emoji-1f195,
+#chat-messages [data-cid^="3475278"] .emoji-1f195{
+  background-position: -195px -135px !Important;
+}     /* Favourite */
+.icon.icon-star-white{
+  background-position: -120px -30px !Important;
+  opacity: 1 !important;
+}
+      /* Staff icons */
+.icon.icon-chat-host,
+.icon.icon-chat-cohost{
+  background-position: 0px -60px !Important;
+}
+.icon.icon-chat-manager{
+  background-position: -15px -60px !Important;
+}
+.icon.icon-chat-bouncer{
+  background-position: 0px -90px !Important;
+}
+.icon.icon-chat-dj{
+  background-position: -15px -90px !Important;
+}
+      /* Checkmarks / Media */
+.icon.icon-check-purple,
+#dialog-container .icon.icon-check-white{
+  background-position: -60px -60px !Important;
+}
+#playlist-activate-button:hover:not(.active) .icon.icon-check-purple{
+  background-position: -60px -30px !Important;
+}
+#playlist-activate-button.active .icon.icon-check-circle{
+  background-position: -60px 0px !important;
+}
+.icon.icon-next-track{
+  background-position: -60px -90px !Important;
+}       /* Settings */
+.icon.icon-check-blue{
+  background-position: -45px -60px !Important;
+}
