@@ -17,7 +17,8 @@ var def = {
 		hasLocalStorage: (typeof(Storage) !== "undefined")
 	},
 	not_settings_added_listener: false,
-	settings_added_listener: false
+	settings_added_listener: false,
+	settings_acc_added_listener: false
 };
 //xhr function
 function createXHR()
@@ -183,12 +184,16 @@ if(def.browser.hasLocalStorage) {
 		});
 		$("#footer-user .button.settings").on('click', function() {
 			settings_click_listener();
-			if(!def.settings_added_listener) {
-				$("#user-settings .tab-menu .application:not(.selected)").on('click', function() {
-					settings_click_listener();
-				});
-				def.settings_added_listener = true;
-			}
+			if(!def.settings_acc_added_listener) {
+				$("#user-settings .tab-menu .account:not(.selected)").on('click', function() {
+					if(!def.settings_added_listener) {
+						$("#user-settings .tab-menu .application:not(.selected)").on('click', function() {
+							settings_click_listener();
+						});
+						def.settings_added_listener = true;
+					}
+					def.settings_acc_added_listener = true;
+				}
 		});
 	}
 }
