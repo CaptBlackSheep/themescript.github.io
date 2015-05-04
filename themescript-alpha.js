@@ -169,13 +169,12 @@ function removeCSSs(loadBadges, loadMaster) {
 
 // adding a new item in settings
 if(def.browser.hasLocalStorage) {
-	var open_settings_btn = sel("#footer-user .button.settings"),
-		open_settings_btn2 = sel("#user-menu .item.settings");
+	var open_settings_btn = sel("#footer-user .button.settings");
 	if(!ts_loaded) {
 		open_settings_btn.addEventListener("click", function() {
 			settings_click_listener();
 		});
-		open_settings_btn2.addEventListener("click", function() {
+		$("#user-menu .item.settings").live('click',function() {
 			settings_click_listener();
 		});
 	}
