@@ -16,6 +16,7 @@ var def = {
 	browser: {
 		hasLocalStorage: (typeof(Storage) !== "undefined")
 	},
+	not_settings_added_listener: false,
 	settings_added_listener: false
 };
 //xhr function
@@ -173,18 +174,21 @@ if(def.browser.hasLocalStorage) {
 	//var open_settings_btn = sel("#footer-user .button.settings");
 	if(!ts_loaded) {
 		$("#footer-user .button:not(.settings)").on('click', function() {
-			if(!def.settings_added_listener) {
+			if(!def.not_settings_added_listener) {
 				$("#user-menu .item.settings").on('click', function() {
 					settings_click_listener();
 				});
-				def.settings_added_listener = true;
+				def.not_settings_added_listener = true;
 			}
 		});
 		$("#footer-user .button.settings").on('click', function() {
 			settings_click_listener();
-		});
-		$("#user-settings .tab-menu .application:not(.selected)").on('click', function() {
-			settings_click_listener();
+			if(!def.settings_added_listener) {
+				$("#user-settings .tab-menu .application:not(.selected)").on('click', function() {
+					settings_click_listener();
+				});
+				def.settings_added_listener = true;
+			}
 		});
 	}
 }
