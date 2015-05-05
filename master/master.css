@@ -1044,7 +1044,7 @@ background-image: linear-gradient(#1C1F25 0px,
 #search-menu .last{
   border-top-color: #444a59 !Important;
 } /* XP bar */
-g .bar{
+#footer-user .bar{
   box-shadow: inset 0px 0px 0px 8px rgb(29, 69, 110),
               0px 0px 0px 4px rgb(54, 95, 128) !Important;
 }
