@@ -210,7 +210,7 @@ function settings_click_listener() {
 	
 	var i,option = "<option>_</option>",options_inner = "";
 	for(i in def.room_names) {
-		options_inner += option.replace("_", i);
+		options_inner += option.replace("_", room_names.i);
 	}
 	settings_panel.innerHTML += '<div class="right"><select class="dropdown_themes">'+options_inner+'</select></div>'
 	
