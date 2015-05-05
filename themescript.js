@@ -3,7 +3,7 @@ var ts_loaded = (typeof def != "undefined");
 
 var def = {
 	notif_inner: "<div style=\"opacity: 1;top:0px;z-index:12;transition:all 0.3s linear;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-ms-transition:all 0.3s linear;-o-transition:all 0.3s linear;\"class=\"notification cmt-load\"><div class=\"left\"><i class=\"icon icon-about-white\"></i></div><div class=\"right\"><span style=\"top: 25px;\">__TEXT__</span></div></div>",
-	settings_item_inner: '<div class="header"><span>Themescript</span></div><div class="left"><div class="item ts-toggle"><i class="icon icon-check-blue"></i><span>Turn on / off themescript</span></div></div>',
+	settings_item_inner: '<div class="header"><span>Themescript</span></div><div class="left"><div class="item ts-toggle"><i class="icon icon-check-blue"></i><span>Turn on / off themescript</span></div></div><div class="right"></div>',
 	toast_closed: false,
 	plugin: {
 		load: "Themescript activated!"
@@ -12,11 +12,6 @@ var def = {
 		"chilloutmixer": "https://themescript.github.io/master/master.css",
 		"a-test-room-2": "https://themescript.github.io/personal/wizzikz/master.css",
 		"this-is-it": "https://themescript.github.io/master/master.css"
-	},
-	room_names: {
-		"chilloutmixer": "Chillout Mixer v3",
-		"a-test-room-2": "Just a test room. Whoa! :D",
-		"this-is-it": "MUSIC"
 	},
 	browser: {
 		hasLocalStorage: (typeof(Storage) !== "undefined")
@@ -207,13 +202,7 @@ function settings_click_listener() {
 	var settings_panel = sel("#user-settings .container");
 
 	settings_panel.innerHTML += def.settings_item_inner;
-	
-	var i,option = "<option>_</option>",options_inner = "";
-	for(i in def.room_names) {
-		options_inner += option.replace("_", i);
-	}
-	settings_panel.innerHTML += '<div class="right"><select class="dropdown_themes">'+options_inner+'</select></div>'
-	
+		
 	var ts_toggle = sel(".ts-toggle");
 	setTimeout(function(){
 		if(localStorage.getItem("ts-toggle") == "true") {
