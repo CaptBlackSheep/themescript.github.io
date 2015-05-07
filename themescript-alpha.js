@@ -23,7 +23,8 @@ var def = {
 	},
 	not_settings_added_listener: false,
 	settings_added_listener: false,
-	settings_acc_added_listener: false
+	settings_acc_added_listener: false,
+	settings_added_select: false
 };
 //xhr function
 function createXHR()
@@ -215,10 +216,13 @@ function settings_click_listener() {
 	settings_panel.innerHTML += '<div class="right"><select class="dropdown_themes">'+options_inner+'</select></div>'
 	
 	var ts_select = sel(".dropdown_themes");
-	ts_select.addEventListener("change", function() {
-		var val = ts_select.value;
-		console.log(def.customCSSs[(_.invert(def.room_names))[value]]);
-	});
+	if(!def.settings_added_select) {
+		ts_select.addEventListener("change", function() {
+			var val = ts_select.value;
+			console.log(def.customCSSs[(_.invert(def.room_names))[val]]);
+		});
+		def.settings_added_select = true;
+	}
 	
 	var ts_toggle = sel(".ts-toggle");
 	setTimeout(function(){
