@@ -157,14 +157,23 @@ function loadCSSs(loadBadges, loadMaster) {
 			}, true);
 		}
 		if(loadMaster) {
+			var loaded_css = def.customCSSs[location.href.split("/")[location.href.split("/").length-1]];
 			if(sel("#cm_css_main")) sel("#cm_css_main").remove();
-			if(typeof def.customCSSs[location.href.split("/")[location.href.split("/").length-1]] != "undefined") {
-				xhr_get(def.customCSSs[location.href.split("/")[location.href.split("/").length-1]], function(allText){
+			if(typeof localStorage["ts-current-css"] != "undefined")
+				loaded_css = localStorage.getItem("ts-current-css");
+			if(typeof loaded_css != "undefined") {
+				xhr_get(loaded_css, function(allText){
 					sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
 				}, true);
 			}
 		}
 	}
+}
+function loadMasterCSS(url) {
+	xhr_get(url, function(allText){
+		if(sel("#cm_css_main")) sel("#cm_css_main").remove();
+		sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
+	}, true);
 }
 function removeCSSs(loadBadges, loadMaster) {
 	if(loadBadges) {
@@ -209,7 +218,7 @@ function settings_click_listener() {
 
 	settings_panel.innerHTML += def.settings_item_inner;
 	
-	var i,option = "<option>_</option>",options_inner = "";
+	var i,option = "<option>_</option>",options_inner = "<option>--- Reset ---</option>";
 	for(i in def.room_names) {
 		options_inner += option.replace("_", def.room_names[i]);
 	}
@@ -218,8 +227,15 @@ function settings_click_listener() {
 	var ts_select = sel(".dropdown_themes");
 	if(!def.settings_added_select) {
 		ts_select.addEventListener("change", function() {
-			var val = ts_select.value;
-			console.log(def.customCSSs[(_.invert(def.room_names))[val]]);
+			var val = ts_select.value,ts_css;
+			if(!val == "--- Reset ---") {
+				ts_css = def.customCSSs[(_.invert(def.room_names))[val]];
+				localStorage.setItem("ts-current-css", ts_css);
+				loadMasterCSS(ts_css);
+			} else {
+				if(typeof localStorage["ts-current-css"] != "undefined")
+					localStorage.removeItem("ts-current-css");
+			}
 		});
 		def.settings_added_select = true;
 	}
