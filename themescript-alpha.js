@@ -214,6 +214,12 @@ function settings_click_listener() {
 	}
 	settings_panel.innerHTML += '<div class="right"><select class="dropdown_themes">'+options_inner+'</select></div>'
 	
+	var ts_select = sel(".dropdown_themes");
+	ts_select.addEventListener("change", function() {
+		var val = ts_select.value;
+		console.log(def.customCSSs[(_.invert(def.room_names))[value]]);
+	});
+	
 	var ts_toggle = sel(".ts-toggle");
 	setTimeout(function(){
 		if(localStorage.getItem("ts-toggle") == "true") {
