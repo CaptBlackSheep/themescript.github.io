@@ -143,4 +143,8 @@
   background-image: url(https://themescript.github.io/badges/druidiot.png) !important;
 }
 
-
+/* Hoarse- */
+#chat-messages [data-cid^="3988637"] .bdg{
+  background-image: url(https://i.imgur.com/Eus9puy.png) !Important;
+}
+}
