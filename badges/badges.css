@@ -145,5 +145,10 @@
 
 /* Hoarse- */
 #chat-messages [data-cid^="3988637"] .bdg{
-  background-image: url(https://i.imgur.com/Eus9puy.png) !Important;
+  background-image: url(http://i.imgur.com/1E1VjLp.png) !Important;
+}
+
+/* Synaesthetik */
+#chat-messages [data-cid^="3638662"] .bdg{
+  background-image: url(http://i.imgur.com/WBchtJG.png) !Important;
 }
