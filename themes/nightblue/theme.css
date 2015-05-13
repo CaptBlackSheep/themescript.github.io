@@ -1,0 +1,18 @@
+/*
+
+   --- Information ---
+   
+   This is an affiliated themescript and hosted theme.
+   If you would like to see more details and information
+   about our development please see our repository:
+   https://github.com/themescript/themescript.github.io
+
+   Coded using universal properties exclusively.
+   Non-CSS3 browsers will encounter compatibility issues.
+
+
+*/
+
+/* Theme components */
+/* > Additional styles for plugins are handled by plugins.css */
+@import url("https://themescript.github.io/themes/cmix/cmixfx.css") /* Effects */;
