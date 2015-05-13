@@ -9,6 +9,8 @@ var def = {
 		load: "Themescript activated!"
 	},
 	customCSSs: {
+        "latvianpaartyroom": "https://themescript.github.io/themes/latvianpaartyroom/theme.css",
+        "nightblue": "https://themescript.github.io/themes/nightblue/theme.css",
 		"chilloutmixer": "https://themescript.github.io/master/master.css",
 		"a-test-room-2": "https://themescript.github.io/personal/wizzikz/master.css",
 		"this-is-it": "https://themescript.github.io/master/master.css"

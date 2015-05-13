@@ -1,0 +1,111 @@
+/* Disappear / Hide */
+#app-menu .item:hover,
+.user,
+.is-offline .thumb,
+.favorite,
+#dashboard .join,
+#dashboard .favorite,
+#p3-settings .header,
+#p3-settings-custom-colors .header,
+#plugcubed,
+#the-user-profile .blurb .box,
+#user-menu .item.selected,
+#user-communities .join,
+#user-inventory .row .item,
+#room-settings-menu .item.selected,
+#playlist-menu,
+.friends.has-requests > .header > I,
+.header-panel-button.selected,
+.background,
+#user-rollover .shop-avatar,
+#vote > .crowd-response,
+#waitlist .user,
+.badge-box,
+#chat-messages .cm,
+#chat-messages .message,
+#chat-suggestion .chat-suggestion-item,
+#footer-user .button,
+#waitlist .list .sortable-placeholder,
+#playlist-menu .row.selected,
+#history-panel,
+#search-suggestion li,
+#search-suggestion ul,
+#search-menu .selected,
+.pop-menu .bar,
+.pop-menu li,
+.pop-menu ul{
+  background-color: transparent !Important;
+}
+#tooltip.right:not(.orange) .corner{
+  border-left-color: transparent !Important;
+}
+.header,
+.list-header,
+#user-inventory .row,
+.header-panel-button,
+#chat-messages,
+#media-panel .header{
+  border-bottom-color: transparent !Important;
+}
+#dialog-container .button.submit,
+#room-bar .icon-room,
+#playlist-button,
+#playlist-menu > div,
+#your-active-playlist i,
+.pop-menu .create,
+.user-content .grid .cell .top,
+.user-content .grid .cell.selected .top,
+#media-panel .button,
+#dj-button .left,
+.shop-button{
+  background-image: none !Important;
+}
+#playback img{
+  width: 0px !Important;
+  height: 0px !Important;
+}
+
+#dialog-container .duration,
+#dialog-container .toggle,
+#dialog-user-role .role-menu li,
+#dialog-restricted-media .meta,
+#app-menu,
+.app-header,
+.badge-box.no-badge i,
+#p3-settings,
+#p3-settings .back,
+#p3-settings-custom-colors,
+#p3-settings-custom-colors .back,
+#plugcubed,
+#chat-header,
+.group,
+#the-user-profile .header span,
+#header-panel-bar *,
+#footer,
+.media-list .row.now-playing,
+#media-panel .meta,
+#history-panel .meta,
+#waitlist .list .user .meta{
+  border: none !Important;
+}
+#dialog-container .duration,
+#dialog-container .toggle,
+.video-only #dj-button,
+.video-only #vote:before,
+.pop-menu,
+*{
+  box-shadow: none !important;
+}
+#dialog-container > :not(#dialog-purchase) .divider,
+.app-header .dark-label,
+#now-playing-bar .bar-divider,
+#now-playing-bar > :not(#history-button):not(#volume) i,
+#now-playing-time .icon.icon-time,
+#chat-header .divider,
+.chevron,
+#your-next-media .eta,
+#media-panel .row:hover .duration,
+#history-panel .row:hover .timestamp,
+#history-panel .divider{
+  display: none !Important;
+}
