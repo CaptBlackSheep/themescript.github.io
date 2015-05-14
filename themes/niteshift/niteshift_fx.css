@@ -22,8 +22,6 @@
      > scattered and uncategorizable declarations should also reside here
        to keep things tidy.
   */
-#room-bar:hover .icon-room:before,
-#room-bar .icon-room:after,
 #playback:not(:hover) > #playback-controls,
 .user-content .avatars .grid .cell:not(.selected) .top:after,
 .user-content .badges .grid .cell:not(:hover) .top:after,
