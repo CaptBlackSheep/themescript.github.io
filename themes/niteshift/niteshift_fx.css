@@ -36,8 +36,6 @@
   opacity: 0.75 !Important;
   transition: opacity 0.2s !important;
 }
-#room-bar > #room-name,
-#room-bar:hover > #room-host,
 #room-bar .icon-room:before,
 #room-bar:hover .icon-room:after,
 #playback:hover > #playback-controls,
@@ -49,8 +47,6 @@
   opacity: 1 !Important;
   transition: opacity 0.2s !Important;
 }
-#room-bar > #room-name,
-#room-bar:hover > #room-host,
 #room-bar .icon-room:before,
 #room-bar:hover .icon-room:after
 {
