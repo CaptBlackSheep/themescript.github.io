@@ -34,8 +34,6 @@
   opacity: 0.75 !Important;
   transition: opacity 0.2s !important;
 }
-#room-bar .icon-room:before,
-#room-bar:hover .icon-room:after,
 #playback:hover > #playback-controls,
 .user-content .avatars .grid .cell:hover .top:before,
 .user-content .avatars .grid .cell.selected .top:after,
@@ -44,11 +42,6 @@
 #footer-user .info.showing{
   opacity: 1 !Important;
   transition: opacity 0.2s !Important;
-}
-#room-bar .icon-room:before,
-#room-bar:hover .icon-room:after
-{
-  transition-delay: 0.2s !Important;
 }
 .tab-menu:hover,
 .tab-menu:not(:hover),
