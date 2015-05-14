@@ -22,8 +22,6 @@
      > scattered and uncategorizable declarations should also reside here
        to keep things tidy.
   */
-#room-bar:hover > #room-name,
-#room-bar > #room-host,
 #room-bar:hover .icon-room:before,
 #room-bar .icon-room:after,
 #playback:not(:hover) > #playback-controls,
