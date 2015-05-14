@@ -1,0 +1,5 @@
+/* Backgrounds and gradients */
+  /* Room background */
+#room .room-background{
+  background-image: url(https://themescript.github.io/themes/niteshift/images/niteshift_background.png) !important;
+}
