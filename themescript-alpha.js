@@ -218,9 +218,17 @@ function settings_click_listener() {
 
 	settings_panel.innerHTML += def.settings_item_inner;
 	
-	var i,option = "<option>_</option>",options_inner = "<option>--- Reset ---</option>";
+	var i,option = "<option>_</option>",option_selected = "<option selected>_</option>",options_inner = "<option>--- Reset ---</option>",
+		room_name_in_select = "";
+	if(typeof localStorage["ts-current-css"] != "undefined")
+		room_name_in_select = def.room_names[(_.invert(def.customCSSs))[localStorage["ts-current-css"]]];
 	for(i in def.room_names) {
-		options_inner += option.replace("_", def.room_names[i]);
+		var must_be_selected = false;
+		if(room_name_in_select.length>0
+			&& def.room_names[i] == room_name_in_select)
+				must_be_selected = true;
+		if(must_be_selected) options_inner += option_selected.replace("_", def.room_names[i]);
+		else options_inner += option.replace("_", def.room_names[i]);
 	}
 	settings_panel.innerHTML += '<div class="right"><select class="dropdown_themes">'+options_inner+'</select></div>'
 	
