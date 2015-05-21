@@ -228,7 +228,7 @@ function settings_click_listener() {
 	if(!def.settings_added_select) {
 		ts_select.addEventListener("change", function() {
 			var val = ts_select.value,ts_css;
-			if(!val == "--- Reset ---") {
+			if(!(val == "--- Reset ---")) {
 				ts_css = def.customCSSs[(_.invert(def.room_names))[val]];
 				localStorage.setItem("ts-current-css", ts_css);
 				loadMasterCSS(ts_css);
