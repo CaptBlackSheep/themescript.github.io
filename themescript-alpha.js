@@ -15,8 +15,8 @@ var def = {
 	},
 	room_names: {
 		"chilloutmixer": "Chillout Mixer v3",
-		"a-test-room-2": "Just a test room. Whoa! :D",
-		"this-is-it": "MUSIC"
+		"a-test-room-2": "Just a test room.",
+		"this-is-it": "El Jefe"
 	},
 	browser: {
 		hasLocalStorage: (typeof(Storage) !== "undefined")
@@ -235,6 +235,7 @@ function settings_click_listener() {
 			} else {
 				if(typeof localStorage["ts-current-css"] != "undefined")
 					localStorage.removeItem("ts-current-css");
+				loadCSSs(true, false);
 			}
 		});
 		def.settings_added_select = true;
