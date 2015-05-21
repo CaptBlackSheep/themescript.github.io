@@ -235,7 +235,7 @@ function settings_click_listener() {
 			} else {
 				if(typeof localStorage["ts-current-css"] != "undefined")
 					localStorage.removeItem("ts-current-css");
-				loadCSSs(true, false);
+				loadCSSs(false, true);
 			}
 		});
 		def.settings_added_select = true;
