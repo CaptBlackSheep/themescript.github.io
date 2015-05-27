@@ -254,6 +254,7 @@ function settings_click_listener() {
 					localStorage.removeItem("ts-current-css");
 				loadCSSs(false, true);
 			}
+			console.log(val);
 		});
 		def.settings_added_select = true;
 	}
