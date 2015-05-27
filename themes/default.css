@@ -1,16 +1,6 @@
-/* This is the default theme for themescript, adding in various enhancements
-   to make plug.dj look better in certain ways. This is stiil a WIP, and may
-   probably be updated later with additional features.
-   
-   There is a fair bit of dead code that is yet to be either cleaned up
-   or implemented. Apologies for including it, will be tidied up later.
-*/
+@namespace url(http://www.w3.org/1999/xhtml);
 
-/* Imports */
-   > Add in external CSS files below. Custom badges are included as an example.
-*/
-
-@import url("https://themescript.github.io/badges/badges.css");
+@-moz-document domain("plug.dj") {
 
 /* Animations */
   /* > Defined animations here can be used with the animation declaration.
@@ -359,12 +349,7 @@ div.pop-menu{
   top: 0px !important;
   left: 0px !Important;
 }
-  /* Request alert icon settings */
-.friends.has-requests > .header > I{
-  border-radius: 0px !Important;
-  width: 30px !Important;
-  height: 30px !Important;
-}
+
   /* Rounding of XP bar */
 #footer .bar,
 #footer .bar .progress{
@@ -498,4 +483,6 @@ div.pop-menu{
 #media-panel .row:hover .duration,
 #history-panel .row:hover .timestamp{
   display: none !Important;
+}
+
 }
