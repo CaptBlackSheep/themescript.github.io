@@ -149,7 +149,7 @@ function loadCSSs(loadBadges, loadMaster) {
 	} else {
 		loadThem = true;
 	}
-	if(loadThem) {
+	if(loadThem && isInSpecialRoom()) {
 		if(loadBadges) {
 			if(sel("#cm_css_badges")) sel("#cm_css_badges").remove();
 			xhr_get("https://themescript.github.io/badges/badges.css", function(allText){
@@ -170,10 +170,12 @@ function loadCSSs(loadBadges, loadMaster) {
 	}
 }
 function loadMasterCSS(url) {
-	xhr_get(url, function(allText){
-		if(sel("#cm_css_main")) sel("#cm_css_main").remove();
-		sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
-	}, true);
+	if(isInSpecialRoom()) {
+		xhr_get(url, function(allText){
+			if(sel("#cm_css_main")) sel("#cm_css_main").remove();
+			sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
+		}, true);
+	}
 }
 function removeCSSs(loadBadges, loadMaster) {
 	if(loadBadges) {
@@ -182,6 +184,10 @@ function removeCSSs(loadBadges, loadMaster) {
 	if(loadMaster) {
 		if(sel("#cm_css_main")) sel("#cm_css_main").remove();
 	}
+}
+
+function isInSpecialRoom() {
+	return typeof def.customCSSs[location.href.split("/")[location.href.split("/").length-1]] != "undefined";
 }
 
 
