@@ -114,7 +114,8 @@ function hideToast()
 				if(parsed.data.length>0) {
 					if(parsed.data[0].hasOwnProperty("meta")) {
 						if(parsed.data[0].meta.hasOwnProperty("slug")) {
-							loadCSSs(false, true);
+							if(typeof def.customCSSs[parsed.data[0].meta.slug != "undefined"])
+								loadCSSs(false, true);
 						}
 					}
 				}
