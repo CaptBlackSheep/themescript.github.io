@@ -242,7 +242,7 @@ function settings_click_listener() {
 	settings_panel.innerHTML += '<div class="right"><select class="dropdown_themes">'+options_inner+'</select></div>'
 	
 	var ts_select = sel(".dropdown_themes");
-	if(!def.settings_added_select) {
+	//if(!def.settings_added_select) {
 		ts_select.addEventListener("change", function() {
 			var val = ts_select.value,ts_css;
 			if(!(val == "--- Reset ---")) {
@@ -254,10 +254,9 @@ function settings_click_listener() {
 					localStorage.removeItem("ts-current-css");
 				loadCSSs(false, true);
 			}
-			console.log(val);
 		});
 		def.settings_added_select = true;
-	}
+	//}
 	
 	var ts_toggle = sel(".ts-toggle");
 	setTimeout(function(){
