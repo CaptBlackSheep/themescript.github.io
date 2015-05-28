@@ -173,12 +173,10 @@ function loadCSSs(loadBadges, loadMaster) {
 	}
 }
 function loadMasterCSS(url) {
-	if(isInSpecialRoom()) {
-		xhr_get(url, function(allText){
-			if(sel("#cm_css_main")) sel("#cm_css_main").remove();
-			sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
-		}, true);
-	}
+	xhr_get(url, function(allText){
+		if(sel("#cm_css_main")) sel("#cm_css_main").remove();
+		sel("head").innerHTML += "<style id='cm_css_main'>"+allText+"</style>";
+	}, true);
 }
 function removeCSSs(loadBadges, loadMaster) {
 	if(loadBadges) {
