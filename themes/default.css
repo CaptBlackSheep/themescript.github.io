@@ -165,24 +165,21 @@ button:not(:hover),
 #vote .crowd-response:not(.selected):hover .bottom{
   background-color: rgb(28, 31, 37) !important;
 }
-#vote > #woot.active i,
-#vote > #woot.selected i,
-#vote > #woot.active .bottom,
-#vote > #woot.selected .bottom{
+#vote > #woot.crowd-response.selected .bottom,
+#vote > #woot.active .icon,
+#vote > #woot.disabled.active .bottom{
   background-color: rgb(144, 173, 47) !important;
 }
 
-#vote > #grab.active i,
-#vote > #grab.selected i,
-#vote > #grab.active .bottom,
-#vote > #grab.selected .bottom{
+#vote > #grab.crowd-response.selected .bottom,
+#vote > #grab.active .icon,
+#vote > #grab.disabled.active .bottom{
   background-color: rgb(170, 116, 255) !important;
 }
 
-#vote > #meh.active i,
-#vote > #meh.selected i,
-#vote > #meh.active .bottom,
-#vote > #meh.selected .bottom{
+#vote > #meh.crowd-response.selected .bottom,
+#vote > #meh.active .icon,
+#vote > #meh.disabled.active .bottom{
   background-color: rgb(196, 46, 59) !important;
 }
 #vote i:not(.icon-skip){
