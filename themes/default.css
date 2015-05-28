@@ -167,18 +167,21 @@ button:not(:hover),
 }
 #vote > #woot.active i,
 #vote > #woot.selected i,
+#vote > #woot.active .bottom,
 #vote > #woot.selected .bottom{
   background-color: rgb(144, 173, 47) !important;
 }
 
-#vote > #grab.active i
+#vote > #grab.active i,
 #vote > #grab.selected i,
+#vote > #grab.active .bottom,
 #vote > #grab.selected .bottom{
   background-color: rgb(170, 116, 255) !important;
 }
 
-#vote > #meh.active i
+#vote > #meh.active i,
 #vote > #meh.selected i,
+#vote > #meh.active .bottom,
 #vote > #meh.selected .bottom{
   background-color: rgb(196, 46, 59) !important;
 }
