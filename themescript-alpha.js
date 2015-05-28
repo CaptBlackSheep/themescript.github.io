@@ -227,7 +227,7 @@ function settings_click_listener() {
 
 	settings_panel.innerHTML += def.settings_item_inner;
 	
-	var i,option = "<option>_</option>",option_selected = "<option selected>_</option>",options_inner = "<option>--- Reset ---</option>",
+	var i,option = "<option>_</option>",option_selected = "<option selected>_</option>",options_inner = "<option>--- Current room ---</option>",
 		room_name_in_select = "";
 	if(typeof localStorage["ts-current-css"] != "undefined")
 		room_name_in_select = def.room_names[(_.invert(def.customCSSs))[localStorage["ts-current-css"]]];
@@ -245,7 +245,7 @@ function settings_click_listener() {
 	//if(!def.settings_added_select) {
 		ts_select.addEventListener("change", function() {
 			var val = ts_select.value,ts_css;
-			if(!(val == "--- Reset ---")) {
+			if(!(val == "--- Current room ---")) {
 				ts_css = def.customCSSs[(_.invert(def.room_names))[val]];
 				localStorage.setItem("ts-current-css", ts_css);
 				loadMasterCSS(ts_css);
