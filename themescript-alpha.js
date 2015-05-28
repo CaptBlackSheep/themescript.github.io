@@ -247,10 +247,14 @@ function settings_click_listener() {
 				ts_css = def.customCSSs[(_.invert(def.room_names))[val]];
 				localStorage.setItem("ts-current-css", ts_css);
 				loadMasterCSS(ts_css);
-			} else if(val == "--- Current room ---" && isInSpecialRoom()){
-				if(typeof localStorage["ts-current-css"] != "undefined")
-					localStorage.removeItem("ts-current-css");
-				loadCSSs(false, true);
+			} else if(val == "--- Current room ---"){
+				if(isInSpecialRoom()) {
+					if(typeof localStorage["ts-current-css"] != "undefined")
+						localStorage.removeItem("ts-current-css");
+					loadCSSs(false, true);
+				} else {
+					removeCSSs(false, true);
+				}
 			}
 		});
 		def.settings_added_select = true;
