@@ -159,7 +159,7 @@ function loadCSSs(loadBadges, loadMaster) {
 				sel("head").innerHTML += "<style id='cm_css_badges'>"+allText+"</style>";
 			}, true);
 		}
-		if(loadMaster && isInSpecialRoom()) {
+		if(loadMaster) {
 			var loaded_css = def.customCSSs[location.href.split("/")[location.href.split("/").length-1]];
 			if(sel("#cm_css_main")) sel("#cm_css_main").remove();
 			if(typeof localStorage["ts-current-css"] != "undefined")
@@ -249,7 +249,7 @@ function settings_click_listener() {
 				ts_css = def.customCSSs[(_.invert(def.room_names))[val]];
 				localStorage.setItem("ts-current-css", ts_css);
 				loadMasterCSS(ts_css);
-			} else {
+			} else if(val == "--- Current room ---" && isInSpecialRoom()){
 				if(typeof localStorage["ts-current-css"] != "undefined")
 					localStorage.removeItem("ts-current-css");
 				loadCSSs(false, true);
