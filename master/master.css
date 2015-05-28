@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (05/04/15)
+   Version 4 (05/28/15)
 
    --- Credits and contact ---
 
@@ -372,6 +372,7 @@ div .user,
 #media-panel .row.now-playing .actions{
   background-color: rgba(92, 135, 179, 0.5) !important;
 }   /* Text colour */
+#media-panel .playlists a,
 #dialog-level-up .reward,
 div .user .is-you .name,
 div .user.is-you span,
@@ -440,6 +441,7 @@ div .user.is-staff span,
 #playlist-menu .row.drag-over span,
 #media-panel .header > :not(.button),
 #media-panel .row:hover,
+#media-panel .row:hover a,
 #media-panel .row.selected,
 #user-history .row:hover .meta span,
 #history-panel .row:hover .name:before,
@@ -1041,6 +1043,7 @@ background-image: linear-gradient(#1C1F25 0px,
 }
 /* Borders */
   /* Search menu */
+#search-menu li:first-child,
 #search-menu .last{
   border-top-color: #444a59 !Important;
 } /* XP bar */
@@ -1075,6 +1078,7 @@ background-image: linear-gradient(#1C1F25 0px,
 #user-inventory .row.avatar .item{
   border-bottom: 1px solid #074973 !Important;
 }
+#search-menu li:first-child,
   /* User lists */
 #user-lists .button.staff.selected{
   border-bottom-color: rgb(92, 135, 179) !important;
