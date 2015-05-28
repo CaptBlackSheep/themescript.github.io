@@ -184,7 +184,7 @@ function removeCSSs(loadBadges, loadMaster) {
 	if(loadBadges) {
 		if(sel("#cm_css_badges")) sel("#cm_css_badges").remove();
 	}
-	if(loadMaster) {
+	if(loadMaster && isInSpecialRoom()) {
 		if(sel("#cm_css_main")) sel("#cm_css_main").remove();
 	}
 }
