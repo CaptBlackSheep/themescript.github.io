@@ -159,7 +159,7 @@ function loadCSSs(loadBadges, loadMaster) {
 				sel("head").innerHTML += "<style id='cm_css_badges'>"+allText+"</style>";
 			}, true);
 		}
-		if(loadMaster) {
+		if(loadMaster && isInSpecialRoom()) {
 			var loaded_css = def.customCSSs[location.href.split("/")[location.href.split("/").length-1]];
 			if(sel("#cm_css_main")) sel("#cm_css_main").remove();
 			if(typeof localStorage["ts-current-css"] != "undefined")
@@ -184,7 +184,7 @@ function removeCSSs(loadBadges, loadMaster) {
 	if(loadBadges) {
 		if(sel("#cm_css_badges")) sel("#cm_css_badges").remove();
 	}
-	if(loadMaster && isInSpecialRoom()) {
+	if(loadMaster) {
 		if(sel("#cm_css_main")) sel("#cm_css_main").remove();
 	}
 }
