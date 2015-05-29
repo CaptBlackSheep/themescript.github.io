@@ -220,6 +220,17 @@ if(def.browser.hasLocalStorage) {
 		});
 	}
 }
+
+function invert_obj(obj) {
+	var new_obj = {};
+	for (var prop in obj) {
+		if(obj.hasOwnProperty(prop)) {
+			new_obj[obj[prop]] = prop;
+		}
+	}
+	return new_obj;
+};
+
 function settings_click_listener() {
 	var settings_panel = sel("#user-settings .container");
 
@@ -228,7 +239,7 @@ function settings_click_listener() {
 	var i,option = "<option>_</option>",option_selected = "<option selected>_</option>",options_inner = "<option>--- Current room ---</option>",
 		room_name_in_select = "";
 	if(typeof localStorage["ts-current-css"] != "undefined")
-		room_name_in_select = def.room_names[(_.invert(def.customCSSs))[localStorage["ts-current-css"]]];
+		room_name_in_select = def.room_names[(invert_obj(def.customCSSs))[localStorage["ts-current-css"]]];
 		
 	var must_be_selected = false;
 	for(i in def.room_names) {
