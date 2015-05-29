@@ -222,7 +222,7 @@ if(def.browser.hasLocalStorage) {
 }
 
 function invert_obj(obj) {
-	var new_obj = new Array(obj.length),i=0;
+	var new_obj = new Array(Object.keys(obj).length),i=0;
 	for (var prop in obj) {
 		if(obj.hasOwnProperty(prop)) {
 			new_obj[i] = obj.prop;
@@ -239,8 +239,15 @@ function settings_click_listener() {
 	
 	var i,option = "<option>_</option>",option_selected = "<option selected>_</option>",options_inner = "<option>--- Current room ---</option>",
 		room_name_in_select = "";
-	if(typeof localStorage["ts-current-css"] != "undefined")
-		room_name_in_select = def.room_names[(invert_obj(def.customCSSs))[localStorage["ts-current-css"]]];
+	if(typeof localStorage["ts-current-css"] != "undefined") {
+		var reversed = invert_obj(def.customCSSs);
+		for(css in reversed) {
+			if(css = localStorage["ts-current-css"]) {
+				room_name_in_select = Object.keys(def.customCSSs)[invert_obj(def.customCSSs).indexOf(localStorage["ts-current-css"])];
+				return;
+			}
+		}
+	}
 		
 	var must_be_selected = false;
 	for(i in def.room_names) {
