@@ -225,7 +225,7 @@ function invert_obj(obj) {
 	var new_obj = new Array(Object.keys(obj).length),i=0;
 	for (var prop in obj) {
 		if(obj.hasOwnProperty(prop)) {
-			new_obj[i] = obj.prop;
+			new_obj[i] = obj[prop];
 		}
 		i++;
 	}
