@@ -244,7 +244,7 @@ function settings_click_listener() {
 		for(css in reversed) {
 			if(css = localStorage["ts-current-css"]) {
 				room_name_in_select = Object.keys(def.customCSSs)[invert_obj(def.customCSSs).indexOf(localStorage["ts-current-css"])];
-				return;
+				break;
 			}
 		}
 	}
