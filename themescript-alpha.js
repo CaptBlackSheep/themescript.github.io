@@ -229,8 +229,9 @@ function settings_click_listener() {
 		room_name_in_select = "";
 	if(typeof localStorage["ts-current-css"] != "undefined")
 		room_name_in_select = def.room_names[(_.invert(def.customCSSs))[localStorage["ts-current-css"]]];
+		
+	var must_be_selected = false;
 	for(i in def.room_names) {
-		var must_be_selected = false;
 		if(room_name_in_select.length>0
 			&& def.room_names[i] == room_name_in_select
 			&& !must_be_selected)
