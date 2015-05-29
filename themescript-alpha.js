@@ -222,11 +222,12 @@ if(def.browser.hasLocalStorage) {
 }
 
 function invert_obj(obj) {
-	var new_obj = {};
+	var new_obj = new Array(obj.length),i=0;
 	for (var prop in obj) {
 		if(obj.hasOwnProperty(prop)) {
-			new_obj[obj[prop]] = prop;
+			new_obj[i] = obj.prop;
 		}
+		i++;
 	}
 	return new_obj;
 };
