@@ -252,7 +252,7 @@ function settings_click_listener() {
 	var must_be_selected = false;
 	for(i in def.room_names) {
 		if(room_name_in_select.length>0
-			&& def.room_names[i] == room_name_in_select
+			&& i == room_name_in_select
 			&& !must_be_selected)
 				must_be_selected = true;
 		if(must_be_selected) options_inner += option_selected.replace("_", def.room_names[i]);
