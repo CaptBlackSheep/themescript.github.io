@@ -253,10 +253,11 @@ function settings_click_listener() {
 	for(i in def.room_names) {
 		if(room_name_in_select.length>0
 			&& i == room_name_in_select
-			&& !must_be_selected)
+			&& !must_be_selected) {
 				must_be_selected = true;
-		if(must_be_selected) options_inner += option_selected.replace("_", def.room_names[i]);
-		else options_inner += option.replace("_", def.room_names[i]);
+				options_inner += option_selected.replace("_", def.room_names[i]);
+		} else
+			options_inner += option.replace("_", def.room_names[i]);
 	}
 	settings_panel.innerHTML += '<div class="right"><select class="dropdown_themes">'+options_inner+'</select></div>'
 	
