@@ -114,10 +114,9 @@ function hideToast()
 				if(parsed.data.length>0) {
 					if(parsed.data[0].hasOwnProperty("meta")) {
 						if(parsed.data[0].meta.hasOwnProperty("slug")) {
-							if(typeof def.customCSSs[parsed.data[0].meta.slug] != "undefined")
+							//if(typeof def.customCSSs[parsed.data[0].meta.slug] != "undefined")
 								loadCSSs(false, true);
-							else
-								removeCSSs(false, true);
+							//else removeCSSs(false, true);
 						}
 					}
 				}
