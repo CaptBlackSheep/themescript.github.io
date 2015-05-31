@@ -152,7 +152,7 @@ function loadCSSs(loadBadges, loadMaster) {
 	} else {
 		loadThem = true;
 	}
-	if(loadThem && isInSpecialRoom()) {
+	if(loadThem) {
 		if(loadBadges) {
 			if(sel("#cm_css_badges")) sel("#cm_css_badges").remove();
 			xhr_get("https://themescript.github.io/badges/badges.css", function(allText){
