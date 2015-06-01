@@ -18,3 +18,7 @@
 #chat-messages [data-cid^="3988637"] .bdg{
   background-image: url(http://i.imgur.com/1E1VjLp.png) !Important;
 }
+
+/* FunkyBrewster */
+#chat-messages [data-cid^="4152442"] .bdg {
+  background-image: url(http://i.imgur.com/7GRiLHj.png) !important;}
