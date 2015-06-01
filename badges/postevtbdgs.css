@@ -13,3 +13,8 @@
 #chat-messages [data-cid^="3537523"] .bdg{
   background-image: url(http://i.imgur.com/Jk4TVtp.png) !important;
 }
+
+/* Hoarse- */
+#chat-messages [data-cid^="3988637"] .bdg{
+  background-image: url(http://i.imgur.com/1E1VjLp.png) !Important;
+}
