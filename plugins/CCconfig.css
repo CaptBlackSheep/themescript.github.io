@@ -17,6 +17,7 @@
 #chat-messages [data-cid^='6286426'] .bdg,
 #chat-messages [data-cid^='3818329'] .bdg,
 #chat-messages [data-cid^='3571889'] .bdg,
+#chat-messages [data-cid^='3988637'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg{
   background-image: url(http://i.imgur.com/dY2XiKu.png) !important;
   background-size: 90px 30px !important;
@@ -32,6 +33,7 @@
 #chat-messages [data-cid^='6286426'] .badge-box,
 #chat-messages [data-cid^='3818329'] .badge-box,
 #chat-messages [data-cid^='3571889'] .badge-box,
+#chat-messages [data-cid^='3988637'] .badge-box
 #chat-messages [data-cid^='3537523'] .badge-box{
   background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.50) 100%) !Important;
 }
@@ -65,12 +67,6 @@
 #waitlist [data-uid^='0'].user:not(:hover) .name{
   color: #ff3050 !important;
 }
-#chat-messages [data-cid^='3852859'] a,
-#chat-messages [data-cid^='4189647'] a,
-#chat-messages [data-cid^='0'] a,
-#chat-messages [data-cid^='0'] a{
-  color: #ffdfdf !Important;
-}
 /* Kush (Green) */
   /* Members:
      4126270 "artemiy"
@@ -100,44 +96,37 @@
 #waitlist [data-uid^='3834890'].user:not(:hover) .name{
   color: #30ff50 !Important;
 }
-#chat-messages [data-cid^='4126270'] a,
-#chat-messages [data-cid^='3553958'] a,
-#chat-messages [data-cid^='5092822'] a,
-#chat-messages [data-cid^='3834890'] a{
-  color: #dfffdf !Important;
-}
 /* Vector (Blue) */
   /* Members:
      6286426 "OwlMovement"
      3818329 "Phazym"
      3571889 "Tipping Hand"
+     3988637 "Hoarse-"
      3537523 "! TerminallyChill"
   */
 #chat-messages [data-cid^='6286426'] .bdg,
 #chat-messages [data-cid^='3818329'] .bdg,
 #chat-messages [data-cid^='3571889'] .bdg,
+#chat-messages [data-cid^='3988637'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg{
   background-position: -60px 0px !important;
 }
 #waitlist [data-uid^='6286426'].user:not(:hover),
 #waitlist [data-uid^='3818329'].user:not(:hover),
 #waitlist [data-uid^='3571889'].user:not(:hover),
+#waitlist [data-uid^='3988637'].user:not(:hover),
 #waitlist [data-uid^='3537523'].user:not(:hover){
   background-color: #121240 !Important;
 }
 #chat-messages [data-cid^='6286426'] .un,
 #chat-messages [data-cid^='3818329'] .un,
 #chat-messages [data-cid^='3571889'] .un,
+#chat-messages [data-cid^='3988637'] .un,
 #chat-messages [data-cid^='3537523'] .un,
 #waitlist [data-uid^='6286426'].user:not(:hover) .name,
 #waitlist [data-uid^='3818329'].user:not(:hover) .name,
 #waitlist [data-uid^='3571889'].user:not(:hover) .name,
+#waitlist [data-uid^='3988637'].user:not(:hover) .name,
 #waitlist [data-uid^='3537523'].user:not(:hover) .name{
   color: #4040ff !Important;
-}
-#chat-messages [data-cid^='6286426'] a,
-#chat-messages [data-cid^='3818329'] a,
-#chat-messages [data-cid^='3571889'] a,
-#chat-messages [data-cid^='3537523'] a{
-  color: #dfdfff !Important;
 }
