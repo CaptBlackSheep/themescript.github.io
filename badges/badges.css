@@ -129,11 +129,6 @@
   background-image: url(https://themescript.github.io/badges/dankcookie.jpg) !important;
 }
 
-/* Hoarse- */
-#chat-messages [data-cid^="3988637"] .bdg{
-  background-image: url(http://i.imgur.com/1E1VjLp.png) !Important;
-}
-
 /* Synaesthetik */
 #chat-messages [data-cid^="3638662"] .bdg{
   background-image: url(http://i.imgur.com/toer6ya.png) !Important;
