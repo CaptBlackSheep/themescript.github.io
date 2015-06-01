@@ -79,15 +79,6 @@
 #chat-messages [data-cid^="3475278"] .bdg {
   background-image: url(http://i.imgur.com/ZQKUEcO.gif) !important;}
 
-/* Phazym */
-#chat-messages [data-cid^="3818329"] .bdg {
-  background-image: url(https://themescript.github.io/badges/phazym.png) !important;}
-
-/* Rightclik */
-#chat-messages [data-cid^="3834890"] .bdg {
-  /* background-image: url(http://i.imgur.com/SNODayh.png) !important; */
-  background-image: url(http://i.imgur.com/FoQw9Rh.png) !important;}
-
 /* AKJAMS */
 #chat-messages [data-cid^="3420990"] .bdg {
   background-image: url(http://i.imgur.com/z5Lcql4.png) !important;}
@@ -132,11 +123,6 @@
 /* atomjack */
 #chat-messages [data-cid^="3724170"] .bdg{
   background-image: url(http://i.imgur.com/XkFZ24y.gif) !important;}
-
-/* TerminallyChill */
-#chat-messages [data-cid^="3537523"] .bdg{
-  background-image: url(http://i.imgur.com/Jk4TVtp.png) !important;
-}
 
 /* DankCookie */
 #chat-messages [data-cid^="5502961"] .bdg{
