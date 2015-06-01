@@ -49,10 +49,6 @@
 #chat-messages [data-cid^='0'] .bdg{
   background-position: 0px 0px !Important;
 }
-#chat-messages [data-cid^='3852859'],
-#chat-messages [data-cid^='4189647'],
-#chat-messages [data-cid^='0'],
-#chat-messages [data-cid^='0'],
 #waitlist [data-uid^='3852859'].user:not(:hover),
 #waitlist [data-uid^='4189647'].user:not(:hover),
 #waitlist [data-uid^='0'].user:not(:hover),
@@ -94,10 +90,6 @@
 #chat-messages [data-cid^='3834890'] .bdg{
   background-position: -30px 0px !Important;
 }
-#chat-messages [data-cid^='4126270'],
-#chat-messages [data-cid^='3553958'],
-#chat-messages [data-cid^='5092822'],
-#chat-messages [data-cid^='3834890'],
 #waitlist [data-uid^='4126270'].user:not(:hover),
 #waitlist [data-uid^='3553958'].user:not(:hover),
 #waitlist [data-uid^='5092822'].user:not(:hover),
@@ -139,10 +131,6 @@
 #chat-messages [data-cid^='3537523'] .bdg{
   background-position: -60px 0px !important;
 }
-#chat-messages [data-cid^='6286426'],
-#chat-messages [data-cid^='3818329'],
-#chat-messages [data-cid^='3571889'],
-#chat-messages [data-cid^='3537523'],
 #waitlist [data-uid^='6286426'].user:not(:hover),
 #waitlist [data-uid^='3818329'].user:not(:hover),
 #waitlist [data-uid^='3571889'].user:not(:hover),
