@@ -9,7 +9,7 @@
 #chat-messages [data-cid^='3852859'] .bdg,
 #chat-messages [data-cid^='4189647'] .bdg,
 #chat-messages [data-cid^='0'] .bdg,
-#chat-messages [data-cid^='0'] .bdg,
+#chat-messages [data-cid^='4152442'] .bdg,
 #chat-messages [data-cid^='4126270'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
 #chat-messages [data-cid^='5092822'] .bdg,
@@ -25,7 +25,7 @@
 #chat-messages [data-cid^='3852859'] .badge-box,
 #chat-messages [data-cid^='4189647'] .badge-box,
 #chat-messages [data-cid^='0'] .badge-box,
-#chat-messages [data-cid^='0'] .badge-box,
+#chat-messages [data-cid^='4152442'] .badge-box,
 #chat-messages [data-cid^='4126270'] .badge-box,
 #chat-messages [data-cid^='3553958'] .badge-box,
 #chat-messages [data-cid^='5092822'] .badge-box,
@@ -43,28 +43,28 @@
      3852859 "Dionysu5"
      4189647 "Abraham Carrasco"
      0 "Unassigned"
-     0 "Unassigned"
+     4152442 "! FunkyBrewster"
   */
 #chat-messages [data-cid^='3852859'] .bdg,
 #chat-messages [data-cid^='4189647'] .bdg,
 #chat-messages [data-cid^='0'] .bdg,
-#chat-messages [data-cid^='0'] .bdg{
+#chat-messages [data-cid^='4152442'] .bdg{
   background-position: 0px 0px !Important;
 }
 #waitlist [data-uid^='3852859'].user:not(:hover),
 #waitlist [data-uid^='4189647'].user:not(:hover),
 #waitlist [data-uid^='0'].user:not(:hover),
-#waitlist [data-uid^='0'].user:not(:hover){
+#waitlist [data-uid^='4152442'].user:not(:hover){
   background-color: #400C18 !Important;
 }
 #chat-messages [data-cid^='3852859'] .un,
 #chat-messages [data-cid^='4189647'] .un,
 #chat-messages [data-cid^='0'] .un,
-#chat-messages [data-cid^='0'] .un,
+#chat-messages [data-cid^='4152442'] .un,
 #waitlist [data-uid^='3852859'].user:not(:hover) .name,
 #waitlist [data-uid^='4189647'].user:not(:hover) .name,
 #waitlist [data-uid^='0'].user:not(:hover) .name,
-#waitlist [data-uid^='0'].user:not(:hover) .name{
+#waitlist [data-uid^='4152442'].user:not(:hover) .name{
   color: #ff3050 !important;
 }
 /* Kush (Green) */
