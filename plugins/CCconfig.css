@@ -65,12 +65,6 @@
 #waitlist [data-uid^='0'].user:not(:hover) .name{
   color: #ff3050 !important;
 }
-#chat-messages [data-cid^='3852859'] .timestamp,
-#chat-messages [data-cid^='4189647'] .timestamp,
-#chat-messages [data-cid^='0'] .timestamp,
-#chat-messages [data-cid^='0'] .timestamp{
-  color: #ffb0b0 !important;
-}
 #chat-messages [data-cid^='3852859'] a,
 #chat-messages [data-cid^='4189647'] a,
 #chat-messages [data-cid^='0'] a,
@@ -106,12 +100,6 @@
 #waitlist [data-uid^='3834890'].user:not(:hover) .name{
   color: #30ff50 !Important;
 }
-#chat-messages [data-cid^='4126270'] .timestamp,
-#chat-messages [data-cid^='3553958'] .timestamp,
-#chat-messages [data-cid^='5092822'] .timestamp,
-#chat-messages [data-cid^='3834890'] .timestamp{
-  color: #b0ffb0 !important;
-}
 #chat-messages [data-cid^='4126270'] a,
 #chat-messages [data-cid^='3553958'] a,
 #chat-messages [data-cid^='5092822'] a,
@@ -146,12 +134,6 @@
 #waitlist [data-uid^='3571889'].user:not(:hover) .name,
 #waitlist [data-uid^='3537523'].user:not(:hover) .name{
   color: #4040ff !Important;
-}
-#chat-messages [data-cid^='6286426'] .timestamp,
-#chat-messages [data-cid^='3818329'] .timestamp,
-#chat-messages [data-cid^='3571889'] .timestamp,
-#chat-messages [data-cid^='3537523'] .timestamp{
-  color: #b0b0FF !Important;
 }
 #chat-messages [data-cid^='6286426'] a,
 #chat-messages [data-cid^='3818329'] a,
