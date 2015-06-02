@@ -7,9 +7,8 @@
 }
 /* Top text */
 #your-next-media:after{
-  /* content: "Chill Music for Chill People"; */
-  content: "Chilly Cook-out on June 26ᵗʰ";
-  font-family: Arial !important;;
+  content: "Chill Music for Chill People";
+  font-family: Arial !important;
   font-weight: normal !Important;
   font-style: normal !Important;
   color: rgb(238, 238, 238) !Important;
@@ -17,9 +16,7 @@
 }
 /* Bottom text */
 #your-next-media:before{
-  content: "https://goo.gl/l74ydu";
-  /* content: "ChilloutMixer.org"; */
-  content: ;
+  content: "ChilloutMixer.org";
   color: #B4C9DE;
   top: 24px !Important;
     font-size: 17px !Important;
