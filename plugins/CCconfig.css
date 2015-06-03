@@ -13,6 +13,7 @@
 #chat-messages [data-cid^='4126270'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
 #chat-messages [data-cid^='5092822'] .bdg,
+#chat-messages [data-cid^='3721683'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg,
 #chat-messages [data-cid^='6286426'] .bdg,
 #chat-messages [data-cid^='3818329'] .bdg,
@@ -30,6 +31,7 @@
 #chat-messages [data-cid^='4126270'] .badge-box,
 #chat-messages [data-cid^='3553958'] .badge-box,
 #chat-messages [data-cid^='5092822'] .badge-box,
+#chat-messages [data-cid^='3721683'] .badge-box,
 #chat-messages [data-cid^='3834890'] .badge-box,
 #chat-messages [data-cid^='6286426'] .badge-box,
 #chat-messages [data-cid^='3818329'] .badge-box,
@@ -74,27 +76,32 @@
      4126270 "artemiy"
      3553958 "SirJ4ws"
      5092822 "ExplodingSofa"
+     3721683 "Cannabiscuit"
      3834890 "! Rightclik"
   */
 #chat-messages [data-cid^='4126270'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
 #chat-messages [data-cid^='5092822'] .bdg,
+#chat-messages [data-cid^='3721683'] .bdg
 #chat-messages [data-cid^='3834890'] .bdg{
   background-position: -30px 0px !Important;
 }
 #waitlist [data-uid^='4126270'].user:not(:hover),
 #waitlist [data-uid^='3553958'].user:not(:hover),
 #waitlist [data-uid^='5092822'].user:not(:hover),
+#waitlist [data-uid^='3721683'].user:not(:hover),
 #waitlist [data-uid^='3834890'].user:not(:hover){
   background-color: #0C4018 !Important;
 }
 #chat-messages [data-cid^='4126270'] .un,
 #chat-messages [data-cid^='3553958'] .un,
 #chat-messages [data-cid^='5092822'] .un,
+#chat-messages [data-cid^='3721683'] .un,
 #chat-messages [data-cid^='3834890'] .un,
 #waitlist [data-uid^='4126270'].user:not(:hover) .name,
 #waitlist [data-uid^='3553958'].user:not(:hover) .name,
 #waitlist [data-uid^='5092822'].user:not(:hover) .name,
+#waitlist [data-uid^='3721683'].user:not(:hover) .name,
 #waitlist [data-uid^='3834890'].user:not(:hover) .name{
   color: #30ff50 !Important;
 }
