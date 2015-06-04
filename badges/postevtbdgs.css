@@ -26,3 +26,7 @@
 /* Backend: EckerDecker */
 #chat-messages [data-cid^="4386405"] .bdg{
   background-image: url(http://i.imgur.com/Bbbo9fN.png) !important;}
+
+/* Cannabiscuit */
+#chat-messages [data-cid^="3721683"] .bdg{
+  background-image: url(http://i.imgur.com/hTKlpGC.png) !Important;}
