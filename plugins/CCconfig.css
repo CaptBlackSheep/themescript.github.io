@@ -8,7 +8,8 @@
      this block to the respective team below.*/
 #chat-messages [data-cid^='3852859'] .bdg,
 #chat-messages [data-cid^='4189647'] .bdg,
-#chat-messages [data-cid^='0'] .bdg,
+#chat-messages [data-cid^='3492668'] .bdg,
+#chat-messages [data-cid^='3643570'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg,
 #chat-messages [data-cid^='4126270'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
@@ -21,13 +22,15 @@
 #chat-messages [data-cid^='3571889'] .bdg,
 #chat-messages [data-cid^='3988637'] .bdg,
 #chat-messages [data-cid^='3724170'] .bdg,
+#chat-messages [data-cid^='4386405'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg{
   background-image: url(http://i.imgur.com/dY2XiKu.png) !important;
   background-size: 90px 30px !important;
 }
 #chat-messages [data-cid^='3852859'] .badge-box,
 #chat-messages [data-cid^='4189647'] .badge-box,
-#chat-messages [data-cid^='0'] .badge-box,
+#chat-messages [data-cid^='3492668'] .badge-box,
+#chat-messages [data-cid^='3643570'] .badge-box,
 #chat-messages [data-cid^='4152442'] .badge-box,
 #chat-messages [data-cid^='4126270'] .badge-box,
 #chat-messages [data-cid^='3553958'] .badge-box,
@@ -40,6 +43,7 @@
 #chat-messages [data-cid^='3571889'] .badge-box,
 #chat-messages [data-cid^='3988637'] .badge-box,
 #chat-messages [data-cid^='3724170'] .badge-box,
+#chat-messages [data-cid^='4386405'] .badge-box,
 #chat-messages [data-cid^='3537523'] .badge-box{
   background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.50) 100%) !Important;
 }
@@ -48,28 +52,33 @@
   /* Members:
      3852859 "Dionysu5"
      4189647 "Abraham Carrasco"
-     0 "Unassigned"
+     3492668 "Stelio Kontos"
+     3643570 "Putn100"
      4152442 "! FunkyBrewster"
   */
 #chat-messages [data-cid^='3852859'] .bdg,
 #chat-messages [data-cid^='4189647'] .bdg,
-#chat-messages [data-cid^='0'] .bdg,
+#chat-messages [data-cid^='3492668'] .bdg,
+#chat-messages [data-cid^='3643570'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg{
   background-position: 0px 0px !Important;
 }
 #waitlist [data-uid^='3852859'].user:not(:hover),
 #waitlist [data-uid^='4189647'].user:not(:hover),
-#waitlist [data-uid^='0'].user:not(:hover),
+#waitlist [data-uid^='3492668'].user:not(:hover),
+#waitlist [data-uid^='3643570'].user:not(:hover),
 #waitlist [data-uid^='4152442'].user:not(:hover){
   background-color: #400C18 !Important;
 }
 #chat-messages [data-cid^='3852859'] .un,
 #chat-messages [data-cid^='4189647'] .un,
-#chat-messages [data-cid^='0'] .un,
+#chat-messages [data-cid^='3492668'] .un,
+#chat-messages [data-cid^='3643570'] .un,
 #chat-messages [data-cid^='4152442'] .un,
 #waitlist [data-uid^='3852859'].user:not(:hover) .name,
 #waitlist [data-uid^='4189647'].user:not(:hover) .name,
-#waitlist [data-uid^='0'].user:not(:hover) .name,
+#waitlist [data-uid^='3492668'].user:not(:hover) .name,
+#waitlist [data-uid^='3643570'].user:not(:hover) .name,
 #waitlist [data-uid^='4152442'].user:not(:hover) .name{
   color: #ff3050 !important;
 }
