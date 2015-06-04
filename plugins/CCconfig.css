@@ -119,6 +119,7 @@
      3571889 "Tipping Hand"
      3988637 "Hoarse-"
      3724170 "atomjack"
+     4386405 "EckerDecker"
      3537523 "! TerminallyChill"
   */
 #chat-messages [data-cid^='6286426'] .bdg,
@@ -126,6 +127,7 @@
 #chat-messages [data-cid^='3571889'] .bdg,
 #chat-messages [data-cid^='3988637'] .bdg,
 #chat-messages [data-cid^='3724170'] .bdg,
+#chat-messages [data-cid^='4386405'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg{
   background-position: -60px 0px !important;
 }
@@ -134,6 +136,7 @@
 #waitlist [data-uid^='3571889'].user:not(:hover),
 #waitlist [data-uid^='3988637'].user:not(:hover),
 #waitlist [data-uid^='3724170'].user:not(:hover),
+#waitlist [data-uid^='4386405'].user:not(:hover),
 #waitlist [data-uid^='3537523'].user:not(:hover){
   background-color: #121240 !Important;
 }
@@ -142,12 +145,14 @@
 #chat-messages [data-cid^='3571889'] .un,
 #chat-messages [data-cid^='3988637'] .un,
 #chat-messages [data-cid^='3724170'] .un,
+#chat-messages [data-cid^='4386405'] .un,
 #chat-messages [data-cid^='3537523'] .un,
 #waitlist [data-uid^='6286426'].user:not(:hover) .name,
 #waitlist [data-uid^='3818329'].user:not(:hover) .name,
 #waitlist [data-uid^='3571889'].user:not(:hover) .name,
 #waitlist [data-uid^='3988637'].user:not(:hover) .name,
-#waitlist [data-cid^='3724170'].user:not(:hover) .name,
+#waitlist [data-uid^='3724170'].user:not(:hover) .name,
+#waitlist [data-uid^='4386405'].user:not(:hover) .name,
 #waitlist [data-uid^='3537523'].user:not(:hover) .name{
   color: #4040ff !Important;
 }
