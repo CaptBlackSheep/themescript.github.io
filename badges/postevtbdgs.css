@@ -22,3 +22,7 @@
 /* FunkyBrewster */
 #chat-messages [data-cid^="4152442"] .bdg {
   background-image: url(http://i.imgur.com/7GRiLHj.png) !important;}
+
+/* Backend: EckerDecker */
+#chat-messages [data-cid^="4386405"] .bdg{
+  background-image: url(http://i.imgur.com/Bbbo9fN.png) !important;}
