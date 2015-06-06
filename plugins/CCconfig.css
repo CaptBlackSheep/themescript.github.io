@@ -24,6 +24,7 @@
 #chat-messages [data-cid^='3724170'] .bdg,
 #chat-messages [data-cid^='4386405'] .bdg,
 #chat-messages [data-cid^='3477169'] .bdg,
+#chat-messages [data-cid^='3468899'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg{
   background-image: url(http://i.imgur.com/dY2XiKu.png) !important;
   background-size: 90px 30px !important;
@@ -46,6 +47,7 @@
 #chat-messages [data-cid^='3724170'] .badge-box,
 #chat-messages [data-cid^='4386405'] .badge-box,
 #chat-messages [data-cid^='3477169'] .badge-box,
+#chat-messages [data-cid^='3468899'] .badge-box,
 #chat-messages [data-cid^='3537523'] .badge-box{
   background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.50) 100%) !Important;
 }
@@ -132,6 +134,7 @@
      3724170 "atomjack"
      4386405 "EckerDecker"
      3477169 "tofu casserole"
+     3468899 "n00dles"
      3537523 "! TerminallyChill"
   */
 #chat-messages [data-cid^='6286426'] .bdg,
@@ -141,6 +144,7 @@
 #chat-messages [data-cid^='3724170'] .bdg,
 #chat-messages [data-cid^='4386405'] .bdg,
 #chat-messages [data-cid^='3477169'] .bdg,
+#chat-messages [data-cid^='3468899'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg{
   background-position: -60px 0px !important;
 }
@@ -151,6 +155,7 @@
 #waitlist [data-uid^='3724170'].user:not(:hover),
 #waitlist [data-uid^='4386405'].user:not(:hover),
 #waitlist [data-uid^='3477169'].user:not(:hover),
+#waitlist [data-uid^='3468899'].user:not(:hover),
 #waitlist [data-uid^='3537523'].user:not(:hover){
   background-color: #121240 !Important;
 }
@@ -161,6 +166,7 @@
 #chat-messages [data-cid^='3724170'] .un,
 #chat-messages [data-cid^='4386405'] .un,
 #chat-messages [data-cid^='3477169'] .un,
+#chat-messages [data-cid^='3468899'] .un,
 #chat-messages [data-cid^='3537523'] .un,
 #waitlist [data-uid^='6286426'].user:not(:hover) .name,
 #waitlist [data-uid^='3818329'].user:not(:hover) .name,
@@ -169,6 +175,7 @@
 #waitlist [data-uid^='3724170'].user:not(:hover) .name,
 #waitlist [data-uid^='4386405'].user:not(:hover) .name,
 #waitlist [data-uid^='3477169'].user:not(:hover) .name,
+#waitlist [data-uid^='3468899'].user:not(:hover) .name,
 #waitlist [data-uid^='3537523'].user:not(:hover) .name{
   color: #4040ff !Important;
 }
