@@ -2,10 +2,12 @@
    > If a user already has a custom badge, move them
      away from badges.css in a secondary sheet. */
 
-/* Badges
-   > These are never repositioned, only changed.
-     Please reflect whatever changes are made in
-     this block to the respective team below.*/
+/* Pre-requisites */
+  /* Badges
+     > These are never repositioned, only changed.
+       Please reflect whatever changes are made in
+       this block to the respective team below.*/
+    /* Badge icon */
 #chat-messages [data-cid^='3852859'] .bdg,
 #chat-messages [data-cid^='4189647'] .bdg,
 #chat-messages [data-cid^='3492668'] .bdg,
@@ -28,7 +30,7 @@
 #chat-messages [data-cid^='3537523'] .bdg{
   background-image: url(http://i.imgur.com/dY2XiKu.png) !important;
   background-size: 90px 30px !important;
-}
+}   /* Badge BG */
 #chat-messages [data-cid^='3852859'] .badge-box,
 #chat-messages [data-cid^='4189647'] .badge-box,
 #chat-messages [data-cid^='3492668'] .badge-box,
@@ -51,6 +53,35 @@
 #chat-messages [data-cid^='3537523'] .badge-box{
   background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.50) 100%) !Important;
 }
+  /* Post highlight */
+#chat-messages [data-cid^='3852859'].cm:before,
+#chat-messages [data-cid^='4189647'].cm:before,
+#chat-messages [data-cid^='3492668'].cm:before,
+#chat-messages [data-cid^='3643570'].cm:before,
+#chat-messages [data-cid^='4152442'].cm:before,
+#chat-messages [data-cid^='4126270'].cm:before,
+#chat-messages [data-cid^='3553958'].cm:before,
+#chat-messages [data-cid^='5092822'].cm:before,
+#chat-messages [data-cid^='3721683'].cm:before,
+#chat-messages [data-cid^='6372772'].cm:before,
+#chat-messages [data-cid^='3834890'].cm:before,
+#chat-messages [data-cid^='6286426'].cm:before,
+#chat-messages [data-cid^='3818329'].cm:before,
+#chat-messages [data-cid^='3571889'].cm:before,
+#chat-messages [data-cid^='3988637'].cm:before,
+#chat-messages [data-cid^='3724170'].cm:before,
+#chat-messages [data-cid^='4386405'].cm:before,
+#chat-messages [data-cid^='3477169'].cm:before,
+#chat-messages [data-cid^='3468899'].cm:before,
+#chat-messages [data-cid^='3537523'].cm:before{
+  content: '' !important;
+  width: 100% !Important;
+  height: 100% !important;
+  position: absolute !Important;
+  top: 0px !Important;
+  left: 0px !Important;
+  z-index: -1 !Important;
+}
 
 /* Rush (Red) */
   /* Members:
@@ -67,12 +98,21 @@
 #chat-messages [data-cid^='4152442'] .bdg{
   background-position: 0px 0px !Important;
 }
+#chat-messages [data-cid^='3852859'].cm:before,
+#chat-messages [data-cid^='4189647'].cm:before,
+#chat-messages [data-cid^='3492668'].cm:before,
+#chat-messages [data-cid^='3643570'].cm:before,
+#chat-messages [data-cid^='4152442'].cm:before,
 #waitlist [data-uid^='3852859'].user:not(:hover),
 #waitlist [data-uid^='4189647'].user:not(:hover),
 #waitlist [data-uid^='3492668'].user:not(:hover),
 #waitlist [data-uid^='3643570'].user:not(:hover),
 #waitlist [data-uid^='4152442'].user:not(:hover){
-  background-color: #400C18 !Important;
+  background-color: transparent !Important;
+  background-image: linear-gradient(100deg,
+                                    #1e2942 115px,
+                                    #400C18 230px,
+                                    #400C18 100%) !important;
 }
 #chat-messages [data-cid^='3852859'] .un,
 #chat-messages [data-cid^='4189647'] .un,
@@ -86,6 +126,22 @@
 #waitlist [data-uid^='4152442'].user:not(:hover) .name{
   color: #ff3050 !important;
 }
+#chat-messages [data-cid^='3852859'] .timestamp,
+#chat-messages [data-cid^='4189647'] .timestamp,
+#chat-messages [data-cid^='3492668'] .timestamp,
+#chat-messages [data-cid^='3643570'] .timestamp,
+#chat-messages [data-cid^='4152442'] .timestamp{
+  color: #ffb8c8 !important;
+}
+
+#chat-messages [data-cid^='3852859'] a,
+#chat-messages [data-cid^='4189647'] a,
+#chat-messages [data-cid^='3492668'] a,
+#chat-messages [data-cid^='3643570'] a,
+#chat-messages [data-cid^='4152442'] a{
+  color: #ffc8e8 !important;
+}
+
 /* Kush (Green) */
   /* Members:
      4126270 "artemiy"
@@ -103,13 +159,23 @@
 #chat-messages [data-cid^='3834890'] .bdg{
   background-position: -30px 0px !Important;
 }
+#chat-messages [data-cid^='4126270'].cm:before,
+#chat-messages [data-cid^='3553958'].cm:before,
+#chat-messages [data-cid^='5092822'].cm:before,
+#chat-messages [data-cid^='3721683'].cm:before,
+#chat-messages [data-cid^='6372772'].cm:before,
+#chat-messages [data-cid^='3834890'].cm:before,
 #waitlist [data-uid^='4126270'].user:not(:hover),
 #waitlist [data-uid^='3553958'].user:not(:hover),
 #waitlist [data-uid^='5092822'].user:not(:hover),
 #waitlist [data-uid^='3721683'].user:not(:hover),
 #waitlist [data-uid^='6372772'].user:not(:hover),
 #waitlist [data-uid^='3834890'].user:not(:hover){
-  background-color: #0C4018 !Important;
+  background-color: transparent !Important;
+  background-image: linear-gradient(100deg,
+                                    #1e2942 115px,
+                                    #0C4018 230px,
+                                    #0C4018 100%) !important;
 }
 #chat-messages [data-cid^='4126270'] .un,
 #chat-messages [data-cid^='3553958'] .un,
@@ -125,6 +191,23 @@
 #waitlist [data-uid^='3834890'].user:not(:hover) .name{
   color: #30ff50 !Important;
 }
+#chat-messages [data-cid^='4126270'] .timestamp,
+#chat-messages [data-cid^='3553958'] .timestamp,
+#chat-messages [data-cid^='5092822'] .timestamp,
+#chat-messages [data-cid^='3721683'] .timestamp,
+#chat-messages [data-cid^='6372772'] .timestamp,
+#chat-messages [data-cid^='3834890'] .timestamp{
+  color: #b8ffc8 !important;
+}
+#chat-messages [data-cid^='4126270'] a,
+#chat-messages [data-cid^='3553958'] a,
+#chat-messages [data-cid^='5092822'] a,
+#chat-messages [data-cid^='3721683'] a,
+#chat-messages [data-cid^='6372772'] a,
+#chat-messages [data-cid^='3834890'] a{
+  color: #c8ffe8 !important;
+}
+
 /* Vector (Blue) */
   /* Members:
      6286426 "OwlMovement"
@@ -148,6 +231,15 @@
 #chat-messages [data-cid^='3537523'] .bdg{
   background-position: -60px 0px !important;
 }
+#chat-messages [data-cid^='6286426'].cm:before,
+#chat-messages [data-cid^='3818329'].cm:before,
+#chat-messages [data-cid^='3571889'].cm:before,
+#chat-messages [data-cid^='3988637'].cm:before,
+#chat-messages [data-cid^='3724170'].cm:before,
+#chat-messages [data-cid^='4386405'].cm:before,
+#chat-messages [data-cid^='3477169'].cm:before,
+#chat-messages [data-cid^='3468899'].cm:before,
+#chat-messages [data-cid^='3537523'].cm:before,
 #waitlist [data-uid^='6286426'].user:not(:hover),
 #waitlist [data-uid^='3818329'].user:not(:hover),
 #waitlist [data-uid^='3571889'].user:not(:hover),
@@ -157,7 +249,11 @@
 #waitlist [data-uid^='3477169'].user:not(:hover),
 #waitlist [data-uid^='3468899'].user:not(:hover),
 #waitlist [data-uid^='3537523'].user:not(:hover){
-  background-color: #121240 !Important;
+  background-color: transparent !Important;
+  background-image: linear-gradient(100deg,
+                                    #1e2942 115px,
+                                    #121240 230px,
+                                    #121240 100%) !important;
 }
 #chat-messages [data-cid^='6286426'] .un,
 #chat-messages [data-cid^='3818329'] .un,
@@ -178,4 +274,26 @@
 #waitlist [data-uid^='3468899'].user:not(:hover) .name,
 #waitlist [data-uid^='3537523'].user:not(:hover) .name{
   color: #4040ff !Important;
+}
+#chat-messages [data-cid^='6286426'] .timestamp,
+#chat-messages [data-cid^='3818329'] .timestamp,
+#chat-messages [data-cid^='3571889'] .timestamp,
+#chat-messages [data-cid^='3988637'] .timestamp,
+#chat-messages [data-cid^='3724170'] .timestamp,
+#chat-messages [data-cid^='4386405'] .timestamp,
+#chat-messages [data-cid^='3477169'] .timestamp,
+#chat-messages [data-cid^='3468899'] .timestamp,
+#chat-messages [data-cid^='3537523'] .timestamp{
+  color: #bfbfff !important;
+}
+#chat-messages [data-cid^='6286426'] a,
+#chat-messages [data-cid^='3818329'] a,
+#chat-messages [data-cid^='3571889'] a,
+#chat-messages [data-cid^='3988637'] a,
+#chat-messages [data-cid^='3724170'] a,
+#chat-messages [data-cid^='4386405'] a,
+#chat-messages [data-cid^='3477169'] a,
+#chat-messages [data-cid^='3468899'] a,
+#chat-messages [data-cid^='3537523'] a{
+  color: #d8d8ff !important;
 }
