@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (05/28/15)
+   Version 4 (06/06/15)
 
    --- Credits and contact ---
 
@@ -1476,42 +1476,37 @@ div.pop-menu{
     /* Mentions */
       /* All users */
 .mention.is-you{
-  background: linear-gradient(100deg,
+  background-image: linear-gradient(100deg,
                               rgb(29, 69, 110) 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 100%)
-                              repeat scroll 0% 0% transparent !important;
+                              transparent 50px) !important;
 }
 .mention.is-subscriber{
-  background: linear-gradient(100deg,
+  background-image: linear-gradient(100deg,
                               #5EB5A5 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 100%)
-                              repeat scroll 0% 0% transparent !important;
+                              transparent 50px) !important;
 }     /* Subs */
 /* Staff */
 .mention.is-dj,
 .mention.is-staff{
-  background: linear-gradient(100deg,
+  background-image: linear-gradient(100deg,
                               rgb(92, 135, 179) 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 100%)
-                              repeat scroll 0% 0% transparent !important;
+                              transparent 50px) !important;
 }     /* BA */
 .mention.is-ambassador{
-  background: linear-gradient(100deg,
+  background-image: linear-gradient(100deg,
                               #89be6c 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 100%)
-                              repeat scroll 0% 0% transparent !important;  
+                              transparent 50px) !important;  
 }     /* Admin */
 .mention.is-admin,
 .cm.system{
-  background: linear-gradient(100deg,
+  background-image: linear-gradient(100deg,
                               #42a5dc 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 100%)
-                              repeat scroll 0% 0% transparent !important;
+                              transparent 50px) !important;
 } /* Delete button: Hover */
 #playlist-delete-button:hover{
   box-shadow: inset 0px 0px 0px 30px rgb(255, 45, 49) !important;
