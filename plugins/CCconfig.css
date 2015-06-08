@@ -12,6 +12,7 @@
 #chat-messages [data-cid^='4189647'] .bdg,
 #chat-messages [data-cid^='3492668'] .bdg,
 #chat-messages [data-cid^='3643570'] .bdg,
+#chat-messages [data-cid^='3710134'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg,
 #chat-messages [data-cid^='4126270'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
@@ -35,6 +36,7 @@
 #chat-messages [data-cid^='4189647'] .badge-box,
 #chat-messages [data-cid^='3492668'] .badge-box,
 #chat-messages [data-cid^='3643570'] .badge-box,
+#chat-messages [data-cid^='3710134'] .badge-box,
 #chat-messages [data-cid^='4152442'] .badge-box,
 #chat-messages [data-cid^='4126270'] .badge-box,
 #chat-messages [data-cid^='3553958'] .badge-box,
@@ -58,6 +60,7 @@
 #chat-messages [data-cid^='4189647'].cm:before,
 #chat-messages [data-cid^='3492668'].cm:before,
 #chat-messages [data-cid^='3643570'].cm:before,
+#chat-messages [data-cid^='3710134'].cm:before,
 #chat-messages [data-cid^='4152442'].cm:before,
 #chat-messages [data-cid^='4126270'].cm:before,
 #chat-messages [data-cid^='3553958'].cm:before,
@@ -89,12 +92,14 @@
      4189647 "Abraham Carrasco"
      3492668 "Stelio Kontos"
      3643570 "Putn100"
+     3710134 "antisense"
      4152442 "! FunkyBrewster"
   */
 #chat-messages [data-cid^='3852859'] .bdg,
 #chat-messages [data-cid^='4189647'] .bdg,
 #chat-messages [data-cid^='3492668'] .bdg,
 #chat-messages [data-cid^='3643570'] .bdg,
+#chat-messages [data-cid^='3710134'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg{
   background-position: 0px 0px !Important;
 }
@@ -102,34 +107,51 @@
 #chat-messages [data-cid^='4189647'].cm:before,
 #chat-messages [data-cid^='3492668'].cm:before,
 #chat-messages [data-cid^='3643570'].cm:before,
+#chat-messages [data-cid^='3710134'].cm:before,
 #chat-messages [data-cid^='4152442'].cm:before,
 #waitlist [data-uid^='3852859'].user:not(:hover),
 #waitlist [data-uid^='4189647'].user:not(:hover),
 #waitlist [data-uid^='3492668'].user:not(:hover),
 #waitlist [data-uid^='3643570'].user:not(:hover),
-#waitlist [data-uid^='4152442'].user:not(:hover){
+#waitlist [data-uid^='3710134'].user:not(:hover),
+#waitlist [data-uid^='4152442'].user:not(:hover),
+#vote > .votes-rs p[id^='3852859'],
+#vote > .votes-rs p[id^='4189647'],
+#vote > .votes-rs p[id^='3492668'],
+#vote > .votes-rs p[id^='3643570'],
+#vote > .votes-rs p[id^='3710134'],
+#vote > .votes-rs p[id^='4152442']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
-                                    #1e2942 115px,
-                                    #400C18 230px,
+                                    transparent 33%,
+                                    #400C18 67%,
                                     #400C18 100%) !important;
 }
 #chat-messages [data-cid^='3852859'] .un,
 #chat-messages [data-cid^='4189647'] .un,
 #chat-messages [data-cid^='3492668'] .un,
 #chat-messages [data-cid^='3643570'] .un,
+#chat-messages [data-cid^='3710134'] .un,
 #chat-messages [data-cid^='4152442'] .un,
 #waitlist [data-uid^='3852859'].user:not(:hover) .name,
 #waitlist [data-uid^='4189647'].user:not(:hover) .name,
 #waitlist [data-uid^='3492668'].user:not(:hover) .name,
 #waitlist [data-uid^='3643570'].user:not(:hover) .name,
-#waitlist [data-uid^='4152442'].user:not(:hover) .name{
+#waitlist [data-uid^='3710134'].user:not(:hover) .name,
+#waitlist [data-uid^='4152442'].user:not(:hover) .name,
+#vote > .votes-rs p[id^='3852859'],
+#vote > .votes-rs p[id^='4189647'],
+#vote > .votes-rs p[id^='3492668'],
+#vote > .votes-rs p[id^='3643570'],
+#vote > .votes-rs p[id^='3710134'],
+#vote > .votes-rs p[id^='4152442']{
   color: #ff3050 !important;
 }
 #chat-messages [data-cid^='3852859'] .timestamp,
 #chat-messages [data-cid^='4189647'] .timestamp,
 #chat-messages [data-cid^='3492668'] .timestamp,
 #chat-messages [data-cid^='3643570'] .timestamp,
+#chat-messages [data-cid^='3710134'] .timestamp,
 #chat-messages [data-cid^='4152442'] .timestamp{
   color: #ffb8c8 !important;
 }
@@ -138,6 +160,7 @@
 #chat-messages [data-cid^='4189647'] a,
 #chat-messages [data-cid^='3492668'] a,
 #chat-messages [data-cid^='3643570'] a,
+#chat-messages [data-cid^='3710134'] a,
 #chat-messages [data-cid^='4152442'] a{
   color: #ffc8e8 !important;
 }
@@ -170,11 +193,17 @@
 #waitlist [data-uid^='5092822'].user:not(:hover),
 #waitlist [data-uid^='3721683'].user:not(:hover),
 #waitlist [data-uid^='6372772'].user:not(:hover),
-#waitlist [data-uid^='3834890'].user:not(:hover){
+#waitlist [data-uid^='3834890'].user:not(:hover),
+#vote > .votes-rs p[id^='4126270'],
+#vote > .votes-rs p[id^='3553958'],
+#vote > .votes-rs p[id^='5092822'],
+#vote > .votes-rs p[id^='3721683'],
+#vote > .votes-rs p[id^='6372772'],
+#vote > .votes-rs p[id^='3834890']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
-                                    #1e2942 115px,
-                                    #0C4018 230px,
+                                    transparent 33%,
+                                    #0C4018 67%,
                                     #0C4018 100%) !important;
 }
 #chat-messages [data-cid^='4126270'] .un,
@@ -188,7 +217,13 @@
 #waitlist [data-uid^='5092822'].user:not(:hover) .name,
 #waitlist [data-uid^='3721683'].user:not(:hover) .name,
 #waitlist [data-uid^='6372772'].user:not(:hover) .name,
-#waitlist [data-uid^='3834890'].user:not(:hover) .name{
+#waitlist [data-uid^='3834890'].user:not(:hover) .name,
+#vote > .votes-rs p[id^='4126270'],
+#vote > .votes-rs p[id^='3553958'],
+#vote > .votes-rs p[id^='5092822'],
+#vote > .votes-rs p[id^='3721683'],
+#vote > .votes-rs p[id^='6372772'],
+#vote > .votes-rs p[id^='3834890']{
   color: #30ff50 !Important;
 }
 #chat-messages [data-cid^='4126270'] .timestamp,
@@ -248,11 +283,20 @@
 #waitlist [data-uid^='4386405'].user:not(:hover),
 #waitlist [data-uid^='3477169'].user:not(:hover),
 #waitlist [data-uid^='3468899'].user:not(:hover),
-#waitlist [data-uid^='3537523'].user:not(:hover){
+#waitlist [data-uid^='3537523'].user:not(:hover),
+#vote > .votes-rs p[id^='6286426'],
+#vote > .votes-rs p[id^='3818329'],
+#vote > .votes-rs p[id^='3571889'],
+#vote > .votes-rs p[id^='3988637'],
+#vote > .votes-rs p[id^='3724170'],
+#vote > .votes-rs p[id^='4386405'],
+#vote > .votes-rs p[id^='3477169'],
+#vote > .votes-rs p[id^='3468899'],
+#vote > .votes-rs p[id^='3537523']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
-                                    #1e2942 115px,
-                                    #121240 230px,
+                                    transparent 33%,
+                                    #121240 67%,
                                     #121240 100%) !important;
 }
 #chat-messages [data-cid^='6286426'] .un,
@@ -272,7 +316,16 @@
 #waitlist [data-uid^='4386405'].user:not(:hover) .name,
 #waitlist [data-uid^='3477169'].user:not(:hover) .name,
 #waitlist [data-uid^='3468899'].user:not(:hover) .name,
-#waitlist [data-uid^='3537523'].user:not(:hover) .name{
+#waitlist [data-uid^='3537523'].user:not(:hover) .name,
+#vote > .votes-rs p[id^='6286426'],
+#vote > .votes-rs p[id^='3818329'],
+#vote > .votes-rs p[id^='3571889'],
+#vote > .votes-rs p[id^='3988637'],
+#vote > .votes-rs p[id^='3724170'],
+#vote > .votes-rs p[id^='4386405'],
+#vote > .votes-rs p[id^='3477169'],
+#vote > .votes-rs p[id^='3468899'],
+#vote > .votes-rs p[id^='3537523']{
   color: #4040ff !Important;
 }
 #chat-messages [data-cid^='6286426'] .timestamp,
