@@ -524,7 +524,7 @@ div .user.is-staff span,
 }
     /* colour 2fc7fb */
 #chat-messages .cm.system{
-  background-color: rgb(47, 199, 251) !Important;
+  background-color: rgb(29, 121, 153) !Important;
 }
     /* Other text colours */
       /* colour eeeeee */
@@ -1480,13 +1480,13 @@ div.pop-menu{
   background-image: linear-gradient(100deg,
                               rgb(29, 69, 110) 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 50px) !important;
+                              transparent 33%) !important;
 }
 .mention.is-subscriber{
   background-image: linear-gradient(100deg,
                               #5EB5A5 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 50px) !important;
+                              transparent 33%) !important;
 }     /* Subs */
 /* Staff */
 .mention.is-dj,
@@ -1494,20 +1494,20 @@ div.pop-menu{
   background-image: linear-gradient(100deg,
                               rgb(92, 135, 179) 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 50px) !important;
+                              transparent 33%) !important;
 }     /* BA */
 .mention.is-ambassador{
   background-image: linear-gradient(100deg,
                               #89be6c 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 50px) !important;  
+                              transparent 33%) !important;  
 }     /* Admin */
 .mention.is-admin,
 .cm.system{
   background-image: linear-gradient(100deg,
                               #42a5dc 0%,
                               rgb(30, 41, 66) 45px,
-                              transparent 50px) !important;
+                              transparent 33%) !important;
 } /* Delete button: Hover */
 #playlist-delete-button:hover{
   box-shadow: inset 0px 0px 0px 30px rgb(255, 45, 49) !important;
