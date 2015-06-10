@@ -1,3 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("plug.dj") {
+
 /* User logos
    > This started after I saw that Vibin's "brand" would
      work well in lieu of his username. Trial run for now.
@@ -10,25 +14,29 @@
   color: transparent !Important;
 }
 
-/* Vibin */
-#chat-messages [data-cid^='5096841'] .un:before{
+/* Default values */
+#chat-messages .un:before{
   position: absolute !Important;
   content: '' !important;
+}
+
+/* Vibin */
+#chat-messages [data-cid^='5096841'] .un:before{
   top: -1px !Important;
-  width: 54px !Important;
-  height: 20px !Important;
-  background-image: url(http://i.imgur.com/fnZa9EY.png) !important;
+  width: 49px !Important;
+  height: 18px !Important;
+  background-image: url(http://i.imgur.com/GeSuYlV.png) !important;
   /* background-image: url(http://i.imgur.com/fnxg0Zq.png) !important; *//* COMPETITION */
   background-repeat: no-repeat !important;
 }
 
 /* HEEBEEJEEBEES */
 #chat-messages [data-cid^='4404282'] .un:before{
-  position: absolute !Important;
-  content: '' !important;
   top: -3px !Important;
   width: 172px !Important;
   height: 24px !Important;
   background-image: url(http://i.imgur.com/Mkp99tw.png) !important;
   background-repeat: no-repeat !important;
+}
+
 }
