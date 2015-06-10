@@ -20,6 +20,7 @@
 #chat-messages [data-cid^='5092822'] .bdg,
 #chat-messages [data-cid^='3721683'] .bdg,
 #chat-messages [data-cid^='6372772'] .bdg,
+#chat-messages [data-cid^='5096841'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg,
 #chat-messages [data-cid^='6286426'] .bdg,
 #chat-messages [data-cid^='3818329'] .bdg,
@@ -45,6 +46,7 @@
 #chat-messages [data-cid^='5092822'] .badge-box,
 #chat-messages [data-cid^='3721683'] .badge-box,
 #chat-messages [data-cid^='6372772'] .badge-box,
+#chat-messages [data-cid^='5096841'] .badge-box,
 #chat-messages [data-cid^='3834890'] .badge-box,
 #chat-messages [data-cid^='6286426'] .badge-box,
 #chat-messages [data-cid^='3818329'] .badge-box,
@@ -70,6 +72,7 @@
 #chat-messages [data-cid^='5092822'].cm:before,
 #chat-messages [data-cid^='3721683'].cm:before,
 #chat-messages [data-cid^='6372772'].cm:before,
+#chat-messages [data-cid^='5096841'].cm:before,
 #chat-messages [data-cid^='3834890'].cm:before,
 #chat-messages [data-cid^='6286426'].cm:before,
 #chat-messages [data-cid^='3818329'].cm:before,
@@ -185,6 +188,7 @@
      5092822 "ExplodingSofa"
      3721683 "Cannabiscuit"
      6372772 "PFJL"
+     5096841 "Vibin'"
      3834890 "! Rightclik"
   */
 #chat-messages [data-cid^='4126270'] .bdg,
@@ -192,6 +196,7 @@
 #chat-messages [data-cid^='5092822'] .bdg,
 #chat-messages [data-cid^='3721683'] .bdg,
 #chat-messages [data-cid^='6372772'] .bdg,
+#chat-messages [data-cid^='5096841'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg{
   background-position: -30px 0px !Important;
 }
@@ -200,18 +205,21 @@
 #chat-messages [data-cid^='5092822'].cm:before,
 #chat-messages [data-cid^='3721683'].cm:before,
 #chat-messages [data-cid^='6372772'].cm:before,
+#chat-messages [data-cid^='5096841'].cm:before,
 #chat-messages [data-cid^='3834890'].cm:before,
 #waitlist [data-uid^='4126270'].user:not(:hover),
 #waitlist [data-uid^='3553958'].user:not(:hover),
 #waitlist [data-uid^='5092822'].user:not(:hover),
 #waitlist [data-uid^='3721683'].user:not(:hover),
 #waitlist [data-uid^='6372772'].user:not(:hover),
+#waitlist [data-uid^='5096841'].user:not(:hover),
 #waitlist [data-uid^='3834890'].user:not(:hover),
 #vote > .votes-rs p[id^='4126270'],
 #vote > .votes-rs p[id^='3553958'],
 #vote > .votes-rs p[id^='5092822'],
 #vote > .votes-rs p[id^='3721683'],
 #vote > .votes-rs p[id^='6372772'],
+#vote > .votes-rs p[id^='5096841'],
 #vote > .votes-rs p[id^='3834890']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
@@ -224,18 +232,21 @@
 #chat-messages [data-cid^='5092822'] .un,
 #chat-messages [data-cid^='3721683'] .un,
 #chat-messages [data-cid^='6372772'] .un,
+/* Vibin': Enable competiton colour in themes/cmix/usrlogos.css */
 #chat-messages [data-cid^='3834890'] .un,
 #waitlist [data-uid^='4126270'].user:not(:hover) .name,
 #waitlist [data-uid^='3553958'].user:not(:hover) .name,
 #waitlist [data-uid^='5092822'].user:not(:hover) .name,
 #waitlist [data-uid^='3721683'].user:not(:hover) .name,
 #waitlist [data-uid^='6372772'].user:not(:hover) .name,
+#waitlist [data-uid^='5096841'].user:not(:hover) .name,
 #waitlist [data-uid^='3834890'].user:not(:hover) .name,
 #vote > .votes-rs p[id^='4126270'],
 #vote > .votes-rs p[id^='3553958'],
 #vote > .votes-rs p[id^='5092822'],
 #vote > .votes-rs p[id^='3721683'],
 #vote > .votes-rs p[id^='6372772'],
+#vote > .votes-rs p[id^='5096841'],
 #vote > .votes-rs p[id^='3834890']{
   color: #30ff50 !Important;
 }
@@ -244,6 +255,7 @@
 #chat-messages [data-cid^='5092822'] .timestamp,
 #chat-messages [data-cid^='3721683'] .timestamp,
 #chat-messages [data-cid^='6372772'] .timestamp,
+#chat-messages [data-cid^='5096841'] .timestamp,
 #chat-messages [data-cid^='3834890'] .timestamp{
   color: #b8ffc8 !important;
 }
@@ -252,6 +264,7 @@
 #chat-messages [data-cid^='5092822'] a,
 #chat-messages [data-cid^='3721683'] a,
 #chat-messages [data-cid^='6372772'] a,
+#chat-messages [data-cid^='5096841'] a,
 #chat-messages [data-cid^='3834890'] a{
   color: #c8ffe8 !important;
 }
