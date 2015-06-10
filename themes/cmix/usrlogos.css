@@ -1,0 +1,33 @@
+/* User logos
+   > This started after I saw that Vibin's "brand" would
+     work well in lieu of his username. Trial run for now.
+   > All username colours need to be transparent. 
+*/
+
+/* Disappear */
+#chat-messages [data-cid^='5096841'] .un,
+#chat-messages [data-cid^='4404282'] .un{
+  color: transparent !Important;
+}
+
+/* Vibin */
+#chat-messages [data-cid^='5096841'] .un:before{
+  position: absolute !Important;
+  content: '' !important;
+  top: -1px !Important;
+  width: 54px !Important;
+  height: 20px !Important;
+  background-image: url(http://i.imgur.com/luTrV46.png) !important;
+  background-repeat: no-repeat !important;
+}
+
+/* HEEBEEJEEBEES */
+#chat-messages [data-cid^='4404282'] .un:before{
+  position: absolute !Important;
+  content: '' !important;
+  top: -3px !Important;
+  width: 172px !Important;
+  height: 24px !Important;
+  background-image: url(http://i.imgur.com/Mkp99tw.png) !important;
+  background-repeat: no-repeat !important;
+}
