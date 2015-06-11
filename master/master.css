@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (06/09/15)
+   Version 4 (06/11/15)
 
    --- Credits and contact ---
 
@@ -41,6 +41,7 @@
 /* > Additional styles for plugins are handled by plugins.css */
 @import url("https://themescript.github.io/settings/loading.css");
 @import url("https://themescript.github.io/badges/badges.css");
+@import url("https://themescript.github.io/themes/cmix/usrlogos.css");
 @import url("https://themescript.github.io/settings/settings.css");
 @import url("https://themescript.github.io/plugins/plugins.css");
 @import url("https://themescript.github.io/settings/roominfo.css");
