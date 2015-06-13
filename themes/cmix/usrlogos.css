@@ -5,7 +5,8 @@
 */
 
 /* Disappear */
-#chat-messages [data-cid^='5096841'] .un{
+#chat-messages [data-cid^='5096841'] .un,
+#chat-messages [data-cid^='3673026'] .un{
   color: transparent !Important;
 }
 
@@ -31,4 +32,11 @@
   height: 18px !Important;
   background-image: url(http://i.imgur.com/6sGeydG.png) !important;
   /* background-image: url(http://i.imgur.com/t3vP2Zz.png) !important; *//* COMPETITION */
+}
+
+/* iheartcolors */
+#chat-messages [data-cid^='3673026'] .un:before{
+   width: 194px !Important;
+   height: 15px !important;
+   background-image: url(http://i.imgur.com/PDecr4n.gif) !Important;
 }
