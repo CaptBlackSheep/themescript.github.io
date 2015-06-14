@@ -6,6 +6,7 @@
 
 /* Disappear */
 #chat-messages [data-cid^='5096841'] .un,
+#chat-messages [data-cid^='3988637'] .un,
 #chat-messages [data-cid^='3673026'] .un{
   color: transparent !Important;
 }
