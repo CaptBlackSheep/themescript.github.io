@@ -34,6 +34,15 @@
   /* background-image: url(http://i.imgur.com/t3vP2Zz.png) !important; *//* COMPETITION */
 }
 
+/* Hoarse- */
+#chat-messages [data-cid^='3988637'] .un:before{
+  top: -1px !Important;
+  width: 57px !Important;
+  height: 18px !important;
+  background-image: url(http://i.imgur.com/muW2JC6.png) !important;
+  /* background-image: url(http://i.imgur.com/JfNQdTA.png) !important; *//* COMPETITION */
+}
+
 /* iheartcolors */
 #chat-messages [data-cid^='3673026'] .un:before{
    width: 194px !Important;
