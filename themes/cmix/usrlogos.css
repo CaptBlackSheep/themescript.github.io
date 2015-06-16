@@ -7,7 +7,8 @@
 /* Disappear */
 #chat-messages [data-cid^='5096841'] .un,
 #chat-messages [data-cid^='3988637'] .un,
-#chat-messages [data-cid^='3673026'] .un{
+#chat-messages [data-cid^='3673026'] .un,
+#chat-messages [data-cid^='3767595'] .un{
   color: transparent !Important;
 }
 
@@ -49,4 +50,11 @@
    width: 194px !Important;
    height: 15px !important;
    background-image: url(http://i.imgur.com/9WAAb7H.png) !Important;
+}
+
+/* Obzerv */
+#chat-messages [data-cid^='3767595'] .un:before{
+   width: 104px !important;
+   height: 20px !important;
+   background-image: url(http://i.imgur.com/OVCYca5.png) !important;
 }
