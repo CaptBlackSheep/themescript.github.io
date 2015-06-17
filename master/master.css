@@ -591,6 +591,7 @@ div .user:hover .name span,
 #dashboard .icon.icon-grab,
 #user-menu .item:not(.selected) .icon,
 .friends.has-requests > .header > I,
+#toast-notifications .left .icon.icon-vote-woot-selected,
 .icon.icon-check-blue,
 .icon.icon-clock-orange,
 #volume i,
@@ -705,7 +706,11 @@ div .user:hover .name span,
 }
 #user-menu .icon-settings-grey{
   background-position: -60px -180px !Important;
-}     /* Header menu buttons */
+}
+      /* Notifications: After play */
+#toast-notifications .left .icon.icon-vote-woot-selected{
+  background-position: -240px -210px !Important;
+}      /* Header menu buttons */
 #chat-button i{
   background-position: -90px -180px !Important;
 }
