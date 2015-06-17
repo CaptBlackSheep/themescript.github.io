@@ -118,15 +118,16 @@
 
 /* DankCookie */
 #chat-messages [data-cid^="5502961"] .bdg{
-  background-image: url(https://themescript.github.io/badges/dankcookie.jpg) !important;
-}
+  background-image: url(https://themescript.github.io/badges/dankcookie.jpg) !important;}
 
 /* Synaesthetik */
 #chat-messages [data-cid^="3638662"] .bdg{
-  background-image: url(http://i.imgur.com/toer6ya.png) !Important;
-}
+  background-image: url(http://i.imgur.com/toer6ya.png) !Important;}
 
 /* KHA */
 #chat-messages [data-cid^="6011708"] .bdg{
-  background-image: url(http://i.imgur.com/g6SA4E0.png) !Important;
-}
+  background-image: url(http://i.imgur.com/g6SA4E0.png) !Important;}
+
+/* bunnystack */
+#chat-messages [data-cid^="3775042"] .bdg{
+  background-image: url(http://i.imgur.com/7oB7SSF.png) !Important;}
