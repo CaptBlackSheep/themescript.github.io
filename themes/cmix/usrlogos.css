@@ -8,7 +8,8 @@
 #chat-messages [data-cid^='5096841'] .un,
 #chat-messages [data-cid^='3988637'] .un,
 #chat-messages [data-cid^='3673026'] .un,
-#chat-messages [data-cid^='3767595'] .un{
+#chat-messages [data-cid^='3767595'] .un
+/* Rightclik's name is part of the design */{
   color: transparent !Important;
 }
 
@@ -57,4 +58,13 @@
    width: 104px !important;
    height: 20px !important;
    background-image: url(http://i.imgur.com/OVCYca5.png) !important;
+}
+
+/* Rightclik */
+#chat-messages [data-cid^='3834890'] .un:before{
+  z-index: -1 !important;
+  top: -1px !Important;
+  width: 58px !Important;
+  height: 18px !Important;
+  background-image: url(http://i.imgur.com/sN7j0tG.png) !Important;
 }
