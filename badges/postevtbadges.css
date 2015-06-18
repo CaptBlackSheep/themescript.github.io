@@ -1,3 +1,10 @@
+/* DO NOT EDIT: After-play notifications */
+#toast-notifications .left .icon.icon-vote-woot-selected{
+  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
+  background-size: 270px 480px !Important;
+  background-position: -240px -210px !Important;
+}
+
 /* Phazym */
 #chat-messages [data-cid^="3818329"] .bdg {
   background-image: url(https://themescript.github.io/badges/phazym.png) !important;}
