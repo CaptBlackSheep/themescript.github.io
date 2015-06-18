@@ -22,16 +22,27 @@
      their permission and refrain from adding badges that
      may appear inappropriate.
 
-   > TEMPLATE:
+   > TEMPLATE: */
    
 /* USERNAME */
 #chat-messages [data-cid^="USERID"] .bdg{
   background-image: url(IMAGE_URL) !important;}
   
-/* User ID can be obtained in one of three ways;
+/* User ID can be obtained in one of four ways;
    > Without addons: Inspect a user's message
+   ? Without addons: Inspect a waitlist entry
    > plugCubed: "/whois $user"
-   > RCS: In a user's roll-over panel
+   > RCS: In a user's roll-over panel */
+
+/* Border radius
+   > Some users may need this adjusted to fit all of their
+     badge in, or as part of their design. Keep things tidy
+     and set those preferences under here */
+
+#chat-messages [data-cid^="4404282"] .badge-box,
+#chat-messages [data-cid^="3775042"] .badge-box{
+  border-radius: 0px !Important;
+}
 
 /* No badge */
 .badge-box.no-badge{
@@ -46,12 +57,10 @@
 #room-bar .icon-room:after,
 #chat-messages [data-cid^="3818522"] .bdg {
   background-image: url(http://i.imgur.com/Q7K1HZX.png) !important;}
+  
 /* Style developer: HEEBEEJEEBEES */
 #chat-messages [data-cid^="4404282"] .bdg{
   background-image: url(http://i.imgur.com/VwUmpGs.gif) !Important;}
-
-#chat-messages [data-cid^="4404282"] .badge-box{
-  border-radius: 0px !Important;}
 
 /* Style director: Wizzikz */
 #chat-messages [data-cid^="3573261"] .bdg{
