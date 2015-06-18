@@ -1,66 +1,6 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-
-@-moz-document domain("plug.dj") {
-
-/* User logos
-   > This started after I saw that Vibin's "brand" would
-     work well in lieu of his username. Trial run for now.
-   > All username colours need to be transparent. 
-*/
-
-/* Disappear */
-#chat-messages [data-cid^='5096841'] .un,
-#chat-messages [data-cid^='3988637'] .un,
-#chat-messages [data-cid^='3673026'] .un,
-#chat-messages [data-cid^='3767595'] .un{
-  color: transparent !Important;
-}
-
-/* Default values */
-#chat-messages .un:before{
-  position: absolute !Important;
-  content: '' !important;
-  background-repeat: no-repeat !Important;
-}
-
-/* TEMPLATE */
-#chat-messages [data-cid^='0'] .un:before{
-  top: 0px /*offset*/ !Important;
-  width: 0px /*imgwidth*/ !Important;
-  height: 0px /*imgheight, influences offset*/ !Important;
-  background-image: url(http://domain.sfx/img.sfx) !important;
-}
-
-/* Vibin' */
-#chat-messages [data-cid^='5096841'] .un:before{
-  top: -1px !Important;
-  width: 49px !Important;
-  height: 18px !Important;
-  /* background-image: url(http://i.imgur.com/6sGeydG.png) !important; */
-  background-image: url(http://i.imgur.com/t3vP2Zz.png) !important;/* COMPETITION */
-}
-
-/* Hoarse- */
-#chat-messages [data-cid^='3988637'] .un:before{
-  top: -1px !Important;
-  width: 57px !Important;
-  height: 18px !important;
-  /* background-image: url(http://i.imgur.com/muW2JC6.png) !important; */
-  background-image: url(http://i.imgur.com/JfNQdTA.png) !important;/* COMPETITION */
-}
-
-/* iheartcolors */
-#chat-messages [data-cid^='3673026'] .un:before{
-   width: 194px !Important;
-   height: 15px !important;
-   background-image: url(http://i.imgur.com/9WAAb7H.png) !Important;
-}
-
-/* Obzerv */
-#chat-messages [data-cid^='3767595'] .un:before{
-   width: 104px !important;
-   height: 20px !important;
-   background-image: url(http://i.imgur.com/OVCYca5.png) !important;
+/* DO NOT EDIT: After-play notifications */
+#toast-notifications .left .icon.icon-vote-woot-selected{
+  background-image: url(http://i.imgur.com/INUtVnW.png) !important;
 }
 
 /* Team config for CC
@@ -87,6 +27,7 @@
 #chat-messages [data-cid^='3721683'] .bdg,
 #chat-messages [data-cid^='6372772'] .bdg,
 #chat-messages [data-cid^='5096841'] .bdg,
+#chat-messages [data-cid^='4136915'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg,
       /* Vector */
 #chat-messages [data-cid^='6286426'] .bdg,
@@ -98,7 +39,8 @@
 #chat-messages [data-cid^='3468899'] .bdg,
 #chat-messages [data-cid^='3492668'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg,
-    /* Emoji and icons */
+    /* Chat icons */
+      /* Emoji */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f48a,
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f33f,
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f4ab,
@@ -143,6 +85,7 @@
 #chat-messages [data-cid^='3721683'] .badge-box,
 #chat-messages [data-cid^='6372772'] .badge-box,
 #chat-messages [data-cid^='5096841'] .badge-box,
+#chat-messages [data-cid^='4136915'] .badge-box,
 #chat-messages [data-cid^='3834890'] .badge-box,
       /* Vector */
 #chat-messages [data-cid^='6286426'] .badge-box,
@@ -172,6 +115,7 @@
 #chat-messages [data-cid^='3721683'].cm:before,
 #chat-messages [data-cid^='6372772'].cm:before,
 #chat-messages [data-cid^='5096841'].cm:before,
+#chat-messages [data-cid^='4136915'].cm:before,
 #chat-messages [data-cid^='3834890'].cm:before,
   /* Vector */
 #chat-messages [data-cid^='6286426'].cm:before,
@@ -184,12 +128,11 @@
 #chat-messages [data-cid^='3492668'].cm:before,
 #chat-messages [data-cid^='3537523'].cm:before{
   content: '' !important;
-  width: 345px !Important;
+  width: 100% !Important;
   height: 100% !important;
   position: absolute !Important;
   top: 0px !Important;
   left: 0px !Important;
-  z-index: -1 !Important;
 }
 
 /* Rush (Red) */
@@ -306,6 +249,7 @@
      3721683 "Cannabiscuit"
      6372772 "PFJL"
      5096841 "Vibin'"
+     4136915 "fluffynips"
      3834890 "! Rightclik"
   */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f33f{
@@ -331,6 +275,7 @@
 #chat-messages [data-cid^='3721683'] .bdg,
 #chat-messages [data-cid^='6372772'] .bdg,
 #chat-messages [data-cid^='5096841'] .bdg,
+#chat-messages [data-cid^='4136915'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg{
   background-position: -30px 0px !Important;
 }
@@ -343,6 +288,7 @@
 #chat-messages [data-cid^='3721683'].cm:before,
 #chat-messages [data-cid^='6372772'].cm:before,
 #chat-messages [data-cid^='5096841'].cm:before,
+#chat-messages [data-cid^='4136915'].cm:before,
 #chat-messages [data-cid^='3834890'].cm:before,
 #waitlist [data-uid^='4126270'].user:not(:hover),
 #waitlist [data-uid^='3553958'].user:not(:hover),
@@ -350,6 +296,7 @@
 #waitlist [data-uid^='3721683'].user:not(:hover),
 #waitlist [data-uid^='6372772'].user:not(:hover),
 #waitlist [data-uid^='5096841'].user:not(:hover),
+#waitlist [data-uid^='4136915'].user:not(:hover),
 #waitlist [data-uid^='3834890'].user:not(:hover),
 #vote > .votes-rs p[id^='4126270'],
 #vote > .votes-rs p[id^='3553958'],
@@ -357,6 +304,7 @@
 #vote > .votes-rs p[id^='3721683'],
 #vote > .votes-rs p[id^='6372772'],
 #vote > .votes-rs p[id^='5096841'],
+#vote > .votes-rs p[id^='4136915'],
 #vote > .votes-rs p[id^='3834890']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
@@ -370,6 +318,7 @@
 #chat-messages [data-cid^='3721683'] .un,
 #chat-messages [data-cid^='6372772'] .un,
 /* Vibin': Enable competiton colour in themes/cmix/usrlogos.css */
+#chat-messages [data-cid^='4136915'] .un,
 #chat-messages [data-cid^='3834890'] .un,
 #waitlist [data-uid^='4126270'].user:not(:hover) .name,
 #waitlist [data-uid^='3553958'].user:not(:hover) .name,
@@ -377,6 +326,7 @@
 #waitlist [data-uid^='3721683'].user:not(:hover) .name,
 #waitlist [data-uid^='6372772'].user:not(:hover) .name,
 #waitlist [data-uid^='5096841'].user:not(:hover) .name,
+#waitlist [data-uid^='4136915'].user:not(:hover) .name,
 #waitlist [data-uid^='3834890'].user:not(:hover) .name,
 #vote > .votes-rs p[id^='4126270'],
 #vote > .votes-rs p[id^='3553958'],
@@ -384,6 +334,7 @@
 #vote > .votes-rs p[id^='3721683'],
 #vote > .votes-rs p[id^='6372772'],
 #vote > .votes-rs p[id^='5096841'],
+#vote > .votes-rs p[id^='4136915'],
 #vote > .votes-rs p[id^='3834890']{
   color: #30ff50 !Important;
 }
@@ -393,6 +344,7 @@
 #chat-messages [data-cid^='3721683'] .timestamp,
 #chat-messages [data-cid^='6372772'] .timestamp,
 #chat-messages [data-cid^='5096841'] .timestamp,
+#chat-messages [data-cid^='4136915'] .timestamp,
 #chat-messages [data-cid^='3834890'] .timestamp{
   color: #b8ffc8 !important;
 }
@@ -402,6 +354,7 @@
 #chat-messages [data-cid^='3721683'] a,
 #chat-messages [data-cid^='6372772'] a,
 #chat-messages [data-cid^='5096841'] a,
+#chat-messages [data-cid^='4136915'] a,
 #chat-messages [data-cid^='3834890'] a{
   color: #c8ffe8 !important;
 }
@@ -532,6 +485,4 @@
 #chat-messages [data-cid^='3492668'] a,
 #chat-messages [data-cid^='3537523'] a{
   color: #d8d8ff !important;
-}
-
 }
