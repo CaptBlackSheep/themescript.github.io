@@ -14,6 +14,7 @@
 #chat-messages [data-cid^='3710134'] .bdg,
 #chat-messages [data-cid^='4500966'] .bdg,
 #chat-messages [data-cid^='3425119'] .bdg,
+#chat-messages [data-cid^='3621237'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg,
       /* Kush */
 #chat-messages [data-cid^='4126270'] .bdg,
@@ -24,6 +25,7 @@
 #chat-messages [data-cid^='5096841'] .bdg,
 #chat-messages [data-cid^='4136915'] .bdg,
 #chat-messages [data-cid^='3491083'] .bdg,
+#chat-messages [data-cid^='3503739'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg,
       /* Vector */
 #chat-messages [data-cid^='6286426'] .bdg,
@@ -44,6 +46,8 @@
         /* Kush */
 #chat-messages [data-cid^='3834890'] .icon-chat-subscriber,
 #chat-messages [data-cid^='3553958'] .icon-chat-subscriber,
+        /* Rush */
+#chat-messages [data-cid^='3621237'] .icon-chat-subscriber,
       /* Staff */
         /* Rush */
 #chat-messages [data-cid^='4152442'] .icon-chat-host,
@@ -90,6 +94,7 @@
 #chat-messages [data-cid^='3710134'] .badge-box,
 #chat-messages [data-cid^='4500966'] .badge-box,
 #chat-messages [data-cid^='3425119'] .badge-box,
+#chat-messages [data-cid^='3621237'] .badge-box,
 #chat-messages [data-cid^='4152442'] .badge-box,
       /* Kush */
 #chat-messages [data-cid^='4126270'] .badge-box,
@@ -100,6 +105,7 @@
 #chat-messages [data-cid^='5096841'] .badge-box,
 #chat-messages [data-cid^='4136915'] .badge-box,
 #chat-messages [data-cid^='3491083'] .badge-box,
+#chat-messages [data-cid^='3503739'] .badge-box,
 #chat-messages [data-cid^='3834890'] .badge-box,
       /* Vector */
 #chat-messages [data-cid^='6286426'] .badge-box,
@@ -121,6 +127,7 @@
 #chat-messages [data-cid^='3710134'].cm:before,
 #chat-messages [data-cid^='4500966'].cm:before,
 #chat-messages [data-cid^='3425119'].cm:before,
+#chat-messages [data-cid^='3621237'].cm:before,
 #chat-messages [data-cid^='4152442'].cm:before,
   /* Kush */
 #chat-messages [data-cid^='4126270'].cm:before,
@@ -131,6 +138,7 @@
 #chat-messages [data-cid^='5096841'].cm:before,
 #chat-messages [data-cid^='4136915'].cm:before,
 #chat-messages [data-cid^='3491083'].cm:before,
+#chat-messages [data-cid^='3503739'].cm:before,
 #chat-messages [data-cid^='3834890'].cm:before,
   /* Vector */
 #chat-messages [data-cid^='6286426'].cm:before,
@@ -158,6 +166,7 @@
      3710134 "antisense"
      4500966 "HecticLad"
      3425119 "AlexMizell"
+     3621237 "geTripped"
      4152442 "! FunkyBrewster"
   */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f48a{
@@ -179,12 +188,16 @@
 #waitlist [data-uid^='4500966'] .icon-chat-bouncer{
   background-position: 0px -45px !Important;
 }
+#chat-messages [data-cid^='3621237'] .icon-chat-subscriber{
+  background-position: -15px -30px !Important;
+}
 #chat-messages [data-cid^='3852859'] .bdg,
 #chat-messages [data-cid^='4189647'] .bdg,
 #chat-messages [data-cid^='3643570'] .bdg,
 #chat-messages [data-cid^='3710134'] .bdg,
 #chat-messages [data-cid^='4500966'] .bdg,
 #chat-messages [data-cid^='3425119'] .bdg,
+#chat-messages [data-cid^='3621237'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg{
   background-position: 0px 0px !Important;
 }
@@ -197,6 +210,7 @@
 #chat-messages [data-cid^='3710134'].cm:before,
 #chat-messages [data-cid^='4500966'].cm:before,
 #chat-messages [data-cid^='3425119'].cm:before,
+#chat-messages [data-cid^='3621237'].cm:before,
 #chat-messages [data-cid^='4152442'].cm:before,
 #waitlist [data-uid^='3852859'].user:not(:hover),
 #waitlist [data-uid^='4189647'].user:not(:hover),
@@ -204,6 +218,7 @@
 #waitlist [data-uid^='3710134'].user:not(:hover),
 #waitlist [data-uid^='4500966'].user:not(:hover),
 #waitlist [data-uid^='3425119'].user:not(:hover),
+#waitlist [data-uid^='3621237'].user:not(:hover),
 #waitlist [data-uid^='4152442'].user:not(:hover),
 #vote > .votes-rs p[id^='3852859'],
 #vote > .votes-rs p[id^='4189647'],
@@ -211,6 +226,7 @@
 #vote > .votes-rs p[id^='3710134'],
 #vote > .votes-rs p[id^='4500966'],
 #vote > .votes-rs p[id^='3425119'],
+#vote > .votes-rs p[id^='3621237'],
 #vote > .votes-rs p[id^='4152442']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
@@ -224,6 +240,7 @@
 #chat-messages [data-cid^='3710134'] .un,
 #chat-messages [data-cid^='4500966'] .un,
 #chat-messages [data-cid^='3425119'] .un,
+#chat-messages [data-cid^='3621237'] .un,
 #chat-messages [data-cid^='4152442'] .un,
 #waitlist [data-uid^='3852859'].user:not(:hover) .name,
 #waitlist [data-uid^='4189647'].user:not(:hover) .name,
@@ -231,6 +248,7 @@
 #waitlist [data-uid^='3710134'].user:not(:hover) .name,
 #waitlist [data-uid^='4500966'].user:not(:hover) .name,
 #waitlist [data-uid^='3425119'].user:not(:hover) .name,
+#waitlist [data-uid^='3621237'].user:not(:hover) .name,
 #waitlist [data-uid^='4152442'].user:not(:hover) .name,
 #vote > .votes-rs p[id^='3852859'],
 #vote > .votes-rs p[id^='4189647'],
@@ -238,6 +256,7 @@
 #vote > .votes-rs p[id^='3710134'],
 #vote > .votes-rs p[id^='4500966'],
 #vote > .votes-rs p[id^='3425119'],
+#vote > .votes-rs p[id^='3621237'],
 #vote > .votes-rs p[id^='4152442']{
   color: #ff3050 !important;
 }
@@ -247,6 +266,7 @@
 #chat-messages [data-cid^='3710134'] .timestamp,
 #chat-messages [data-cid^='4500966'] .timestamp,
 #chat-messages [data-cid^='3425119'] .timestamp,
+#chat-messages [data-cid^='3621237'] .timestamp,
 #chat-messages [data-cid^='4152442'] .timestamp{
   color: #ffb8c8 !important;
 }
@@ -257,6 +277,7 @@
 #chat-messages [data-cid^='3710134'] a,
 #chat-messages [data-cid^='4500966'] a,
 #chat-messages [data-cid^='3425119'] a,
+#chat-messages [data-cid^='3621237'] a,
 #chat-messages [data-cid^='4152442'] a{
   color: #ffc8e8 !important;
 }
@@ -271,6 +292,7 @@
      5096841 "Vibin'"
      4136915 "fluffynips"
      3491083 "Swim"
+     3503739 "eraDOT"
      3834890 "! Rightclik"
   */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f33f{
@@ -304,6 +326,7 @@
 #chat-messages [data-cid^='5096841'] .bdg,
 #chat-messages [data-cid^='4136915'] .bdg,
 #chat-messages [data-cid^='3491083'] .bdg,
+#chat-messages [data-cid^='3503739'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg{
   background-position: -30px 0px !Important;
 }
@@ -318,6 +341,7 @@
 #chat-messages [data-cid^='5096841'].cm:before,
 #chat-messages [data-cid^='4136915'].cm:before,
 #chat-messages [data-cid^='3491083'].cm:before,
+#chat-messages [data-cid^='3503739'].cm:before,
 #chat-messages [data-cid^='3834890'].cm:before,
 #waitlist [data-uid^='4126270'].user:not(:hover),
 #waitlist [data-uid^='3553958'].user:not(:hover),
@@ -327,6 +351,7 @@
 #waitlist [data-uid^='5096841'].user:not(:hover),
 #waitlist [data-uid^='4136915'].user:not(:hover),
 #waitlist [data-uid^='3491083'].user:not(:hover),
+#waitlist [data-uid^='3503739'].user:not(:hover),
 #waitlist [data-uid^='3834890'].user:not(:hover),
 #vote > .votes-rs p[id^='4126270'],
 #vote > .votes-rs p[id^='3553958'],
@@ -336,6 +361,7 @@
 #vote > .votes-rs p[id^='5096841'],
 #vote > .votes-rs p[id^='4136915'],
 #vote > .votes-rs p[id^='3491083'],
+#vote > .votes-rs p[id^='3503739'],
 #vote > .votes-rs p[id^='3834890']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
@@ -351,6 +377,7 @@
 /* Vibin': Enable competiton colour in themes/cmix/usrlogos.css */
 #chat-messages [data-cid^='4136915'] .un,
 #chat-messages [data-cid^='3491083'] .un,
+#chat-messages [data-cid^='3503739'] .un,
 #chat-messages [data-cid^='3834890'] .un,
 #waitlist [data-uid^='4126270'].user:not(:hover) .name,
 #waitlist [data-uid^='3553958'].user:not(:hover) .name,
@@ -360,6 +387,7 @@
 #waitlist [data-uid^='5096841'].user:not(:hover) .name,
 #waitlist [data-uid^='4136915'].user:not(:hover) .name,
 #waitlist [data-uid^='3491083'].user:not(:hover) .name,
+#waitlist [data-uid^='3503739'].user:not(:hover) .name,
 #waitlist [data-uid^='3834890'].user:not(:hover) .name,
 #vote > .votes-rs p[id^='4126270'],
 #vote > .votes-rs p[id^='3553958'],
@@ -369,6 +397,7 @@
 #vote > .votes-rs p[id^='5096841'],
 #vote > .votes-rs p[id^='4136915'],
 #vote > .votes-rs p[id^='3491083'],
+#vote > .votes-rs p[id^='3503739'],
 #vote > .votes-rs p[id^='3834890']{
   color: #30ff50 !Important;
 }
@@ -380,6 +409,7 @@
 #chat-messages [data-cid^='5096841'] .timestamp,
 #chat-messages [data-cid^='4136915'] .timestamp,
 #chat-messages [data-cid^='3491083'] .timestamp,
+#chat-messages [data-cid^='3503739'] .timestamp,
 #chat-messages [data-cid^='3834890'] .timestamp{
   color: #b8ffc8 !important;
 }
@@ -391,6 +421,7 @@
 #chat-messages [data-cid^='5096841'] a,
 #chat-messages [data-cid^='4136915'] a,
 #chat-messages [data-cid^='3491083'] a,
+#chat-messages [data-cid^='3503739'] a,
 #chat-messages [data-cid^='3834890'] a{
   color: #c8ffe8 !important;
 }
