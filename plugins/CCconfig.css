@@ -2,6 +2,12 @@
    > If a user already has a custom badge, move them
      away from badges.css in a secondary sheet. */
 
+
+/* DO NOT EDIT: After-play notifications */
+#toast-notifications .left .icon.icon-vote-woot-selected{
+  background-image: url(http://i.imgur.com/INUtVnW.png) !important;
+}
+
 /* Pre-requisites */
   /* Images */
     /* Badges */
