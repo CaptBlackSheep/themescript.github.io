@@ -8,8 +8,7 @@
 #chat-messages [data-cid^='5096841'] .un,
 #chat-messages [data-cid^='3988637'] .un,
 #chat-messages [data-cid^='3673026'] .un,
-#chat-messages [data-cid^='3767595'] .un
-/* Rightclik's name is part of the design */{
+#chat-messages [data-cid^='3767595'] .un{
   color: transparent !Important;
 }
 
@@ -33,8 +32,8 @@
   top: -1px !Important;
   width: 49px !Important;
   height: 18px !Important;
-  background-image: url(http://i.imgur.com/6sGeydG.png) !important;
-  /* background-image: url(http://i.imgur.com/t3vP2Zz.png) !important; *//* COMPETITION */
+  /* background-image: url(http://i.imgur.com/6sGeydG.png) !important; */
+  background-image: url(http://i.imgur.com/t3vP2Zz.png) !important; /* COMPETITION */
 }
 
 /* Hoarse- */
@@ -42,8 +41,8 @@
   top: -1px !Important;
   width: 57px !Important;
   height: 18px !important;
-  background-image: url(http://i.imgur.com/muW2JC6.png) !important;
-  /* background-image: url(http://i.imgur.com/JfNQdTA.png) !important; *//* COMPETITION */
+  /* background-image: url(http://i.imgur.com/muW2JC6.png) !important; */
+  background-image: url(http://i.imgur.com/JfNQdTA.png) !important; /* COMPETITION */
 }
 
 /* iheartcolors */
