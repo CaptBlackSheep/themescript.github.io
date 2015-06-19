@@ -1,8 +1,3 @@
-/* DO NOT EDIT: After-play notifications */
-#toast-notifications .left .icon.icon-vote-woot-selected{
-  background-image: url(http://i.imgur.com/INUtVnW.png) !important;
-}
-
 /* Team config for CC
    > If a user already has a custom badge, move them
      away from badges.css in a secondary sheet. */
@@ -28,6 +23,7 @@
 #chat-messages [data-cid^='6372772'] .bdg,
 #chat-messages [data-cid^='5096841'] .bdg,
 #chat-messages [data-cid^='4136915'] .bdg,
+#chat-messages [data-cid^='3491083'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg,
       /* Vector */
 #chat-messages [data-cid^='6286426'] .bdg,
@@ -51,22 +47,39 @@
       /* Staff */
         /* Rush */
 #chat-messages [data-cid^='4152442'] .icon-chat-host,
+#waitlist [data-uid^='4152442'] .icon-chat-host,
 #chat-messages [data-cid^='4189647'] .icon-chat-bouncer,
+#waitlist [data-uid^='4189647'] .icon-chat-bouncer,
 #chat-messages [data-cid^='3852859'] .icon-chat-bouncer,
+#waitlist [data-uid^='3852859'] .icon-chat-bouncer,
 #chat-messages [data-cid^='3710134'] .icon-chat-manager,
+#waitlist [data-uid^='3710134'] .icon-chat-manager,
 #chat-messages [data-cid^='4500966'] .icon-chat-bouncer,
+#waitlist [data-uid^='4500966'] .icon-chat-bouncer,
         /* Kush */
 #chat-messages [data-cid^='3834890'] .icon-chat-manager,
+#waitlist [data-uid^='3834890'] .icon-chat-manager,
 #chat-messages [data-cid^='3553958'] .icon-chat-dj,
+#waitlist [data-uid^='3553958'] .icon-chat-dj,
 #chat-messages [data-cid^='6372772'] .icon-chat-dj,
+#waitlist [data-uid^='6372772'] .icon-chat-dj,
 #chat-messages [data-cid^='5096841'] .icon-chat-bouncer,
+#waitlist [data-uid^='5096841'] .icon-chat-bouncer,
+#chat-messages [data-cid^='3491083'] .icon-chat-dj,
+#waitlist [data-uid^='3491083'] .icon-chat-dj,
         /* Vector */
 #chat-messages [data-cid^='3537523'] .icon-chat-manager,
+#waitlist [data-uid^='3537523'] .icon-chat-manager,
 #chat-messages [data-cid^='6286426'] .icon-chat-manager,
+#waitlist [data-uid^='6286426'] .icon-chat-manager,
 #chat-messages [data-cid^='3818329'] .icon-chat-bouncer,
+#waitlist [data-uid^='3818329'] .icon-chat-bouncer,
 #chat-messages [data-cid^='3571889'] .icon-chat-bouncer,
+#waitlist [data-uid^='3571889'] .icon-chat-bouncer,
 #chat-messages [data-cid^='3988637'] .icon-chat-dj,
-#chat-messages [data-cid^='3724170'] .icon-chat-host{
+#waitlist [data-uid^='3988637'] .icon-chat-dj,
+#chat-messages [data-cid^='3724170'] .icon-chat-host,
+#waitlist [data-uid^='3724170'] .icon-chat-host{
   background-image: url(http://i.imgur.com/jziQ64f.png) !important;
   background-size: 90px 75px !important;
 }   /* Badge BG */
@@ -86,6 +99,7 @@
 #chat-messages [data-cid^='6372772'] .badge-box,
 #chat-messages [data-cid^='5096841'] .badge-box,
 #chat-messages [data-cid^='4136915'] .badge-box,
+#chat-messages [data-cid^='3491083'] .badge-box,
 #chat-messages [data-cid^='3834890'] .badge-box,
       /* Vector */
 #chat-messages [data-cid^='6286426'] .badge-box,
@@ -116,6 +130,7 @@
 #chat-messages [data-cid^='6372772'].cm:before,
 #chat-messages [data-cid^='5096841'].cm:before,
 #chat-messages [data-cid^='4136915'].cm:before,
+#chat-messages [data-cid^='3491083'].cm:before,
 #chat-messages [data-cid^='3834890'].cm:before,
   /* Vector */
 #chat-messages [data-cid^='6286426'].cm:before,
@@ -148,15 +163,20 @@
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f48a{
   background-position: 0px -30px !Important;
 }
-#chat-messages [data-cid^='4152442'] .icon-chat-host{
+#chat-messages [data-cid^='4152442'] .icon-chat-host,
+#waitlist [data-uid^='4152442'] .icon-chat-host{
   background-position: 0px -60px !Important;
 }
-#chat-messages [data-cid^='3710134'] .icon-chat-manager{
+#chat-messages [data-cid^='3710134'] .icon-chat-manager,
+#waitlist [data-uid^='3710134'] .icon-chat-manager{
   background-position: -15px -60px !Important;
 }
 #chat-messages [data-cid^='4189647'] .icon-chat-bouncer,
+#waitlist [data-uid^='4189647'] .icon-chat-bouncer,
 #chat-messages [data-cid^='3852859'] .icon-chat-bouncer,
-#chat-messages [data-cid^='4500966'] .icon-chat-bouncer{
+#waitlist [data-uid^='3852859'] .icon-chat-bouncer,
+#chat-messages [data-cid^='4500966'] .icon-chat-bouncer,
+#waitlist [data-uid^='4500966'] .icon-chat-bouncer{
   background-position: 0px -45px !Important;
 }
 #chat-messages [data-cid^='3852859'] .bdg,
@@ -250,19 +270,26 @@
      6372772 "PFJL"
      5096841 "Vibin'"
      4136915 "fluffynips"
+     3491083 "Swim"
      3834890 "! Rightclik"
   */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f33f{
   background-position: -30px -30px !Important;
 }
-#chat-messages [data-cid^='3834890'] .icon-chat-manager{
+#chat-messages [data-cid^='3834890'] .icon-chat-manager,
+#waitlist [data-uid^='3834890'] .icon-chat-manager{
   background-position: -45px -60px !Important;
 }
-#chat-messages [data-cid^='5096841'] .icon-chat-bouncer{
+#chat-messages [data-cid^='5096841'] .icon-chat-bouncer,
+#waitlist [data-uid^='5096841'] .icon-chat-bouncer{
   background-position: -30px -45px !important;
 }
 #chat-messages [data-cid^='3553958'] .icon-chat-dj,
-#chat-messages [data-cid^='6372772'] .icon-chat-dj{
+#waitlist [data-uid^='3553958'] .icon-chat-dj,
+#chat-messages [data-cid^='6372772'] .icon-chat-dj,
+#waitlist [data-uid^='6372772'] .icon-chat-dj,
+#chat-messages [data-cid^='3491083'] .icon-chat-dj,
+#waitlist [data-uid^='3491083'] .icon-chat-dj{
   background-position: -45px -45px !Important;
 }
 #chat-messages [data-cid^='3834890'] .icon-chat-subscriber,
@@ -276,6 +303,7 @@
 #chat-messages [data-cid^='6372772'] .bdg,
 #chat-messages [data-cid^='5096841'] .bdg,
 #chat-messages [data-cid^='4136915'] .bdg,
+#chat-messages [data-cid^='3491083'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg{
   background-position: -30px 0px !Important;
 }
@@ -289,6 +317,7 @@
 #chat-messages [data-cid^='6372772'].cm:before,
 #chat-messages [data-cid^='5096841'].cm:before,
 #chat-messages [data-cid^='4136915'].cm:before,
+#chat-messages [data-cid^='3491083'].cm:before,
 #chat-messages [data-cid^='3834890'].cm:before,
 #waitlist [data-uid^='4126270'].user:not(:hover),
 #waitlist [data-uid^='3553958'].user:not(:hover),
@@ -297,6 +326,7 @@
 #waitlist [data-uid^='6372772'].user:not(:hover),
 #waitlist [data-uid^='5096841'].user:not(:hover),
 #waitlist [data-uid^='4136915'].user:not(:hover),
+#waitlist [data-uid^='3491083'].user:not(:hover),
 #waitlist [data-uid^='3834890'].user:not(:hover),
 #vote > .votes-rs p[id^='4126270'],
 #vote > .votes-rs p[id^='3553958'],
@@ -305,6 +335,7 @@
 #vote > .votes-rs p[id^='6372772'],
 #vote > .votes-rs p[id^='5096841'],
 #vote > .votes-rs p[id^='4136915'],
+#vote > .votes-rs p[id^='3491083'],
 #vote > .votes-rs p[id^='3834890']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
@@ -319,6 +350,7 @@
 #chat-messages [data-cid^='6372772'] .un,
 /* Vibin': Enable competiton colour in themes/cmix/usrlogos.css */
 #chat-messages [data-cid^='4136915'] .un,
+#chat-messages [data-cid^='3491083'] .un,
 #chat-messages [data-cid^='3834890'] .un,
 #waitlist [data-uid^='4126270'].user:not(:hover) .name,
 #waitlist [data-uid^='3553958'].user:not(:hover) .name,
@@ -327,6 +359,7 @@
 #waitlist [data-uid^='6372772'].user:not(:hover) .name,
 #waitlist [data-uid^='5096841'].user:not(:hover) .name,
 #waitlist [data-uid^='4136915'].user:not(:hover) .name,
+#waitlist [data-uid^='3491083'].user:not(:hover) .name,
 #waitlist [data-uid^='3834890'].user:not(:hover) .name,
 #vote > .votes-rs p[id^='4126270'],
 #vote > .votes-rs p[id^='3553958'],
@@ -335,6 +368,7 @@
 #vote > .votes-rs p[id^='6372772'],
 #vote > .votes-rs p[id^='5096841'],
 #vote > .votes-rs p[id^='4136915'],
+#vote > .votes-rs p[id^='3491083'],
 #vote > .votes-rs p[id^='3834890']{
   color: #30ff50 !Important;
 }
@@ -345,6 +379,7 @@
 #chat-messages [data-cid^='6372772'] .timestamp,
 #chat-messages [data-cid^='5096841'] .timestamp,
 #chat-messages [data-cid^='4136915'] .timestamp,
+#chat-messages [data-cid^='3491083'] .timestamp,
 #chat-messages [data-cid^='3834890'] .timestamp{
   color: #b8ffc8 !important;
 }
@@ -355,6 +390,7 @@
 #chat-messages [data-cid^='6372772'] a,
 #chat-messages [data-cid^='5096841'] a,
 #chat-messages [data-cid^='4136915'] a,
+#chat-messages [data-cid^='3491083'] a,
 #chat-messages [data-cid^='3834890'] a{
   color: #c8ffe8 !important;
 }
@@ -374,18 +410,24 @@
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f4ab{
   background-position: -60px -30px !Important;
 }
-#chat-messages [data-cid^='3724170'] .icon-chat-host{
+#chat-messages [data-cid^='3724170'] .icon-chat-host,
+#waitlist [data-uid^='3724170'] .icon-chat-host{
   background-position: -60px -60px !important;
 }
 #chat-messages [data-cid^='3537523'] .icon-chat-manager,
-#chat-messages [data-cid^='6286426'] .icon-chat-manager{
+#waitlist [data-uid^='3537523'] .icon-chat-manager,
+#chat-messages [data-cid^='6286426'] .icon-chat-manager,
+#waitlist [data-uid^='6286426'] .icon-chat-manager{
   background-position: -75px -60px !important;
 }
 #chat-messages [data-cid^='3818329'] .icon-chat-bouncer,
-#chat-messages [data-cid^='3571889'] .icon-chat-bouncer{
+#waitlist [data-uid^='3818329'] .icon-chat-bouncer,
+#chat-messages [data-cid^='3571889'] .icon-chat-bouncer,
+#waitlist [data-uid^='3571889'] .icon-chat-bouncer{
   background-position: -60px -45px !Important;
 }
-#chat-messages [data-cid^='3988637'] .icon-chat-dj{
+#chat-messages [data-cid^='3988637'] .icon-chat-dj,
+#waitlist [data-uid^='3988637'] .icon-chat-dj{
   background-position: -75px -45px !Important;
 }
 #chat-messages [data-cid^='6286426'] .bdg,
