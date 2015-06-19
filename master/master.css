@@ -1322,11 +1322,14 @@ div.pop-menu{
 }     /* One-only actions */
 #media-panel .only-one .row:hover:before{
   width: calc(100% - 162px) !important;
-}     /* How playing and search */
+}     /* Now playing and search */
 #media-panel .row.now-playing:hover:before,
 #media-panel .search .row:hover:before
 {
   width: calc(100% - 108px) !Important;
+}     /* Playlist search */
+#media-panel .row.has-playlists:hover:before{
+  width: calc(100% - 54px) !important;
 }   /* Action containers */
       /* Height */
 #media-panel .actions{
