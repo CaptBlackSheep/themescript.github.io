@@ -21,6 +21,7 @@
 #chat-messages [data-cid^='4500966'] .bdg,
 #chat-messages [data-cid^='3425119'] .bdg,
 #chat-messages [data-cid^='3621237'] .bdg,
+#chat-messages [data-cid^='3869450'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg,
       /* Kush */
 #chat-messages [data-cid^='4126270'] .bdg,
@@ -49,11 +50,12 @@
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f33f,
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f4ab,
       /* Subs */
+        /* Rush */
+#chat-messages [data-cid^='3621237'] .icon-chat-subscriber,
+#chat-messages [data-cid^='3869450'] .icon-chat-subscriber,
         /* Kush */
 #chat-messages [data-cid^='3834890'] .icon-chat-subscriber,
 #chat-messages [data-cid^='3553958'] .icon-chat-subscriber,
-        /* Rush */
-#chat-messages [data-cid^='3621237'] .icon-chat-subscriber,
       /* Staff */
         /* Rush */
 #chat-messages [data-cid^='4152442'] .icon-chat-host,
@@ -66,6 +68,8 @@
 #waitlist [data-uid^='3710134'] .icon-chat-manager,
 #chat-messages [data-cid^='4500966'] .icon-chat-bouncer,
 #waitlist [data-uid^='4500966'] .icon-chat-bouncer,
+#chat-messages [data-cid^='3869450'] .icon-chat-manager,
+#waitlist [data-uid^='3869450'] .icon-chat-manager,
         /* Kush */
 #chat-messages [data-cid^='3834890'] .icon-chat-manager,
 #waitlist [data-uid^='3834890'] .icon-chat-manager,
@@ -101,6 +105,7 @@
 #chat-messages [data-cid^='4500966'] .badge-box,
 #chat-messages [data-cid^='3425119'] .badge-box,
 #chat-messages [data-cid^='3621237'] .badge-box,
+#chat-messages [data-cid^='3869450'] .badge-box,
 #chat-messages [data-cid^='4152442'] .badge-box,
       /* Kush */
 #chat-messages [data-cid^='4126270'] .badge-box,
@@ -134,6 +139,7 @@
 #chat-messages [data-cid^='4500966'].cm:before,
 #chat-messages [data-cid^='3425119'].cm:before,
 #chat-messages [data-cid^='3621237'].cm:before,
+#chat-messages [data-cid^='3869450'].cm:before,
 #chat-messages [data-cid^='4152442'].cm:before,
   /* Kush */
 #chat-messages [data-cid^='4126270'].cm:before,
@@ -183,7 +189,9 @@
   background-position: 0px -60px !Important;
 }
 #chat-messages [data-cid^='3710134'] .icon-chat-manager,
-#waitlist [data-uid^='3710134'] .icon-chat-manager{
+#waitlist [data-uid^='3710134'] .icon-chat-manager,
+#chat-messages [data-cid^='3869450'] .icon-chat-manager,
+#waitlist [data-uid^='3869450'] .icon-chat-manager{
   background-position: -15px -60px !Important;
 }
 #chat-messages [data-cid^='4189647'] .icon-chat-bouncer,
@@ -194,7 +202,8 @@
 #waitlist [data-uid^='4500966'] .icon-chat-bouncer{
   background-position: 0px -45px !Important;
 }
-#chat-messages [data-cid^='3621237'] .icon-chat-subscriber{
+#chat-messages [data-cid^='3621237'] .icon-chat-subscriber,
+#chat-messages [data-cid^='3869450'] .icon-chat-subscriber{
   background-position: -15px -30px !Important;
 }
 #chat-messages [data-cid^='3852859'] .bdg,
@@ -204,6 +213,7 @@
 #chat-messages [data-cid^='4500966'] .bdg,
 #chat-messages [data-cid^='3425119'] .bdg,
 #chat-messages [data-cid^='3621237'] .bdg,
+#chat-messages [data-cid^='3869450'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg{
   background-position: 0px 0px !Important;
 }
@@ -217,6 +227,7 @@
 #chat-messages [data-cid^='4500966'].cm:before,
 #chat-messages [data-cid^='3425119'].cm:before,
 #chat-messages [data-cid^='3621237'].cm:before,
+#chat-messages [data-cid^='3869450'].cm:before,
 #chat-messages [data-cid^='4152442'].cm:before,
 #waitlist [data-uid^='3852859'].user:not(:hover),
 #waitlist [data-uid^='4189647'].user:not(:hover),
@@ -225,6 +236,7 @@
 #waitlist [data-uid^='4500966'].user:not(:hover),
 #waitlist [data-uid^='3425119'].user:not(:hover),
 #waitlist [data-uid^='3621237'].user:not(:hover),
+#waitlist [data-uid^='3869450'].user:not(:hover),
 #waitlist [data-uid^='4152442'].user:not(:hover),
 #vote > .votes-rs p[id^='3852859'],
 #vote > .votes-rs p[id^='4189647'],
@@ -233,6 +245,7 @@
 #vote > .votes-rs p[id^='4500966'],
 #vote > .votes-rs p[id^='3425119'],
 #vote > .votes-rs p[id^='3621237'],
+#vote > .votes-rs p[id^='3869450'],
 #vote > .votes-rs p[id^='4152442']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
@@ -247,6 +260,7 @@
 #chat-messages [data-cid^='4500966'] .un,
 #chat-messages [data-cid^='3425119'] .un,
 #chat-messages [data-cid^='3621237'] .un,
+#chat-messages [data-cid^='3869450'] .un,
 #chat-messages [data-cid^='4152442'] .un,
 #waitlist [data-uid^='3852859'].user:not(:hover) .name,
 #waitlist [data-uid^='4189647'].user:not(:hover) .name,
@@ -255,6 +269,7 @@
 #waitlist [data-uid^='4500966'].user:not(:hover) .name,
 #waitlist [data-uid^='3425119'].user:not(:hover) .name,
 #waitlist [data-uid^='3621237'].user:not(:hover) .name,
+#waitlist [data-uid^='3869450'].user:not(:hover) .name,
 #waitlist [data-uid^='4152442'].user:not(:hover) .name,
 #vote > .votes-rs p[id^='3852859'],
 #vote > .votes-rs p[id^='4189647'],
@@ -263,6 +278,7 @@
 #vote > .votes-rs p[id^='4500966'],
 #vote > .votes-rs p[id^='3425119'],
 #vote > .votes-rs p[id^='3621237'],
+#vote > .votes-rs p[id^='3869450'],
 #vote > .votes-rs p[id^='4152442']{
   color: #ff3050 !important;
 }
@@ -273,6 +289,7 @@
 #chat-messages [data-cid^='4500966'] .timestamp,
 #chat-messages [data-cid^='3425119'] .timestamp,
 #chat-messages [data-cid^='3621237'] .timestamp,
+#chat-messages [data-cid^='3869450'] .timestamp,
 #chat-messages [data-cid^='4152442'] .timestamp{
   color: #ffb8c8 !important;
 }
@@ -284,6 +301,7 @@
 #chat-messages [data-cid^='4500966'] a,
 #chat-messages [data-cid^='3425119'] a,
 #chat-messages [data-cid^='3621237'] a,
+#chat-messages [data-cid^='3869450'] a,
 #chat-messages [data-cid^='4152442'] a{
   color: #ffc8e8 !important;
 }
