@@ -78,6 +78,8 @@
 .user-content .avatars .grid .cell:not(.selected) .top:after,
 .user-content .badges .grid .cell:not(:hover) .top:after,
 .user-content .misc .grid .cell:not(:hover) .top:after,
+#users-button.has-guests .guest-count,
+#users-button.has-guests:hover .bar-count,
 #footer-user .info:not(.showing){
   opacity: 0 !important;
   transition: opacity 0.2s !Important;
@@ -95,6 +97,8 @@
 .user-content .avatars .grid .cell.selected .top:after,
 .user-content .badges .grid .cell:hover .top:after,
 .user-content .misc .grid .cell:hover .top:after,
+#users-button.has-guests .bar-count,
+#users-button.has-guests:hover .guest-count,
 #footer-user .info.showing{
   opacity: 1 !Important;
   transition: opacity 0.2s !Important;
@@ -102,7 +106,9 @@
 #room-bar > #room-name,
 #room-bar:hover > #room-host,
 #room-bar .icon-room:before,
-#room-bar:hover .icon-room:after
+#room-bar:hover .icon-room:after,
+#users-button.has-guests .bar-count,
+#users-button.has-guests:hover .guest-count
 {
   transition-delay: 0.2s !Important;
 }
@@ -175,6 +181,7 @@ button:not(:hover),
 #dialog-container .selected .radio,
 #p3-settings,
 #p3-settings-custom-colors,
+#header-panel-bar.level-1 > #chat-button,
 .app-right .jspContainer,
 #chat-suggestion,
 #user-lists .list-header,
@@ -264,6 +271,7 @@ button:not(:hover),
   /* colour 1d456e */
 #dashboard-border .button,
 #toast-notifications .left,
+#footer-user .signup,
 #user-settings .bar,
 #tooltip.purple span,
 #dialog-container .toggle:hover,
@@ -414,6 +422,8 @@ div .user.is-you span,
 #app-menu .logout span,
 #p3-settings .item span,
 #p3-settings-custom-colors .item span,
+#users-button.has-guests .guest-count,
+#header-panel-bar.level-1 > #chat-button span,
 #room-host,
 div .user .is-staff .name,
 div .user.is-staff span,
@@ -575,8 +585,10 @@ div .user:hover .name span,
     /* Footer */
 #your-active-playlist{
   font-size: 12px !Important;
+}     /* Guest stuff */
+#users-button.has-guests .guest-count{
+  font-size: 18px !Important;
 }
-
 /* Images */
   /* Icons from default spriteset */
 #news .icon.icon-news-grey{
@@ -1132,10 +1144,12 @@ background-image: linear-gradient(#1C1F25 0px,
 }       /* Chat output */
 #chat:before{
   top: 46px !important;
-  height: calc(100% - 97px) !Important;
   width: calc(100% + 30px) !Important;
   box-shadow: inset 0px 15px 15px -15px rgb(0, 0, 0),
               inset 0px -15px 15px -15px rgb(0, 0, 0) !Important;
+}         /* Non-guest setting */
+#chat:not(.level-1):before{
+  height: calc(100% - 97px) !Important;
 }       /* Lists */
 .app-right .list:before{
   left: -15px !Important;
@@ -1313,7 +1327,7 @@ div.pop-menu{
 #media-panel .row.selected:before{
   width: 100% !important;
 }     /* Hover */
-#media-panel .row:hover:before{
+#media-panel .row:not(.has-playlists):hover:before{
   width: calc(100% - 270px) !Important;
 }     /* First and last playlist item */
 #media-panel .row.playlist-media-first-item:hover:before,
@@ -1330,7 +1344,8 @@ div.pop-menu{
 }     /* Playlist search */
 #media-panel .row.has-playlists:hover:before{
   width: calc(100% - 54px) !important;
-}   /* Action containers */
+}
+    /* Action containers */
       /* Height */
 #media-panel .actions{
   height: 55px !Important;
@@ -1339,6 +1354,30 @@ div.pop-menu{
   width: 162px !important;
 }
 /* Object positioning and sizing */
+  /* Guest stuff */
+#chat.level-1 > #chat-messages{
+  height: 100% !Important;
+}
+#header-panel-bar.level-1 > #chat-button{
+  width: 172px !Important;
+}
+#header-panel-bar.level-1 > #waitlist-button{
+  width: 173px !Important;
+  left: 172px !Important;
+}
+
+#users-button.has-guests .bar-count{
+  top: 1px !important;
+}
+#users-button.has-guests .guest-count{
+  position: relative !Important;
+  top: 1px !Important;
+  left: -20px !Important;
+}
+
+#chat.level-1:before{
+  height: calc(100% - 46px) !Important;
+}
   /* Header */
     /* Has friend requests */
 .friends.has-requests > .header > I{
@@ -1616,6 +1655,11 @@ div.pop-menu{
 }
 #dialog-container > :not(#dialog-purchase) .divider,
 .app-header .dark-label,
+#header-panel-bar.level-1 > #users-button,
+#header-panel-bar.level-1 > #friends-button,
+#chat.level-1 > #chat-input,
+#chat-header > .divider,
+#waitlist .divider,
 #now-playing-bar .bar-divider,
 #now-playing-bar > :not(#history-button):not(#volume) i,
 #now-playing-time .icon.icon-time,
