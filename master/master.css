@@ -1143,8 +1143,8 @@ background-image: linear-gradient(#1C1F25 0px,
   position: absolute !Important;
 }       /* Chat output */
 #chat:before{
-  box-shadow: inset 0px 15px 15px -15px rgb(255, 0, 0),
-              inset 0px -15px 15px -15px rgb(255, 0, 0) !Important;
+  box-shadow: inset 0px 15px 15px -15px rgb(0, 0, 0),
+              inset 0px -15px 15px -15px rgb(0, 0, 0) !Important;
   width: 100% !important;
 }
           /* Non-guest settings */
