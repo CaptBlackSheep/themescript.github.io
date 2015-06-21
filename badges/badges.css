@@ -140,3 +140,7 @@
 /* bunnystack */
 #chat-messages [data-cid^="3775042"] .bdg{
   background-image: url(http://i.imgur.com/7oB7SSF.png) !Important;}
+
+/* Paradox VII */
+#chat-messages [data-cid^="3995934"] .bdg{
+  background-image: url(http://i.imgur.com/1nb6rbD.gif) !important;}
