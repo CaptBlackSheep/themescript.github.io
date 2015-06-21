@@ -8,7 +8,8 @@
 #chat-messages [data-cid^='5096841'] .un,
 #chat-messages [data-cid^='3988637'] .un,
 #chat-messages [data-cid^='3673026'] .un,
-#chat-messages [data-cid^='3767595'] .un{
+#chat-messages [data-cid^='3767595'] .un,
+#chat-messages [data-cid^="3995934"] .un{
   color: transparent !Important;
 }
 
@@ -57,4 +58,12 @@
    width: 104px !important;
    height: 20px !important;
    background-image: url(http://i.imgur.com/OVCYca5.png) !important;
+}
+
+/* Paradox Vii */
+#chat-messages [data-cid^="3995934"] .un:before{
+  top: -2px !Important;
+  width: 166px !Important;
+  height: 20px !Important;
+  background-image: url(http://i.imgur.com/6ASWDUB.png) !important;
 }
