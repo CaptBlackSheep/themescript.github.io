@@ -44,6 +44,7 @@
 #chat-messages [data-cid^='3492668'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
 #chat-messages [data-cid^='3995934'] .bdg,
+#chat-messages [data-cid^='4206657'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg,
     /* Chat icons */
       /* Emoji */
@@ -132,6 +133,7 @@
 #chat-messages [data-cid^='3492668'] .badge-box,
 #chat-messages [data-cid^='3553958'] .badge-box,
 #chat-messages [data-cid^='3995934'] .badge-box,
+#chat-messages [data-cid^='4206657'] .badge-box,
 #chat-messages [data-cid^='3537523'] .badge-box{
   background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.50) 100%) !Important;
 }
@@ -167,6 +169,7 @@
 #chat-messages [data-cid^='3492668'].cm:before,
 #chat-messages [data-cid^='3553958'].cm:before,
 #chat-messages [data-cid^='3995934'].cm:before,
+#chat-messages [data-cid^='4206657'].cm:before,
 #chat-messages [data-cid^='3537523'].cm:before{
   content: '' !important;
   width: 100% !Important;
@@ -457,6 +460,7 @@
      3492668 "StelioKontos"
      3553958 "SirJ4ws"
      3995934 "Paradox VII"
+     4206657 "เสือนัท"
      3537523 "! TerminallyChill"
   */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f4ab{
@@ -498,6 +502,7 @@
 #chat-messages [data-cid^='3492668'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
 #chat-messages [data-cid^='3995934'] .bdg,
+#chat-messages [data-cid^='4206657'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg{
   background-position: -60px 0px !important;
 }
@@ -514,6 +519,7 @@
 #chat-messages [data-cid^='3492668'].cm:before,
 #chat-messages [data-cid^='3553958'].cm:before,
 #chat-messages [data-cid^='3995934'].cm:before,
+#chat-messages [data-cid^='4206657'].cm:before,
 #chat-messages [data-cid^='3537523'].cm:before,
 #waitlist [data-uid^='6286426'].user:not(:hover),
 #waitlist [data-uid^='3818329'].user:not(:hover),
@@ -525,6 +531,7 @@
 #waitlist [data-uid^='3492668'].user:not(:hover),
 #waitlist [data-uid^='3553958'].user:not(:hover),
 #waitlist [data-uid^='3995934'].user:not(:hover),
+#waitlist [data-uid^='4206657'].user:not(:hover),
 #waitlist [data-uid^='3537523'].user:not(:hover),
 #vote > .votes-rs p[id^='6286426'],
 #vote > .votes-rs p[id^='3818329'],
@@ -536,6 +543,7 @@
 #vote > .votes-rs p[id^='3492668'],
 #vote > .votes-rs p[id^='3553958'],
 #vote > .votes-rs p[id^='3995934'],
+#vote > .votes-rs p[id^='4206657'],
 #vote > .votes-rs p[id^='3537523']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
@@ -553,6 +561,7 @@
 #chat-messages [data-cid^='3492668'] .un,
 #chat-messages [data-cid^='3553958'] .un,
 /* Paradox VII: Enable competiton colour in themes/cmix/usrlogos.css */
+#chat-messages [data-cid^='4206657'] .un,
 #chat-messages [data-cid^='3537523'] .un,
 #waitlist [data-uid^='6286426'].user:not(:hover) .name,
 #waitlist [data-uid^='3818329'].user:not(:hover) .name,
@@ -564,6 +573,7 @@
 #waitlist [data-uid^='3492668'].user:not(:hover) .name,
 #waitlist [data-uid^='3553958'].user:not(:hover) .name,
 #waitlist [data-uid^='3995934'].user:not(:hover) .name,
+#waitlist [data-uid^='4206657'].user:not(:hover) .name,
 #waitlist [data-uid^='3537523'].user:not(:hover) .name,
 #vote > .votes-rs p[id^='6286426'],
 #vote > .votes-rs p[id^='3818329'],
@@ -575,6 +585,7 @@
 #vote > .votes-rs p[id^='3492668'],
 #vote > .votes-rs p[id^='3553958'],
 #vote > .votes-rs p[id^='3995934'],
+#vote > .votes-rs p[id^='4206657'],
 #vote > .votes-rs p[id^='3537523']{
   color: #4040ff !Important;
 }
@@ -588,6 +599,7 @@
 #chat-messages [data-cid^='3492668'] .timestamp,
 #chat-messages [data-cid^='3553958'] .timestamp,
 #chat-messages [data-cid^='3995934'] .timestamp,
+#chat-messages [data-cid^='4206657'] .timestamp,
 #chat-messages [data-cid^='3537523'] .timestamp{
   color: #bfbfff !important;
 }
@@ -601,6 +613,7 @@
 #chat-messages [data-cid^='3492668'] a,
 #chat-messages [data-cid^='3553958'] a,
 #chat-messages [data-cid^='3995934'] a,
+#chat-messages [data-cid^='4206657'] a,
 #chat-messages [data-cid^='3537523'] a{
   color: #d8d8ff !important;
 }
