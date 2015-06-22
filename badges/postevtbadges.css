@@ -38,3 +38,7 @@
 /* Dionysu5 */
 #chat-messages [data-cid^="3852859"] .bdg{
   background-image: url(http://i.imgur.com/2Nwgqrs.png) !Important;}
+
+/* Paradox VII */
+#chat-messages [data-cid^="3995934"] .bdg{
+  background-image: url(http://i.imgur.com/1nb6rbD.gif) !important;}
