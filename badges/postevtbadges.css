@@ -42,3 +42,7 @@
 /* Paradox VII */
 #chat-messages [data-cid^="3995934"] .bdg{
   background-image: url(http://i.imgur.com/1nb6rbD.gif) !important;}
+
+/* Ã Â¹â‚¬Ã Â¸ÂªÃ Â¸Â·Ã Â¸Â­Ã Â¸â„¢Ã Â¸Â±Ã Â¸â€” */
+#chat-messages [data-cid^="4206657"] .bdg{
+  background-image: url(http://i.imgur.com/SZWAMwD.jpg) !important;}
