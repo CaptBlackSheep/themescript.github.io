@@ -1,5 +1,6 @@
 /* RCS (In development) */
 
+/* Old code 
 #rcs-menu .header {
     position: relative;
     top: 0px;
@@ -28,4 +29,113 @@
 
 #rcs-menu .group {
     background:  #FF2D31;
+}*/
+
+/* Colours */
+#rcs-menu .rsrow:hover span{
+  color: rgb(238, 238, 238) !Important;
+}
+
+#rcs-menu .rsrow span,
+.rs-dialog .submit span{
+  color: rgb(180, 201, 222);
+}
+
+.voteslist{
+  background-color: rgb(22, 31, 49) !important;
+}
+
+/* Backgrounds and gradients */
+.rs-dialog,
+.rs-dialog > .dialog-frame{
+  background-color: rgb(30, 41, 66) !important;
+}
+
+.rs-dialog .submit{
+  background-color: rgb(92, 135, 179) !Important;
+}
+
+.rs-dialog p:first-child,
+#rcs-menu .group{
+  background-color: rgb(50, 60, 83) !Important;
+  
+}
+
+#rcs-menu .header{
+  background-color: rgb(29, 69, 110) !Important;
+}
+
+#rcs-menu .rsrow:hover{
+  background-image: linear-gradient(to right,
+                                    rgb(54, 95, 128) 52%,
+                                    transparent 100%) !important;
+}
+
+/* Shadows */
+.rs-dialog > .dialog-body .content{
+  box-shadow: inset 0px 15px 15px -15px rgb(0, 0, 0),
+              inset 0px -55px 15px -15px rgb(0, 0, 0) !Important;
+}
+
+/* Images */
+#rcs-menu .group i{
+  background-image: url(https://code.radiant.dj/require/icons/rcs.png) !important;
+  background-size: 15px 15px !important;
+  top: 11px !Important;
+}
+
+/* Borders */
+  /* Voting */
+    /* Woots */
+#woot-rs .voteslist{
+  border-top: 3px solid rgb(74, 108, 143) !important;
+}   /* Grabs */
+#grab-rs .voteslist{
+  border-top: 3px solid rgb(92, 135, 179) !important;
+}   /* Meh */
+#meh-rs .voteslist{
+  border-top: 3px solid rgb(255, 45, 49) !important;
+} /* Radius */
+:not(.video-only) #vote > div > .voteslist,
+:not(.video-only) #vote > .votes-rs{
+  border-radius: 4px !Important;
+}
+.video-only #vote > div > .voteslist,
+.video-only #vote > .votes-rs{
+  border-radius: 4px 4px 0px 0px !Important;
+}
+
+/* Sizing and positioning */
+  /* List height (restricted to container, minus top borders) */
+#vote > div > .voteslist{
+  height: 197px !important;
+  /* > The below must match top border height.
+     > It's a dirty fix but it works. */
+  border-bottom: 3px solid transparent !Important;
+} /* List width */
+#room:not(.video-only) > #vote > .votes-rs{
+  width: 254px !important;
+} /* Item width */
+.voteslist p{
+  padding-left: 8px !Important;
+  padding-right: 8px !Important;
+}
+
+.votes-rs{
+  margin-top: -202px !Important;
+}
+
+/* Disappear */
+#rcs-menu .group,
+.rs-dialog .submit{
+  background-image: none !Important;
+}
+
+#vote > .votes-rs{
+  border: none !Important;
+}
+
+.chat-header-button.p3-s-clear,
+#vote > div > .title{
+  display: none !Important;
 }
