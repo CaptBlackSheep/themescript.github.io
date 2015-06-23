@@ -72,9 +72,9 @@
 }
 
 /* Shadows */
-.rs-dialog > .dialog-body .content{
-  box-shadow: inset 0px 15px 15px -15px rgb(0, 0, 0),
-              inset 0px -55px 15px -15px rgb(0, 0, 0) !Important;
+.rs-dialog{
+  box-shadow: inset 0px 70px 15px -15px rgb(0, 0, 0),
+              inset 0px -70px 15px -15px rgb(0, 0, 0) !Important;
 }
 
 /* Images */
