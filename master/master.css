@@ -617,7 +617,7 @@ div .user:hover .name span,
 #twitter-menu .icon.icon-twitter-selected,
 #vote .icon:not(.icon-skip),
 .icon.icon-grab,
-.icon.icon-star-white,
+:not(.badge-box) > .icon.icon-star-white,
 #user-lists .icon.icon-woot,
 .icon.icon-history-positive,
 #user-lists .icon.icon-grab,
@@ -896,7 +896,7 @@ div .user:hover .name span,
 #chat-messages [data-cid^="3475278"] .emoji-1f195{
   background-position: -195px -135px !Important;
 }     /* Favourite */
-.icon.icon-star-white{
+:not(.badge-box) > .icon.icon-star-white{
   background-position: -120px -30px !Important;
   opacity: 1 !important;
 }
