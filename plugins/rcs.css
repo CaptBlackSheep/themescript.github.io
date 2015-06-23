@@ -46,6 +46,10 @@
 }
 
 /* Backgrounds and gradients */
+#playback-controls > #stream-toggle{
+  background-color: rgba(255, 45, 49, 0.7) !Important;
+}
+
 .rs-dialog,
 .rs-dialog > .dialog-frame{
   background-color: rgb(30, 41, 66) !important;
@@ -123,6 +127,18 @@
 
 .votes-rs{
   margin-top: -202px !Important;
+}
+
+/* ETA message
+   > Only shows in avatar mode */
+#dj-button small:before{
+  content: 'Using RCS? Disable plugcubed\'s ETA timer.' !Important;
+  white-space: pre !important;
+  position: absolute !Important;
+  left: 14px !Important;
+  bottom: -20px !Important;
+  font-size: 8pt !Important;
+  opacity: 0.5 !Important;
 }
 
 /* Disappear */
