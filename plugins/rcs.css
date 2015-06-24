@@ -152,6 +152,7 @@
 }
 
 .chat-header-button.p3-s-clear,
+#playback-controls > #stream-toggle,
 #vote > div > .title{
   display: none !Important;
 }
