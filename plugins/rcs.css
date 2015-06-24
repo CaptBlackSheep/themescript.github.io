@@ -55,14 +55,15 @@
   background-color: rgb(30, 41, 66) !important;
 }
 
+#chat-messages .radiantimg-delete:hover,
 .rs-dialog .submit{
   background-color: rgb(92, 135, 179) !Important;
 }
 
 .rs-dialog p:first-child,
+#chat-messages .radiantimg-delete,
 #rcs-menu .group{
   background-color: rgb(50, 60, 83) !Important;
-  
 }
 
 #rcs-menu .header{
