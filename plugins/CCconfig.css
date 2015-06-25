@@ -8,7 +8,7 @@
   background-image: url(http://i.imgur.com/INUtVnW.png) !important;
 }
 
-/* Pre-requisites */
+/* Pre-requisites / General */
   /* Images */
     /* Badges */
     /* > Reflect whatever changes are made in
@@ -145,6 +145,45 @@
   background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.50) 100%) !Important;
 }
 /* Post highlight */
+  /* Team member background */
+    /* Rush */
+#chat-messages [data-cid^='3852859'].cm,
+#chat-messages [data-cid^='4189647'].cm,
+#chat-messages [data-cid^='3643570'].cm,
+#chat-messages [data-cid^='3710134'].cm,
+#chat-messages [data-cid^='4500966'].cm,
+#chat-messages [data-cid^='3425119'].cm,
+#chat-messages [data-cid^='3621237'].cm,
+#chat-messages [data-cid^='3869450'].cm,
+#chat-messages [data-cid^='5479999'].cm,
+#chat-messages [data-cid^='3709816'].cm,
+#chat-messages [data-cid^='4152442'].cm,
+    /* Kush */
+#chat-messages [data-cid^='4126270'].cm,
+#chat-messages [data-cid^='5092822'].cm,
+#chat-messages [data-cid^='3721683'].cm,
+#chat-messages [data-cid^='6372772'].cm,
+#chat-messages [data-cid^='5096841'].cm,
+#chat-messages [data-cid^='4136915'].cm,
+#chat-messages [data-cid^='3491083'].cm,
+#chat-messages [data-cid^='3503739'].cm,
+#chat-messages [data-cid^='5047301'].cm,
+#chat-messages [data-cid^='3834890'].cm,
+    /* Vector */
+#chat-messages [data-cid^='6286426'].cm,
+#chat-messages [data-cid^='3818329'].cm,
+#chat-messages [data-cid^='3571889'].cm,
+#chat-messages [data-cid^='3988637'].cm,
+#chat-messages [data-cid^='3724170'].cm,
+#chat-messages [data-cid^='3477169'].cm,
+#chat-messages [data-cid^='3468899'].cm,
+#chat-messages [data-cid^='3492668'].cm,
+#chat-messages [data-cid^='3553958'].cm,
+#chat-messages [data-cid^='3995934'].cm,
+#chat-messages [data-cid^='4206657'].cm,
+#chat-messages [data-cid^='3537523'].cm{
+  background-color: #000000 !Important;
+}
   /* Rush */
 #chat-messages [data-cid^='3852859'].cm:before,
 #chat-messages [data-cid^='4189647'].cm:before,
