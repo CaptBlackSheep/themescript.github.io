@@ -23,6 +23,7 @@
 #chat-messages [data-cid^='3621237'] .bdg,
 #chat-messages [data-cid^='3869450'] .bdg,
 #chat-messages [data-cid^='5479999'] .bdg,
+#chat-messages [data-cid^='3709816'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg,
       /* Kush */
 #chat-messages [data-cid^='4126270'] .bdg,
@@ -115,6 +116,7 @@
 #chat-messages [data-cid^='3621237'] .badge-box,
 #chat-messages [data-cid^='3869450'] .badge-box,
 #chat-messages [data-cid^='5479999'] .badge-box,
+#chat-messages [data-cid^='3709816'] .badge-box,
 #chat-messages [data-cid^='4152442'] .badge-box,
       /* Kush */
 #chat-messages [data-cid^='4126270'] .badge-box,
@@ -153,6 +155,7 @@
 #chat-messages [data-cid^='3621237'].cm:before,
 #chat-messages [data-cid^='3869450'].cm:before,
 #chat-messages [data-cid^='5479999'].cm:before,
+#chat-messages [data-cid^='3709816'].cm:before,
 #chat-messages [data-cid^='4152442'].cm:before,
   /* Kush */
 #chat-messages [data-cid^='4126270'].cm:before,
@@ -197,6 +200,7 @@
      3621237 "geTripped"
      3869450 "derelict"
      5479999 "BruvBruv1"
+     3709816 "audaxion"
      4152442 "! FunkyBrewster"
   */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f48a{
@@ -234,6 +238,7 @@
 #chat-messages [data-cid^='3621237'] .bdg,
 #chat-messages [data-cid^='3869450'] .bdg,
 #chat-messages [data-cid^='5479999'] .bdg,
+#chat-messages [data-cid^='3709816'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg{
   background-position: 0px 0px !Important;
 }
@@ -249,6 +254,7 @@
 #chat-messages [data-cid^='3621237'].cm:before,
 #chat-messages [data-cid^='3869450'].cm:before,
 #chat-messages [data-cid^='5479999'].cm:before,
+#chat-messages [data-cid^='3709816'].cm:before,
 #chat-messages [data-cid^='4152442'].cm:before,
 #waitlist [data-uid^='3852859'].user:not(:hover),
 #waitlist [data-uid^='4189647'].user:not(:hover),
@@ -259,6 +265,7 @@
 #waitlist [data-uid^='3621237'].user:not(:hover),
 #waitlist [data-uid^='3869450'].user:not(:hover),
 #waitlist [data-uid^='5479999'].user:not(:hover),
+#waitlist [data-uid^='3709816'].user:not(:hover),
 #waitlist [data-uid^='4152442'].user:not(:hover),
 #vote > .votes-rs p[id^='3852859'],
 #vote > .votes-rs p[id^='4189647'],
@@ -269,6 +276,7 @@
 #vote > .votes-rs p[id^='3621237'],
 #vote > .votes-rs p[id^='3869450'],
 #vote > .votes-rs p[id^='5479999'],
+#vote > .votes-rs p[id^='3709816'],
 #vote > .votes-rs p[id^='4152442']{
   background-color: transparent !Important;
   background-image: linear-gradient(100deg,
@@ -285,6 +293,7 @@
 #chat-messages [data-cid^='3621237'] .un,
 #chat-messages [data-cid^='3869450'] .un,
 #chat-messages [data-cid^='5479999'] .un,
+#chat-messages [data-cid^='3709816'] .un,
 #chat-messages [data-cid^='4152442'] .un,
 #waitlist [data-uid^='3852859'].user:not(:hover) .name,
 #waitlist [data-uid^='4189647'].user:not(:hover) .name,
@@ -295,6 +304,7 @@
 #waitlist [data-uid^='3621237'].user:not(:hover) .name,
 #waitlist [data-uid^='3869450'].user:not(:hover) .name,
 #waitlist [data-uid^='5479999'].user:not(:hover) .name,
+#waitlist [data-uid^='3709816'].user:not(:hover) .name,
 #waitlist [data-uid^='4152442'].user:not(:hover) .name,
 #vote > .votes-rs p[id^='3852859'],
 #vote > .votes-rs p[id^='4189647'],
@@ -305,6 +315,7 @@
 #vote > .votes-rs p[id^='3621237'],
 #vote > .votes-rs p[id^='3869450'],
 #vote > .votes-rs p[id^='5479999'],
+#vote > .votes-rs p[id^='3709816'],
 #vote > .votes-rs p[id^='4152442']{
   color: #ff3050 !important;
 }
@@ -317,6 +328,7 @@
 #chat-messages [data-cid^='3621237'] .timestamp,
 #chat-messages [data-cid^='3869450'] .timestamp,
 #chat-messages [data-cid^='5479999'] .timestamp,
+#chat-messages [data-cid^='3709816'] .timestamp,
 #chat-messages [data-cid^='4152442'] .timestamp{
   color: #ffb8c8 !important;
 }
@@ -330,6 +342,7 @@
 #chat-messages [data-cid^='3621237'] a,
 #chat-messages [data-cid^='3869450'] a,
 #chat-messages [data-cid^='5479999'] a,
+#chat-messages [data-cid^='3709816'] a,
 #chat-messages [data-cid^='4152442'] a{
   color: #ffc8e8 !important;
 }
