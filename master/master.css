@@ -107,10 +107,16 @@
 #room-bar:hover > #room-host,
 #room-bar .icon-room:before,
 #room-bar:hover .icon-room:after,
-#users-button.has-guests .bar-count,
-#users-button.has-guests:hover .guest-count
+#users-button.has-guests .bar-count
 {
   transition-delay: 0.2s !Important;
+}
+  /* Enhanced delay for guest counter */
+#users-button.has-guests:hover .bar-count{
+  transition-delay: 0.5s !important;
+}
+#users-button.has-guests:hover .guest-count{
+  transition-delay: 0.7s !Important;
 }
 .tab-menu:hover,
 .tab-menu:not(:hover),
