@@ -16,7 +16,7 @@
 }
 /* Bottom text */
 #your-next-media:before{
-  content: "06/26/15@17:00 PT";
+  content: "Today@17:00 PT";
   color: #B4C9DE;
   top: 24px !Important;
     font-size: 17px !Important;
