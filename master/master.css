@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (Chilly Cookoff)
+   Version 4 (06/11/15)
 
    --- Credits and contact ---
 
@@ -39,12 +39,6 @@
 
 /* Theme components */
   /* > Additional styles for plugins are handled by plugins.css */
-@import url("https://themescript.github.io/settings/loading.css");
-@import url("https://themescript.github.io/badges/badges.css");
-@import url("https://themescript.github.io/themes/cmix/usrlogos.css");
-@import url("https://themescript.github.io/settings/settings.css");
-@import url("https://themescript.github.io/plugins/plugins.css");
-@import url("https://themescript.github.io/settings/roominfo.css");
 
 /* Animations */
   /* > Defined animations here can be used with the animation declaration.
@@ -674,6 +668,14 @@ div .user:hover .name span,
 #chat-messages [data-cid^="3605383"] .bdg{
   background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
+}
+/* TEMPFIX: Staff icons */
+#waitlist .user:hover .icon.icon-chat-host,
+#waitlist .user:hover .icon.icon-chat-cohost,
+#waitlist .user:hover .icon.icon-chat-manager,
+#waitlist .user:hover .icon.icon-chat-bouncer,
+#waitlist .user:hover .icon.icon-chat-dj{
+  margin-top: -1px !Important;
 }
     /* Icon positioning */
       /* Has friend requests */
