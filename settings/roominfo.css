@@ -7,7 +7,7 @@
 }
 /* Top text */
 #your-next-media:after{
-  content: "Chilly Cookoff!";
+  content: "Vector won!";
   font-family: Arial !important;
   font-weight: normal !Important;
   font-style: normal !Important;
@@ -16,7 +16,7 @@
 }
 /* Bottom text */
 #your-next-media:before{
-  content: "Afterparty!";
+  content: "Congratulations!";
   color: #B4C9DE;
   top: 24px !Important;
     font-size: 17px !Important;
