@@ -46,3 +46,7 @@
 /* Ã Â¹â‚¬Ã Â¸ÂªÃ Â¸Â·Ã Â¸Â­Ã Â¸â„¢Ã Â¸Â±Ã Â¸â€” */
 #chat-messages [data-cid^="4206657"] .bdg{
   background-image: url(http://i.imgur.com/SZWAMwD.jpg) !important;}
+
+/* AKJAMS */
+#chat-messages [data-cid^="3420990"] .bdg {
+  background-image: url(http://i.imgur.com/z5Lcql4.png) !important;}
