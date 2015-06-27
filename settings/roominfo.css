@@ -7,7 +7,7 @@
 }
 /* Top text */
 #your-next-media:after{
-  content: "Vector won!";
+  content: "URL Festival!";
   font-family: Arial !important;
   font-weight: normal !Important;
   font-style: normal !Important;
@@ -16,7 +16,7 @@
 }
 /* Bottom text */
 #your-next-media:before{
-  content: "Congratulations!";
+  content: "06/28/15@9-21 PT";
   color: #B4C9DE;
   top: 24px !Important;
     font-size: 17px !Important;
