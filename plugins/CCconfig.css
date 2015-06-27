@@ -12,7 +12,7 @@
     /* Badges */
     /* > Reflect whatever changes are made in
          this block to the respective team below. */
-      /* Rush */
+      /* Rush *//*
 #chat-messages [data-cid^='3852859'] .bdg,
 #chat-messages [data-cid^='4189647'] .bdg,
 #chat-messages [data-cid^='3643570'] .bdg,
@@ -23,10 +23,10 @@
 #chat-messages [data-cid^='3869450'] .bdg,
 #chat-messages [data-cid^='5479999'] .bdg,
 #chat-messages [data-cid^='3709816'] .bdg,
-#chat-messages [data-cid^='4152442'] .bdg,
-        /* POST-EVENT */
-#chat-messages [data-cid^='3420990'] .bdg,
-      /* Kush */
+#chat-messages [data-cid^='4152442'] .bdg,(/)
+        /* POST-EVENT *//*
+#chat-messages [data-cid^='3420990'] .bdg,*/
+      /* Kush *//*
 #chat-messages [data-cid^='4126270'] .bdg,
 #chat-messages [data-cid^='5092822'] .bdg,
 #chat-messages [data-cid^='3721683'] .bdg,
@@ -37,8 +37,8 @@
 #chat-messages [data-cid^='3503739'] .bdg,
 #chat-messages [data-cid^='5047301'] .bdg,
 #chat-messages [data-cid^='3995934'] .bdg,
-#chat-messages [data-cid^='3834890'] .bdg,
-      /* Vector */
+#chat-messages [data-cid^='3834890'] .bdg,*/
+      /* Vector *//*
 #chat-messages [data-cid^='6286426'] .bdg,
 #chat-messages [data-cid^='3818329'] .bdg,
 #chat-messages [data-cid^='3571889'] .bdg,
@@ -49,9 +49,9 @@
 #chat-messages [data-cid^='3492668'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
 #chat-messages [data-cid^='4206657'] .bdg,
-#chat-messages [data-cid^='3537523'] .bdg,
-      /* POST-EVENT */
-#chat-messages [data-cid^='3767595'] .bdg,
+#chat-messages [data-cid^='3537523'] .bdg,*/
+      /* POST-EVENT *//*
+#chat-messages [data-cid^='3767595'] .bdg,*/
     /* Chat icons */
       /* Emoji */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f48a,
@@ -109,7 +109,7 @@
   background-image: url(http://i.imgur.com/jziQ64f.png) !important;
   background-size: 90px 75px !important;
 }   /* Badge BG */
-      /* Rush */
+      /* Rush *//*
 #chat-messages [data-cid^='3852859'] .badge-box,
 #chat-messages [data-cid^='4189647'] .badge-box,
 #chat-messages [data-cid^='3643570'] .badge-box,
@@ -120,10 +120,10 @@
 #chat-messages [data-cid^='3869450'] .badge-box,
 #chat-messages [data-cid^='5479999'] .badge-box,
 #chat-messages [data-cid^='3709816'] .badge-box,
-#chat-messages [data-cid^='4152442'] .badge-box,
-        /* POST-EVENT */
-#chat-messages [data-cid^='3420990'] .badge-box,
-      /* Kush */
+#chat-messages [data-cid^='4152442'] .badge-box,*/
+        /* POST-EVENT *//*
+#chat-messages [data-cid^='3420990'] .badge-box,*/
+      /* Kush *//*
 #chat-messages [data-cid^='4126270'] .badge-box,
 #chat-messages [data-cid^='5092822'] .badge-box,
 #chat-messages [data-cid^='3721683'] .badge-box,
@@ -134,8 +134,8 @@
 #chat-messages [data-cid^='3503739'] .badge-box,
 #chat-messages [data-cid^='5047301'] .badge-box,
 #chat-messages [data-cid^='3995934'] .badge-box,
-#chat-messages [data-cid^='3834890'] .badge-box,
-      /* Vector */
+#chat-messages [data-cid^='3834890'] .badge-box,*/
+      /* Vector *//*
 #chat-messages [data-cid^='6286426'] .badge-box,
 #chat-messages [data-cid^='3818329'] .badge-box,
 #chat-messages [data-cid^='3571889'] .badge-box,
@@ -146,9 +146,9 @@
 #chat-messages [data-cid^='3492668'] .badge-box,
 #chat-messages [data-cid^='3553958'] .badge-box,
 #chat-messages [data-cid^='4206657'] .badge-box,
-#chat-messages [data-cid^='3537523'] .badge-box,
-        /* POST-EVENT */
-#chat-messages [data-cid^='3767595'] .badge-box{
+#chat-messages [data-cid^='3537523'] .badge-box,*/
+        /* POST-EVENT *//*
+#chat-messages [data-cid^='3767595'] .badge-box*/{
   background: radial-gradient(ellipse at center, transparent 0%, rgba(96, 96, 96, 0.50) 100%) !Important;
 }
 /* Post highlight */
@@ -236,7 +236,7 @@
 #chat-messages [data-cid^='3869450'] .icon-chat-subscriber,
 #chat-messages [data-cid^='5479999'] .icon-chat-subscriber{
   background-position: -15px -30px !Important;
-}
+}/*
 #chat-messages [data-cid^='3852859'] .bdg,
 #chat-messages [data-cid^='4189647'] .bdg,
 #chat-messages [data-cid^='3643570'] .bdg,
@@ -247,11 +247,11 @@
 #chat-messages [data-cid^='3869450'] .bdg,
 #chat-messages [data-cid^='5479999'] .bdg,
 #chat-messages [data-cid^='3709816'] .bdg,
-#chat-messages [data-cid^='4152442'] .bdg,
-  /* POST-EVENT */
+#chat-messages [data-cid^='4152442'] .bdg,*/
+  /* POST-EVENT *//*
   #chat-messages [data-cid^='3420990'] .bdg{
   background-position: 0px 0px !Important;
-}
+}*/
 #chat-messages [data-cid^='4152442'].cm:before{
   box-shadow: inset 0px 0px 0px 1px #ff3050 !important;
 }
@@ -410,7 +410,7 @@
 #chat-messages [data-cid^='3721683'] .icon-chat-subscriber,
 #chat-messages [data-cid^='3995934'] .icon-chat-subscriber{
   background-position: -45px -30px !important;
-}
+}/*
 #chat-messages [data-cid^='4126270'] .bdg,
 #chat-messages [data-cid^='5092822'] .bdg,
 #chat-messages [data-cid^='3721683'] .bdg,
@@ -423,7 +423,7 @@
 #chat-messages [data-cid^='3995934'] .bdg,
 #chat-messages [data-cid^='3834890'] .bdg{
   background-position: -30px 0px !Important;
-}
+}*/
 #chat-messages [data-cid^='3834890'].cm:before{
   box-shadow: inset 0px 0px 0px 1px #30ff50 !important;
 }
@@ -587,7 +587,7 @@
 }
 #chat-messages [data-cid^='3553958'] .icon-chat-subscriber{
   background-position: -75px -30px !Important;
-}
+}/*
 #chat-messages [data-cid^='6286426'] .bdg,
 #chat-messages [data-cid^='3818329'] .bdg,
 #chat-messages [data-cid^='3571889'] .bdg,
@@ -598,11 +598,11 @@
 #chat-messages [data-cid^='3492668'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
 #chat-messages [data-cid^='4206657'] .bdg,
-#chat-messages [data-cid^='3537523'] .bdg,
-  /* POST-EVENT */
+#chat-messages [data-cid^='3537523'] .bdg,*/
+  /* POST-EVENT *//*
 #chat-messages [data-cid^='3767595'] .bdg{
   background-position: -60px 0px !important;
-}
+}*/
 #chat-messages [data-cid^='3537523'].cm:before{
   box-shadow: inset 0px 0px 0px 1px #4040ff !important;
 }
