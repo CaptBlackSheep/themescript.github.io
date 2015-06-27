@@ -24,6 +24,8 @@
 #chat-messages [data-cid^='5479999'] .bdg,
 #chat-messages [data-cid^='3709816'] .bdg,
 #chat-messages [data-cid^='4152442'] .bdg,
+        /* POST-EVENT */
+#chat-messages [data-cid^='3420990'] .bdg,
       /* Kush */
 #chat-messages [data-cid^='4126270'] .bdg,
 #chat-messages [data-cid^='5092822'] .bdg,
@@ -48,6 +50,8 @@
 #chat-messages [data-cid^='3553958'] .bdg,
 #chat-messages [data-cid^='4206657'] .bdg,
 #chat-messages [data-cid^='3537523'] .bdg,
+      /* POST-EVENT */
+#chat-messages [data-cid^='3767595'] .bdg,
     /* Chat icons */
       /* Emoji */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f48a,
@@ -117,6 +121,8 @@
 #chat-messages [data-cid^='5479999'] .badge-box,
 #chat-messages [data-cid^='3709816'] .badge-box,
 #chat-messages [data-cid^='4152442'] .badge-box,
+        /* POST-EVENT */
+#chat-messages [data-cid^='3420990'] .badge-box,
       /* Kush */
 #chat-messages [data-cid^='4126270'] .badge-box,
 #chat-messages [data-cid^='5092822'] .badge-box,
@@ -140,7 +146,9 @@
 #chat-messages [data-cid^='3492668'] .badge-box,
 #chat-messages [data-cid^='3553958'] .badge-box,
 #chat-messages [data-cid^='4206657'] .badge-box,
-#chat-messages [data-cid^='3537523'] .badge-box{
+#chat-messages [data-cid^='3537523'] .badge-box,
+        /* POST-EVENT */
+#chat-messages [data-cid^='3767595'] .badge-box{
   background: radial-gradient(ellipse at center, transparent 0%, rgba(96, 96, 96, 0.50) 100%) !Important;
 }
 /* Post highlight */
@@ -201,6 +209,7 @@
      5479999 "BruvBruv1"
      3709816 "audaxion"
      4152442 "! FunkyBrewster"
+     3420990 "AKJAMS"
   */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f48a{
   background-position: 0px -30px !Important;
@@ -238,7 +247,9 @@
 #chat-messages [data-cid^='3869450'] .bdg,
 #chat-messages [data-cid^='5479999'] .bdg,
 #chat-messages [data-cid^='3709816'] .bdg,
-#chat-messages [data-cid^='4152442'] .bdg{
+#chat-messages [data-cid^='4152442'] .bdg,
+  /* POST-EVENT */
+  #chat-messages [data-cid^='3420990'] .bdg{
   background-position: 0px 0px !Important;
 }
 #chat-messages [data-cid^='4152442'].cm:before{
@@ -547,6 +558,7 @@
      3553958 "SirJ4ws"
      4206657 "เสือนัท"
      3537523 "! TerminallyChill"
+     3767595 "Obzerv"
   */
 #chat-messages [data-cid^='3605383'] .emoji.emoji-1f4ab{
   background-position: -60px -30px !Important;
@@ -586,7 +598,9 @@
 #chat-messages [data-cid^='3492668'] .bdg,
 #chat-messages [data-cid^='3553958'] .bdg,
 #chat-messages [data-cid^='4206657'] .bdg,
-#chat-messages [data-cid^='3537523'] .bdg{
+#chat-messages [data-cid^='3537523'] .bdg,
+  /* POST-EVENT */
+#chat-messages [data-cid^='3767595'] .bdg{
   background-position: -60px 0px !important;
 }
 #chat-messages [data-cid^='3537523'].cm:before{
