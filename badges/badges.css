@@ -128,3 +128,60 @@
 /* bunnystack */
 #chat-messages [data-cid^="3775042"] .bdg{
   background-image: url(http://i.imgur.com/7oB7SSF.png) !Important;}
+
+/* DO NOT EDIT: After-play notifications *//*
+#toast-notifications .left .icon.icon-vote-woot-selected{
+  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
+  background-size: 270px 480px !Important;
+  background-position: -240px -210px !Important;
+}*/
+
+/* Phazym */
+#chat-messages [data-cid^="3818329"] .bdg {
+  background-image: url(https://themescript.github.io/badges/phazym.png) !important;}
+
+/* Rightclik */
+#chat-messages [data-cid^="3834890"] .bdg {
+  /* background-image: url(http://i.imgur.com/SNODayh.png) !important; */
+  /* background-image: url(http://i.imgur.com/FoQw9Rh.png) !important;} *//* OLD */
+  background-image: url(http://i.imgur.com/xFmCuC7.png) !important;}
+
+/* TerminallyChill */
+#chat-messages [data-cid^="3537523"] .bdg{
+  background-image: url(http://i.imgur.com/Jk4TVtp.png) !important;}
+
+/* Hoarse- */
+#chat-messages [data-cid^="3988637"] .bdg{
+  background-image: url(http://i.imgur.com/1E1VjLp.png) !Important;}
+
+/* FunkyBrewster */
+#chat-messages [data-cid^="4152442"] .bdg {
+  background-image: url(http://i.imgur.com/7GRiLHj.png) !important;}
+
+/* Backend: EckerDecker */
+#chat-messages [data-cid^="4386405"] .bdg{
+  background-image: url(http://i.imgur.com/Bbbo9fN.png) !important;}
+
+/* Cannabiscuit */
+#chat-messages [data-cid^="3721683"] .bdg{
+  background-image: url(http://i.imgur.com/hTKlpGC.png) !Important;}
+
+/* Dionysu5 */
+#chat-messages [data-cid^="3852859"] .bdg{
+  background-image: url(http://i.imgur.com/2Nwgqrs.png) !Important;}
+
+/* Paradox VII */
+#chat-messages [data-cid^="3995934"] .bdg{
+  background-image: url(http://i.imgur.com/1nb6rbD.gif) !important;}
+
+/* Ã Â¹â‚¬Ã Â¸ÂªÃ Â¸Â·Ã Â¸Â­Ã Â¸â„¢Ã Â¸Â±Ã Â¸â€” */
+#chat-messages [data-cid^="4206657"] .bdg{
+  background-image: url(http://i.imgur.com/SZWAMwD.jpg) !important;}
+
+/* AKJAMS */
+#chat-messages [data-cid^="3420990"] .bdg {
+  background-image: url(http://i.imgur.com/z5Lcql4.png) !important;}
+
+/* Obzerv */
+#chat-messages [data-cid^="3767595"] .bdg{
+  background-image: url(http://i.imgur.com/W1Jchuk.png) !important;}
