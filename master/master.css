@@ -675,14 +675,6 @@ div .user:hover .name span,
   background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
 }
-/* TEMPFIX: Staff icons */
-#waitlist .user:hover .icon.icon-chat-host,
-#waitlist .user:hover .icon.icon-chat-cohost,
-#waitlist .user:hover .icon.icon-chat-manager,
-#waitlist .user:hover .icon.icon-chat-bouncer,
-#waitlist .user:hover .icon.icon-chat-dj{
-  margin-top: -1px !Important;
-}
     /* Icon positioning */
       /* Has friend requests */
 .friends.has-requests > .header > I{
