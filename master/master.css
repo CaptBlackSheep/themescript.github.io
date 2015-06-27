@@ -38,7 +38,7 @@
 */
 
 /* Theme components */
-  /* > Additional styles for plugins are handled by plugins.css */
+/* > Additional styles for plugins are handled by plugins.css */
 @import url("https://themescript.github.io/settings/loading.css");
 @import url("https://themescript.github.io/badges/badges.css");
 @import url("https://themescript.github.io/themes/cmix/usrlogos.css");
@@ -204,7 +204,8 @@ button:not(:hover),
 #playlist-panel,
 #search,
 .pop-menu,
-#video-only-dj{
+#video-only-dj,
+#chat{
   background-color: rgb(30, 41, 66) !important;
 }   /* Semi-opaque */
 #chat .disconnect,
@@ -979,9 +980,6 @@ div .user:hover .name span,
                                     rgb(50, 60, 83) 100%) !important;
 }
     /* Chat and users */
-#chat{
-  background-image: linear-gradient(to top, rgb(30, 41, 66) 51px, transparent 51px, transparent 100%) !Important;
-}
 .header-panel-button.selected{
   background-image: linear-gradient(to top, rgb(29, 69, 110) 0%,
                                             transparent 100%) !important;
@@ -1523,7 +1521,11 @@ div.pop-menu{
 }
   /* Chat */
     /* Alterating rows */
-
+#chat-messages :nth-child(odd).cm,
+#chat-messages :nth-child(odd).message{
+  -webkit-box-shadow: inset 0px 0px 0px 200px rgba(0, 0, 0, 0.25) !Important;
+  box-shadow: inset 0px 0px 0px 200px rgba(0, 0, 0, 0.25) !Important;
+}
     /* Mentions */
       /* All users */
 .mention.is-you{
@@ -1585,6 +1587,8 @@ div.pop-menu{
 #vote > .crowd-response,
 #waitlist .user,
 .badge-box,
+#chat-messages .cm,
+#chat-messages .message,
 #chat-suggestion .chat-suggestion-item,
 #footer-user .button,
 #waitlist .list .sortable-placeholder,
