@@ -676,11 +676,11 @@ div .user:hover .name span,
   background-size: 270px 480px !Important;
 }
 /* TEMPFIX: Staff icons */
-.icon.icon-chat-host,
-.icon.icon-chat-cohost,
-.icon.icon-chat-manager,
-.icon.icon-chat-bouncer,
-.icon.icon-chat-dj{
+#waitlist .user:hover .icon.icon-chat-host,
+#waitlist .user:hover .icon.icon-chat-cohost,
+#waitlist .user:hover .icon.icon-chat-manager,
+#waitlist .user:hover .icon.icon-chat-bouncer,
+#waitlist .user:hover .icon.icon-chat-dj{
   margin-top: -1px !Important;
 }
     /* Icon positioning */
