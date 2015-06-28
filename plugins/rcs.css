@@ -115,6 +115,11 @@
 }
 
 /* Sizing and positioning */
+  /* Playback controls */
+#playback-controls .box{
+  font-size: 24px !Important;
+  top: 11px !Important;
+}
   /* List height (restricted to container, minus top borders) */
 #vote > div > .voteslist{
   height: 197px !important;
