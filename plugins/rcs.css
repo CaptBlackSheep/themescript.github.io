@@ -32,6 +32,10 @@
 }*/
 
 /* Colours */
+#user-rollover .showID{
+  color: rgb(54, 95, 128);
+}
+
 #rcs-menu .rsrow:hover span{
   color: rgb(238, 238, 238) !Important;
 }
@@ -153,6 +157,7 @@
 }
 
 .chat-header-button.p3-s-clear,
+#rcs-clearchat,
 #playback-controls > #stream-toggle,
 #vote > div > .title{
   display: none !Important;
