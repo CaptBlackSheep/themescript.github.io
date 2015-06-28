@@ -33,7 +33,7 @@
 
 /* Colours */
 #user-rollover .showID{
-  color: rgb(54, 95, 128);
+  color: rgb(54, 95, 128) !Important;
 }
 
 #rcs-menu .rsrow:hover span{
