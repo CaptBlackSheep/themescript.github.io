@@ -187,8 +187,9 @@
   background-image: url(http://i.imgur.com/W1Jchuk.png) !important;}
 
 /* Gingerbread Central */
+#chat-messages [data-cid^="6043201"] .bdg{
   background-imge: url(http://i.imgur.com/dNYFAjG.gif) !Important;
-  background-color: #5d749e !Important;
+  background-color: #5d749e !Important;}
 
 /* Chilly Cookoff icons */
   /* Kush */
