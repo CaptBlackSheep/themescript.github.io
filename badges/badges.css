@@ -186,6 +186,10 @@
 #chat-messages [data-cid^="3767595"] .bdg{
   background-image: url(http://i.imgur.com/W1Jchuk.png) !important;}
 
+/* Gingerbread Central */
+  background-imge: url(http://i.imgur.com/dNYFAjG.gif) !Important;
+  background-color: #5d749e !Important;
+
 /* Chilly Cookoff icons */
   /* Kush */
 #chat-messages [data-cid^='4136915'] .bdg,
