@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (07/01/15)
+   Version 4 (07/02/15)
 
    --- Credits and contact ---
 
@@ -1662,7 +1662,6 @@ div.pop-menu{
 *{
   box-shadow: none !important;
 }
-.torch,
 #dialog-container > :not(#dialog-purchase) .divider,
 .app-header .dark-label,
 #header-panel-bar.level-1 > #users-button,
