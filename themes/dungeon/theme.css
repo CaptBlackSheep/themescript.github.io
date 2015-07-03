@@ -1,0 +1,8 @@
+.room-background{
+  background-image: url("http://i.imgur.com/zSMRtE6.png") !important;
+}
+
+#playback img,
+#room .torch{
+  display: none !Important;
+}
