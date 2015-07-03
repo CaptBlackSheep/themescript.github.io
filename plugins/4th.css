@@ -1,5 +1,5 @@
 #room .torch{
-  background-image: url(http://i.imgur.com/ZPk4NVn.gif) !Important;
+  background-size: 200px 200px !important;
   width: 200px !Important;
   height: 200px !Important;
   top: 225px !Important;
@@ -7,9 +7,11 @@
 }
 
 #room .torch.right{
+  background-image: url(http://i.imgur.com/qrCqzSd.gif);
   transform: rotate(180deg) !important;
 }
 
 #room .torch:not(.right){
+  background-image: url(http://i.imgur.com/7ASne9e.gif);
   left: calc(0% + 200px) !Important;
 }
