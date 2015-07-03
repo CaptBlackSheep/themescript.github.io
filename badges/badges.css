@@ -5,6 +5,7 @@
   background-position: -240px -210px !Important;
 }
 
+
 .badge-box {
     background: transparent;
 }
@@ -213,7 +214,7 @@
 
   /* Badges */
     /* fluffynips */
-#chat-#chat-messages [data-cid^='4136915'] .bdg
+#chat-#chat-messages [data-cid^='4136915'] .bdg{
   background-position: -30px 0px !Important;}
   /* Sub icons */
     /* Vector */
