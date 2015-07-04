@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (07/02/15)
+   Version 4 (07/03/15)
 
    --- Credits and contact ---
 
@@ -625,6 +625,7 @@ div .user:hover .name span,
 #vote .icon:not(.icon-skip),
 .icon.icon-grab,
 :not(.badge-box) > .icon.icon-star-white,
+#chat-messages .cm.moderation:not(.user-action) > .badge-box > .icon.icon-skip,
 #user-lists .icon.icon-woot,
 .icon.icon-history-positive,
 #user-lists .icon.icon-grab,
@@ -673,7 +674,7 @@ div .user:hover .name span,
 #chat-messages [data-cid^="3605383"] .emoji-1f195,
 #chat-messages [data-cid^="3475278"] .emoji-1f195,
 #chat-messages [data-cid^="3605383"] .bdg{
-  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
+  background-image: url(http://i.imgur.com/Xz4jZSv.png) !important;
   background-size: 270px 480px !Important;
 }
     /* Icon positioning */
@@ -837,10 +838,10 @@ div .user:hover .name span,
       /* Bot staff icons */
         /* ChilloutMixerBot */
 #chat-messages [data-cid^="3605383"] .icon.icon-chat-manager{
-  background-position: -225px -75px !Important;
+  background-position: -15px -90px !Important;
 }       /* Woots */
 #chat-messages [data-cid^="3475278"] .icon.icon-chat-bouncer{
-  background-position: -240px -75px !Important;
+  background-position: 0px -105px !Important;
 }     /* Voting */
         /* Overlay */
 #vote #woot .icon,
@@ -908,6 +909,10 @@ div .user:hover .name span,
   opacity: 1 !important;
 }
       /* Staff icons */
+#chat-messages .cm.moderation:not(.user-action) > .badge-box > .icon.icon-skip{
+  background-position: -180px -90px !important;
+}
+
 .icon.icon-chat-host,
 .icon.icon-chat-cohost{
   background-position: 0px -60px !Important;
@@ -916,10 +921,10 @@ div .user:hover .name span,
   background-position: -15px -60px !Important;
 }
 .icon.icon-chat-bouncer{
-  background-position: 0px -90px !Important;
+  background-position: 0px -75px !Important;
 }
 .icon.icon-chat-dj{
-  background-position: -15px -90px !Important;
+  background-position: -15px -75px !Important;
 }
       /* Checkmarks / Media */
 .icon.icon-check-purple,
