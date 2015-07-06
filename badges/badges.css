@@ -1,4 +1,4 @@
-/* DO NOT EDIT: After-play notifications */
+﻿/* DO NOT EDIT: After-play notifications */
 #toast-notifications .left .icon.icon-vote-woot-selected{
   background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
@@ -191,6 +191,10 @@
 #chat-messages [data-cid^="6043201"] .bdg{
   background-image: url(http://i.imgur.com/5ZlvRuB.gif) !Important;
   background-color: #5d749e !Important;}
+
+/* Pick-a-chu */
+#chat-messages [data-cid^="6630381"] .bdg {
+  background-image: url(pickachu.jpg) !important;}
 
 /* Chilly Cookoff icons */
   /* Kush */
