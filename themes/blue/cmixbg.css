@@ -10,6 +10,13 @@
 #media-panel .row:hover:before,
 #media-panel .row.selected:before,
 #media-panel .actions,
+#history-panel .row{
+  background-image: url("") !important;
+  background-repeat: no-repeat  !important;
+  background-position: center center !important;
+  background-size: 500px 500px !important;
+  background-attachment: fixed !Important;
+}
     /* Browser-generated elements for room logo */
       /* > This was done to prevent overlap of the logo on hover
          or selected. Does not affect background colour.
