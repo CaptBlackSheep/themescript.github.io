@@ -1,5 +1,0 @@
-/* This new plugin exists solely to disable animation classes
-   in plug.dj when new themes use them. Update as necessary. */
-
-#room .torch{
-  display: none !important;}
