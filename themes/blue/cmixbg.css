@@ -1,7 +1,7 @@
 /* Backgrounds and gradients */
   /* Room background */
 #room .room-background{
-  background-image: url(https://themescript.github.io/images/cmix_background.png) !important;
+  background-image: url(http://i.imgur.com/tOEACrk.png) !important;
 }
   /* Room logo */
 #room-settings,
@@ -10,13 +10,6 @@
 #media-panel .row:hover:before,
 #media-panel .row.selected:before,
 #media-panel .actions,
-#history-panel .row{
-  background-image: url("https://themescript.github.io/images/cmix_logo.png") !important;
-  background-repeat: no-repeat  !important;
-  background-position: center center !important;
-  background-size: 500px 500px !important;
-  background-attachment: fixed !Important;
-}
     /* Browser-generated elements for room logo */
       /* > This was done to prevent overlap of the logo on hover
          or selected. Does not affect background colour.

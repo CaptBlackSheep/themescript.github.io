@@ -1,0 +1,69 @@
+/* User logos
+   > This started after I saw that Vibin's "brand" would
+     work well in lieu of his username. Trial run for now.
+   > All username colours need to be transparent. 
+*/
+
+/* Disappear */
+#chat-messages [data-cid^='5096841'] .un,
+#chat-messages [data-cid^='3988637'] .un,
+#chat-messages [data-cid^='3673026'] .un,
+#chat-messages [data-cid^='3767595'] .un,
+#chat-messages [data-cid^="3995934"] .un{
+  color: transparent !Important;
+}
+
+/* Default values */
+#chat-messages .un:before{
+  position: absolute !Important;
+  content: '' !important;
+  background-repeat: no-repeat !Important;
+}
+
+/* TEMPLATE */
+#chat-messages [data-cid^='0'] .un:before{
+  top: 0px /*offset*/ !Important;
+  width: 0px /*imgwidth*/ !Important;
+  height: 0px /*imgheight, influences offset*/ !Important;
+  background-image: url(http://domain.sfx/img.sfx) !important;
+}
+
+/* Vibin' */
+#chat-messages [data-cid^='5096841'] .un:before{
+  top: -1px !Important;
+  width: 49px !Important;
+  height: 18px !Important;
+  background-image: url(http://i.imgur.com/6sGeydG.png) !important;
+  /* background-image: url(http://i.imgur.com/t3vP2Zz.png) !important; *//* COMPETITION */
+}
+
+/* Hoarse- */
+#chat-messages [data-cid^='3988637'] .un:before{
+  top: -1px !Important;
+  width: 57px !Important;
+  height: 18px !important;
+  background-image: url(http://i.imgur.com/muW2JC6.png) !important;
+  /* background-image: url(http://i.imgur.com/9oNIXpg.png) !important; *//* COMPETITION */
+}
+
+/* iheartcolors */
+#chat-messages [data-cid^='3673026'] .un:before{
+   width: 194px !Important;
+   height: 15px !important;
+   background-image: url(http://i.imgur.com/9WAAb7H.png) !Important;
+}
+
+/* Obzerv */
+#chat-messages [data-cid^='3767595'] .un:before{
+   width: 104px !important;
+   height: 20px !important;
+   background-image: url(http://i.imgur.com/OVCYca5.png) !important;
+}
+
+/* Paradox VII */
+#chat-messages [data-cid^="3995934"] .un:before{
+  width: 166px !Important;
+  height: 20px !Important;
+  background-image: url(http://i.imgur.com/6gekTyS.png) !important;
+  /* background-image: url(http://i.imgur.com/1AygjBl.png) !important; *//* COMPETITION */
+}
