@@ -3,61 +3,7 @@
 #room .room-background{
   background-image: url(https://themescript.github.io/images/cmix_background.png) !important;
 }
-  /* Room logo */
-#room-settings,
-#playlist-panel,
-#media-panel .row:not(:hover).now-playing,
-#media-panel .row:hover:before,
-#media-panel .row.selected:before,
-#media-panel .actions,
-#history-panel .row{
-  background-image: url("https://themescript.github.io/images/cmix_logo.png") !important;
-  background-repeat: no-repeat  !important;
-  background-position: center center !important;
-  background-size: 500px 500px !important;
-  background-attachment: fixed !Important;
-}
-    /* Browser-generated elements for room logo */
-      /* > This was done to prevent overlap of the logo on hover
-         or selected. Does not affect background colour.
-         > These are grouped together, rather than being all over
-         the sheet as separate elements.
-         > To the average user, it just looks fancy. :) */
-      /* General */
-#media-panel .row.selected:before,
-#media-panel .row:hover:before{
-  content: '' !important;
-  height: 55px !important;
-  position: absolute !important;
-  top: 0px !important;
-  left: 0px !important;
-}     /* Widths for different row types */
-        /* Selected */
-#media-panel .row.selected:before{
-  width: 100% !important;
-}       /* Hover */
-#media-panel .row:hover:before{
-  width: calc(100% - 270px) !Important;
-}       /* First and last playlist item */
-#media-panel .row.playlist-media-first-item:hover:before,
-#media-panel .row.playlist-media-last-item:hover:before{
-  width: calc(100% - 216px) !Important;
-}       /* One-only actions */
-#media-panel .only-one .row:hover:before{
-  width: calc(100% - 162px) !important;
-}       /* How playing and search */
-#media-panel .row.now-playing:hover:before,
-#media-panel .search .row:hover:before
-{
-  width: calc(100% - 108px) !Important;
-}     /* Action containers */
-        /* Height */
-#media-panel .actions{
-  height: 55px !Important;
-}       /* Width */
-#media-panel .only-one .actions{
-  width: 162px !important;
-}
+
   /* DJ button body */
 #dj-button{
   background-image: linear-gradient(to right,
