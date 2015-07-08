@@ -1,0 +1,51 @@
+/* Row settings */
+#playlist-menu .row,
+.pop-menu li{
+  height: 20px !Important;
+}
+#playlist-menu .row span,
+.pop-menu li span{
+  top: 2px !Important;
+  font-size: 8pt !Important;
+}
+
+/* Icon settings */
+#playlist-menu .activate-button i,
+.pop-menu li i.icon{
+  width: 15px !Important;
+  height: 15px !Important;
+  left: 8px !Important;
+  background-position: -45px -60px !Important;
+}
+#playlist-menu .activate-button i{
+  top: -1px !Important;
+}
+.pop-menu li i.icon{
+  top: 3px !important;
+}
+#playlist-menu .row.selected .activate-button i{
+  background-position: -30px -60px !Important;
+}
+.pop-menu li.create i{
+  width: 30px !Important;
+  height: 15px !Important;
+  left: 1px !important;
+  top: 3px !Important;
+  background-color: red !Important;
+}
+
+/* Icons */
+  /* stock */
+.pop-menu li i.icon-create-playlist{
+  background-position: -245px -114px !important;
+}
+  /* cmix */
+#playlist-menu .activate-button i{
+  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
+  background-size: 270px 480px !Important;
+}
+
+/* Disappear */
+#playlist-menu .spinner{
+  display: none !Important;
+}
