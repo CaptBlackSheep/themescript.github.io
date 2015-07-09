@@ -1,8 +1,9 @@
 /* Row settings */
+  /* Row height */
 #playlist-menu .row,
 .pop-menu li{
   height: 20px !Important;
-}
+} /* Font settings */
 #playlist-menu .row span,
 .pop-menu li span{
   top: 2px !Important;
@@ -10,26 +11,28 @@
 }
 
 /* Icon settings */
+  /* General settings */
 #playlist-menu .activate-button i,
 .pop-menu li i.icon{
   width: 15px !Important;
   height: 15px !Important;
-  left: 8px !Important;
   background-position: -45px -60px !Important;
-}
+} /* Playlist: Selected on hover */
+#playlist-menu .row.selected .activate-button i{
+  background-position: -30px -60px !Important;
+} /* Placement */
 #playlist-menu .activate-button i{
+  left: 7px !Important;
   top: -1px !Important;
 }
 .pop-menu li i.icon{
+  left: 11px !Important;
   top: 3px !important;
-}
-#playlist-menu .row.selected .activate-button i{
-  background-position: -30px -60px !Important;
-}
+}   /* New playlist */
 .pop-menu li.create i{
   width: 30px !Important;
   height: 15px !Important;
-  left: 1px !important;
+  left: 4px !important;
   top: 3px !Important;
 }
 
@@ -47,4 +50,6 @@
 /* Disappear */
 #playlist-menu .spinner{
   display: none !Important;
+}
+
 }
