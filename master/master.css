@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (07/03/15)
+   Version 4 (07/09/15)
 
    --- Credits and contact ---
 
@@ -674,7 +674,7 @@ div .user:hover .name span,
 #chat-messages [data-cid^="3605383"] .emoji-1f195,
 #chat-messages [data-cid^="3475278"] .emoji-1f195,
 #chat-messages [data-cid^="3605383"] .bdg{
-  background-image: url(http://i.imgur.com/Xz4jZSv.png) !important;
+  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
 }
     /* Icon positioning */
