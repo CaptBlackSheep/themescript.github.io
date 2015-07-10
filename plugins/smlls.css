@@ -11,16 +11,30 @@
 }
 
 /* Icon settings */
+  /* Icons */
+    /* stock */
+.pop-menu li i.icon-create-playlist{
+  background-position: -245px -114px !important;
+}
+    /* cmix */
+#playlist-menu .activate-button i{
+  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
+  background-size: 270px 480px !Important;
+}
+
   /* General settings */
 #playlist-menu .activate-button i,
 .pop-menu li i.icon{
   width: 15px !Important;
   height: 15px !Important;
+}
+#playlist-menu .activate-button i.icon-check-purple,
+.pop-menu li i.icon.icon-check-purple{
   background-position: -45px -60px !Important;
 } /* Playlist: Selected on hover */
-#playlist-menu .row.selected .activate-button i{
+#playlist-menu .activate-button i.icon-check-white{
   background-position: -30px -60px !Important;
-} /* Placement */
+} /* Icon placement */
 #playlist-menu .activate-button i{
   left: 7px !Important;
   top: -1px !Important;
@@ -36,20 +50,7 @@
   top: 3px !Important;
 }
 
-/* Icons */
-  /* stock */
-.pop-menu li i.icon-create-playlist{
-  background-position: -245px -114px !important;
-}
-  /* cmix */
-#playlist-menu .activate-button i{
-  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
-  background-size: 270px 480px !Important;
-}
-
 /* Disappear */
 #playlist-menu .spinner{
   display: none !Important;
-}
-
 }
