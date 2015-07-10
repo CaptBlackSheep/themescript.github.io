@@ -1,3 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("plug.dj") {
+
 .room-background{
   background-image: url("http://i.imgur.com/zSMRtE6.png") !important;
 }
@@ -14,29 +18,32 @@
   font-size: 8pt !Important;
 }
 
-/* Icon settings */
-  /* General */
-    /* stock */
+/* Icons */
+  /* stock */
 .pop-menu li i.icon-create-playlist{
   background-position: -245px -114px !important;
 }
-    /* dungeon */
+  /* dungeon */
 #playlist-menu .activate-button i,
-.pop-menu li i.icon{
+.pop-menu li:not(:last-child) i.icon{
   background-image: url(https://themescript.github.io/images/dungeon/smlchk.png) !important;
   background-size: 30px 15px !Important;
 }
-  /* Size and position */
-#playlist-menu .row .activate-button i,
-#playlist-menu .row.selected:not(:hover) .activate-button i,
+
+/* Icon settings */
+  /* General settings */
+#playlist-menu .activate-button i,
 .pop-menu li i.icon{
   width: 15px !Important;
   height: 15px !Important;
+} /* Purple checkmark */
+#playlist-menu .activate-button i.icon-check-purple,
+.pop-menu li i.icon.icon-check-purple{
   background-position: -15px 0px !Important;
-} /* Playlist: Selected on hover */
-#playlist-menu .row:hover.selected .activate-button i{
+} /* White checkmark */
+#playlist-menu .activate-button i.icon-check-white{
   background-position: 0px 0px !Important;
-} /* Placement */
+} /* Icon placement */
 #playlist-menu .activate-button i{
   left: 7px !Important;
   top: -1px !Important;
@@ -52,6 +59,11 @@
   top: 3px !Important;
 }
 
+/* Disappear */
+#playlist-menu .spinner{
+  display: none !Important;
+}
+
 /* Playback background */
 #playback-container{
   box-shadow: 0px 0px 0px 0px rgb(0, 0, 0) !important;
@@ -65,4 +77,6 @@
 #playback img,
 #room .torch{
   display: none !Important;
+}
+
 }
