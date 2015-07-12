@@ -13,8 +13,8 @@
 .cm .badge-box .icon.icon-meh,
 .cm.extplug-user-join .badge-box i,
 .cm.extplug-user-leave .badge-box i,
-.cm.extplug-friend-join .badge-box .emoji,
-.cm.extplug-friend-leave .badge-box .emoji{
+.cm.extplug-friend-join .badge-box span,
+.cm.extplug-friend-leave .badge-box span{
   background-image: url(file:///media/ExtStore/themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
 }
@@ -44,11 +44,11 @@
 .cm.extplug-user-leave .badge-box i{
   background-position: -240px -270px !Important;
 }
-.cm.extplug-friend-join .badge-box .emoji{
-  background-position: -240px -300px !Important;
+.cm.extplug-friend-join .badge-box span{
+  background-position: -247px -307px !Important;
 }
-.cm.extplug-friend-leave .badge-box .emoji{
-  background-position: -240px -330px !Important;
+.cm.extplug-friend-leave .badge-box span{
+  background-position: -247px -337px !Important;
 }
 
 /* Buttons */
