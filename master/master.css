@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (07/11/15)
+   Version 4 (07/12/15)
 
    --- Credits and contact ---
 
@@ -660,7 +660,7 @@ div .user:hover .name span,
 .icon.icon-check-circle,
 .icon.icon-next-track,
       /* General badges */
-.badge-box.no-badge,
+.cm:not(.extplug-notification) .badge-box.no-badge,
 #room-bar .icon-room:before,
     /* Bot staff icons and emoji */
 #chat-messages [data-cid^="3605383"] .icon.icon-chat-manager,
