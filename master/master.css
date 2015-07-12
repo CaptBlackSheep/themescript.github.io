@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (07/09/15)
+   Version 4 (07/11/15)
 
    --- Credits and contact ---
 
@@ -124,8 +124,14 @@
 .tab-menu :not(.selected),
 button:hover,
 button:not(:hover),
+#user-settings a > div:hover,
+#user-settings a > div:not(:hover)
 #footer-user .button{
   transition: background-color 0.2s !Important;
+}
+#user-settings button:hover,
+#user-settings button:not(:hover){
+  transition: 0.2s !Important;
 }
   /* Fading elapsing timer */
 #now-playing-time .elapsing{
@@ -253,7 +259,7 @@ button:not(:hover),
 #chat-messages .moderation .msg,
 #user-communities .bar,
 #user-communities .cell,
-#user-settings .right button,
+#user-settings .account .right button,
 #search-bar,
 #search-suggestion,
 #search-menu li,
@@ -316,6 +322,7 @@ button:not(:hover),
 }
   /* colour 365f80 */
 #dialog-restricted-media .row:hover,
+#app-menu .icon:after,
 #user-view .item .count,
 .request-count,
 .tab-menu .count,
@@ -510,7 +517,7 @@ div .user.is-staff span,
 #volume .circle[style="left: 7.5px;"],
 #room-settings .general-settings .enabled button.on,
 #user-friends button.negative:hover,
-#user-settings .right button:hover,
+#user-settings .account .right button:hover,
 .delete-button:hover,
 #dj-button.is-leave .left,
 #dj-button.is-quit .left,
@@ -556,7 +563,7 @@ div .user:hover .name span,
 #app-menu .logout:hover span,
 #dialog-confirm .submit,
 #dialog-container .destructive:not(.no-submit) .button.submit,
-#user-settings .right button,
+#user-settings .account .right button:hover,
 #chat-messages .cm.system *,
     /* Bot text */
 #chat-messages [data-cid^="3605383"] .un,
