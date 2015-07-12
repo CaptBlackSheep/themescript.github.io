@@ -39,16 +39,16 @@
 
 /* Other chat mentions */
 .cm.extplug-user-join .badge-box i{
-  background-position: -247px -247px !Important;
+  background-position: -240px -240px !Important;
 }
 .cm.extplug-user-leave .badge-box i{
-  background-position: -247px -277px !Important;
+  background-position: -240px -270px !Important;
 }
 .cm.extplug-friend-join .badge-box .emoji{
-  background-position: -247px -307px !Important;
+  background-position: -240px -300px !Important;
 }
 .cm.extplug-friend-leave .badge-box .emoji{
-  background-position: -247px -337px !Important;
+  background-position: -240px -330px !Important;
 }
 
 /* Buttons */
