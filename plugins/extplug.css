@@ -1,0 +1,29 @@
+/* JS extensions */
+#user-settings .ext-plug .item span{
+  color: rgb(180, 201, 222) !Important;
+} /* Disabled */
+#user-settings .ext-plug .item:not(.selected) span{
+  opacity: 0.75 !Important;
+}
+
+/* Buttons */
+#user-settings .ext-plug button{
+  background-color: rgb(50, 60, 83) !important;
+} /* Left */
+#user-settings .ext-plug .left button:hover{
+  color: rgb(180, 201, 222) !Important;
+  background-color: rgb(92, 135, 179) !important;
+} /* Right */
+#user-settings .ext-plug .right button:hover{
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(255, 45, 49) !important;
+}
+
+/* Highlight */
+#chat-messages .extplug-deleted:hover{
+  opacity: 1 !Important;
+}
+#chat-messages .extplug-deleted:hover,
+#chat-messages .extplug-deleted:not(:hover){
+  transition: 0.2s !Important;
+}
