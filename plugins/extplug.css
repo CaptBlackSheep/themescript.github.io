@@ -6,6 +6,51 @@
   opacity: 0.75 !Important;
 }
 
+/* Vote */
+  /* icons */
+.cm .icon.icon-woot,
+.cm .icon.icon-grab,
+.cm .icon.icon-meh,
+.cm.extplug-user-join i,
+.cm.extplug-user-leave i,
+.cm.extplug-friend-join .emoji,
+.cm.extplug-friend-leave .emoji{
+  background-image: url(file:///media/ExtStore/themescript.github.io/images/cmix_icons.png) !important;
+  background-size: 270px 480px !Important;
+}
+.cm .icon.icon-woot{
+  background-position: -90px -60px !Important;
+}
+.cm .icon.icon-grab{
+  background-position: -120px 0px !Important;
+}
+.cm .icon.icon-meh{
+  background-position: -90px -30px !Important;
+} /* Text */
+.cm.extplug-woot .text{
+  color: rgb(74, 108, 143) !important;
+}
+.cm.extplug-grab .text{
+  color: rgb(92, 135, 179) !important;
+}
+.cm.extplug-meh .text{
+  color: rgb(255, 45, 49) !important;
+}
+
+/* Other chat mentions */
+.cm.extplug-user-join i{
+  background-position: -247px -247px !Important;
+}
+.cm.extplug-user-leave i{
+  background-position: -247px -277px !Important;
+}
+.cm.extplug-friend-join .emoji{
+  background-position: -247px -307px !Important;
+}
+.cm.extplug-friend-leave .emoji{
+  background-position: -247px -337px !Important;
+}
+
 /* Buttons */
 #user-settings .ext-plug button{
   background-color: rgb(50, 60, 83) !important;
