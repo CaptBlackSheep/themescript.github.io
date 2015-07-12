@@ -1,3 +1,7 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("plug.dj") {
+
 /* JS extensions */
 #user-settings .ext-plug .item span{
   color: rgb(180, 201, 222) !Important;
@@ -8,23 +12,23 @@
 
 /* Vote */
   /* icons */
-.cm .icon.icon-woot,
-.cm .icon.icon-grab,
-.cm .icon.icon-meh,
-.cm.extplug-user-join i,
-.cm.extplug-user-leave i,
-.cm.extplug-friend-join .emoji,
-.cm.extplug-friend-leave .emoji{
+.cm .badge-box .icon.icon-woot,
+.cm .badge-box .icon.icon-grab,
+.cm .badge-box .icon.icon-meh,
+.cm.extplug-user-join .badge-box i,
+.cm.extplug-user-leave .badge-box i,
+.cm.extplug-friend-join .badge-box .emoji,
+.cm.extplug-friend-leave .badge-box .emoji{
   background-image: url(file:///media/ExtStore/themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
 }
-.cm .icon.icon-woot{
+.cm .badge-box .icon.icon-woot{
   background-position: -90px -60px !Important;
 }
-.cm .icon.icon-grab{
+.cm .badge-box .icon.icon-grab{
   background-position: -120px 0px !Important;
 }
-.cm .icon.icon-meh{
+.cm .badge-box .icon.icon-meh{
   background-position: -90px -30px !Important;
 } /* Text */
 .cm.extplug-woot .text{
@@ -38,16 +42,16 @@
 }
 
 /* Other chat mentions */
-.cm.extplug-user-join i{
+.cm.extplug-user-join .badge-box i{
   background-position: -247px -247px !Important;
 }
-.cm.extplug-user-leave i{
+.cm.extplug-user-leave .badge-box i{
   background-position: -247px -277px !Important;
 }
-.cm.extplug-friend-join .emoji{
+.cm.extplug-friend-join .badge-box .emoji{
   background-position: -247px -307px !Important;
 }
-.cm.extplug-friend-leave .emoji{
+.cm.extplug-friend-leave .badge-box .emoji{
   background-position: -247px -337px !Important;
 }
 
@@ -71,4 +75,6 @@
 #chat-messages .extplug-deleted:hover,
 #chat-messages .extplug-deleted:not(:hover){
   transition: 0.2s !Important;
+}
+
 }
