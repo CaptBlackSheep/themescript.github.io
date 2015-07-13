@@ -15,7 +15,7 @@
 .cm.extplug-user-leave .badge-box i,
 .cm.extplug-friend-join .badge-box span,
 .cm.extplug-friend-leave .badge-box span{
-  background-image: url(file:///media/ExtStore/themescript.github.io/images/cmix_icons.png) !important;
+  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
 }
 .cm .badge-box .icon.icon-woot{
