@@ -8,23 +8,23 @@
 
 /* Vote */
   /* icons */
-.cm .badge-box .icon.icon-woot,
-.cm .badge-box .icon.icon-grab,
-.cm .badge-box .icon.icon-meh,
-.cm.extplug-user-join .badge-box i,
-.cm.extplug-user-leave .badge-box i,
-.cm.extplug-friend-join .badge-box span,
-.cm.extplug-friend-leave .badge-box span{
+.cm.extplug-woot i.icon.icon-woot,
+.cm.extplug-grab i.icon.icon-grab,
+.cm.extplug-meh i.icon.icon-meh,
+.cm.extplug-user-join .icon.icon-community-users,
+.cm.extplug-user-leave .icon.icon-community-users,
+.cm.extplug-friend-join .emoji.emoji-2764,
+.cm.extplug-friend-leave .emoji.emoji-1f494{
   background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
 }
-.cm .badge-box .icon.icon-woot{
+.cm.extplug-woot i.icon.icon-woot{
   background-position: -90px -60px !Important;
 }
-.cm .badge-box .icon.icon-grab{
+.cm.extplug-grab i.icon.icon-grab{
   background-position: -120px 0px !Important;
 }
-.cm .badge-box .icon.icon-meh{
+.cm.extplug-meh i.icon.icon-meh{
   background-position: -90px -30px !Important;
 } /* Text */
 .cm.extplug-woot .text{
@@ -38,16 +38,16 @@
 }
 
 /* Other chat mentions */
-.cm.extplug-user-join .badge-box i{
+.cm.extplug-user-join .icon.icon-community-users{
   background-position: -240px -240px !Important;
 }
-.cm.extplug-user-leave .badge-box i{
+.cm.extplug-user-leave .icon.icon-community-users{
   background-position: -240px -270px !Important;
 }
-.cm.extplug-friend-join .badge-box span{
+.cm.extplug-friend-join .emoji.emoji-2764{
   background-position: -247px -307px !Important;
 }
-.cm.extplug-friend-leave .badge-box span{
+.cm.extplug-friend-leave .emoji.emoji-1f494{
   background-position: -247px -337px !Important;
 }
 
@@ -71,4 +71,19 @@
 #chat-messages .extplug-deleted:hover,
 #chat-messages .extplug-deleted:not(:hover){
   transition: 0.2s !Important;
+}
+
+/* Functions from non-standard plugins */
+  /* Rollover Blurbs */
+#user-rollover .emoji-glow{
+  display: none !Important;
+}
+
+.extplug-blurb{
+  background: transparent !important;
+  color: rgb(180, 201, 222)
+}
+
+#user-rollover .extplug-blurb-wrap{
+  background-color: rgb(50, 60, 83) !Important;
 }
