@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (07/12/15)
+   Version 4 (07/14/15)
 
    --- Credits and contact ---
 
@@ -38,7 +38,7 @@
 */
 
 /* Theme components */
-/* > Additional styles for plugins are handled by plugins.css */
+  /* > Additional styles for plugins are handled by plugins.css */
 @import url("https://themescript.github.io/settings/loading.css");
 @import url("https://themescript.github.io/badges/badges.css");
 @import url("https://themescript.github.io/themes/cmix/usrlogos.css");
@@ -290,7 +290,7 @@ button:not(:hover),
 #footer-user .back,
 #media-panel .button:not(.active),
 #playlist-menu > div.button,
-#user-rollover .info,
+#user-rollover .info:not(.extplug-blurb-wrap),
 .thumb,
 #user-rollover .action:hover,
 #user-friends .row button,
@@ -661,6 +661,7 @@ div .user:hover .name span,
 .icon.icon-next-track,
       /* General badges */
 .cm:not(.extplug-notification) .badge-box.no-badge,
+#user-rollover .badge-box.no-badge,
 #room-bar .icon-room:before,
     /* Bot staff icons and emoji */
 #chat-messages [data-cid^="3605383"] .icon.icon-chat-manager,
