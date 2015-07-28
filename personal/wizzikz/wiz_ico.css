@@ -1,0 +1,452 @@
+/* Icon map */
+  /* Stock */
+.pop-menu li i.icon-create-playlist{
+  background-position: -245px -114px !important;
+}
+  /* Modified */
+#app-menu .icon-site-logo,
+#app .icon-search,
+#user-view .icon-search,
+#app-menu .list i,
+#dashboard-border .app-header i,
+#volume i:not(.icon-volume-off),
+#volume .icon-volume-off,
+#room-bar .icon-room,
+#app .icon-star-white,
+#user-view .icon-star-white,
+#now-playing-bar .icon-current-dj,
+#history-button .icon-history-white,
+#header-panel-bar i,
+#chat-header i,
+#user-lists .header i:not(.icon-ignored),
+#app .icon-dashboard-population,
+#user-view .icon-dashboard-population,
+#app .icon-friends-white,
+#app .icon-friends-grey,
+#app .icon-chat-admin,
+#user-friends .positive:not(:hover) i,
+#user-friends .negative i,
+#app .icon-join-community,
+#user-view .icon-join-community,
+#user-rollover .icon-chat-admin,
+#toast-notifications .icon-vote-woot-selected,
+#toast-notifications .icon-join-booth,
+#toast-notifications .icon-unignore,
+#user-rollover .actions :not(.ignore) i,
+#user-rollover .actions .icon-unignore,
+#user-rollover .shop-avatar i,
+#chat-messages .moderation .badge-box i:not(.icon-chat-dj):not(.icon-chat-bouncer):not(.icon-chat-manager):not(.icon-chat-host),
+#chat-messages .user-action i,
+#vote .crowd-response.disabled i,
+#footer .store.button:not(:hover) .icon-store-white,
+#footer .profile.button .icon-user-white,
+#footer .settings.button .icon-settings-white,
+#facebook-menu:not(:hover) .icon.icon-facebook-selected,
+#twitter-menu:not(:hover) .icon.icon-twitter-selected,
+#user-menu i,
+#user-view .dropdown i,
+#user-view .icon-users-white,
+#search-menu .menu i,
+#search-menu .selected i,
+#history-button .icon-arrow-up,
+#filter-bar .icon-filter,
+#media-panel .button:not(.back):not(:hover) i,
+#media-panel .back i,
+.icon-history-listeners,
+#playlist-import.button:not(:hover) i,
+#playlist-create.button:not(:hover) i,
+#app .actions i,
+#playlist-menu .activate-button i.icon-check-purple,
+#playlist-menu .activate-button i.icon-check-white,
+#playlist-activate-button.active .icon-check-circle,
+#playlist-activate-button .icon-check-purple,
+#your-active-playlist .icon-check-purple,
+#media-panel .icon-playlist-small,
+.pop-menu li i.icon-check-purple,
+.pop-menu li:not(:hover) i.icon-create-playlist,
+#app .icon-clear-input,
+#dialog-container .icon-dialog-close,
+#dialog-media-update .icon-swap{
+  background-image: url(https://themescript.github.io/personal/wizzikz/images/wiz_ico.png) !important;
+  background-size: 315px 300px !Important;
+}
+/* Effects */
+  /* Opacity */
+#facebook-menu:not(:hover) .icon.icon-facebook-selected,
+#twitter-menu:not(:hover) .icon.icon-twitter-selected{
+  opacity: 0.3 !important;
+}
+  /* Transforms */
+#history-button .icon-arrow-up,
+#user-view .dropdown .icon-arrow-up-grey,
+#chat-messages .moderation .icon-arrow-up{
+  transform: scaley(-1) !Important;
+}
+#media-panel .back i{
+  transform: rotate(90deg) !Important;
+}
+/* Modified icons */
+  /* App menu and dashboard header */
+#app-menu .icon-event-calendar-grey{
+  background-position: -30px -240px !Important;
+}
+#dashboard-border .icon.icon-event-calendar,
+#app-menu .icon-event-calendar{
+  background-position: -30px -210px !Important;
+}
+#app-menu .icon-support-grey{
+  background-position: -60px -240px !Important;
+}
+#app-menu .icon-support-white{
+  background-position: -60px -210px !Important;
+}
+#dashboard-border .icon-news-grey,
+#app-menu .icon-news-grey{
+  background-position: 0px -240px !Important;
+}
+#app-menu .icon-volume-off{
+  background-position: 0px -210px !Important;
+}
+#app-menu .icon-about-grey{
+  background-position: -90px -240px !Important;
+}
+#app-menu .icon-about-white{
+  background-position: -90px -210px !Important;
+}
+#app-menu .icon-logout-grey{
+  background-position: -120px -240px !Important;
+}
+#app-menu .icon-logout-white{
+  background-position: -120px -210px !Important;
+}
+  /* Header */
+    /* App buttons */
+#app-menu .icon-site-logo{
+  background-position: -150px 0px !Important;
+}
+    /* Room buttons */
+#app .icon-star-white,
+      /* Communities */
+#user-view .icon-star-white{
+  background-position: -60px 0px !important;
+}
+#now-playing-bar .icon-current-dj{
+  background-position: -120px 0px !Important;
+}
+#history-button .icon-history-white{
+  background-position: -120px -150px !Important;
+}
+      /* Panel buttons */
+#header-panel-bar .icon-chat{
+  background-position: 0px -60px !Important;
+}
+#header-panel-bar .icon-population{
+  background-position: -30px -60px !Important;
+}
+#header-panel-bar .icon-waitlist{
+  background-position: -60px -60px !Important;
+}
+#header-panel-bar .icon-users-white,
+#user-view .icon-users-white{
+  background-position: -90px -150px !Important;
+}
+        /* And notification icons */
+#room-bar .icon-room,
+#toast-notifications .icon-vote-woot-selected{
+  background-position: 0px -90px !Important;
+}
+#toast-notifications .icon-join-booth{
+  background-position: 0px -120px !important;
+}
+      /* Chat header */
+        /* On */
+#chat-header .icon-chat-sound-on,
+          /* Volume */
+#volume i:not(.icon-volume-off){
+  background-position: -60px -90px !Important;
+}
+#chat-header .icon-emoji-on{
+  background-position: -90px -90px !Important;
+}
+#chat-header .icon-timestamps-12{
+  background-position: -120px -90px !Important;
+}
+#chat-header .icon-timestamps-24{
+  background-position: -150px -90px !Important;
+}
+#chat-header .icon-mention,
+          /* User rollover */
+#user-rollover .icon-mention{
+  background-position: -180px -120px !Important;
+}
+#chat-header .icon-chat-popout{
+  background-position: -150px -120px !Important;
+}
+        /* Off */
+#chat-header .icon-chat-sound-off,
+          /* Volume */
+#volume i{
+  background-position: -60px -120px !Important;
+}
+#chat-header .icon-emoji-off{
+  background-position: -90px -120px !Important;
+}
+#chat-header .icon-timestamps-off{
+  background-position: -120px -120px !Important;
+}
+#chat-header .icon-mention-off{
+  background-position: -180px -90px !Important;
+}
+    /* Footer */
+#footer .store.button:not(:hover) .icon-store-white,
+      /* User rollover: Shop */
+#user-rollover .shop-avatar i{
+  background-position: -60px -150px !Important;
+}
+#footer .profile.button .icon-user-white,
+     /* Friend management: View profile */
+#user-friends .positive:not(:hover) i{
+  background-position: 0px -150px !Important;
+}
+#footer .settings.button .icon-settings-white{
+  background-position: -180px -150px !Important;
+} /* Friend management */
+#user-friends .negative i{
+  background-position: -120px -60px !Important;
+}
+#user-friends .negative:hover i{
+  background-position: -90px -60px !Important;
+}
+  /* Chat and users */
+    /* Population */
+#app .icon-dashboard-population,
+#user-view .icon-dashboard-population{
+  background-position: -60px -30px !Important;
+}   /* Friends */
+#app .icon-friends-white{
+  background-position: -90px -30px !Important;
+}   /* Guests */
+#app .icon-friends-grey{
+  background-position: -90px 0px !important;
+}
+    /* Admins */
+#app .icon-chat-admin,
+#user-rollover .icon-chat-admin{
+  background-position: -270px -150px !Important;
+}
+  /* Menus */
+    /* User */
+      /* Normal */
+#user-menu .icon-user-grey{
+  background-position: 0px -180px !Important;
+}
+#user-menu .icon-inventory-grey{
+  background-position: -30px -180px !Important;
+}
+#user-menu .icon-store-grey{
+  background-position: -60px -180px !Important;
+}
+#user-menu .icon-users-grey{
+  background-position: -90px -180px !Important;
+}
+#user-menu .icon-history-grey{
+  background-position: -120px -180px !Important;
+}
+#user-menu .icon-community-grey,
+        /* App menu */
+#app-menu .icon-community-grey{
+  background-position: -150px -180px !Important;
+}
+#user-menu .icon-settings-grey{
+  background-position: -180px -180px !Important;
+}
+      /* Hover */
+#user-menu .icon-user-white{
+  background-position: 0px -150px !Important;
+}
+#user-menu .icon-inventory-white{
+  background-position: -30px -150px !Important;
+}
+#user-menu .icon-store-white{
+  background-position: -60px -150px !Important;
+}
+#user-menu .icon-users-white{
+  background-position: -90px -150px !Important;
+}
+#user-menu .icon-history-white{
+  background-position: -120px -150px !Important;
+}
+#user-menu .icon-community-white,
+        /* App menu */
+#app-menu .icon-community-white{
+  background-position: -150px -150px !Important;
+}
+#user-menu .icon-settings-white{
+  background-position: -180px -150px !Important;
+} /* Join community */
+#app .icon-join-community,
+#user-view .icon-join-community{
+  background-position: -210px -150px !Important;
+}
+    /* Socmed */
+#facebook-menu:not(:hover) .icon.icon-facebook-selected{
+  background-position: -30px 0px !Important;
+}
+#twitter-menu:not(:hover) .icon.icon-twitter-selected{
+  background-position: -30px -30px !Important;
+}
+  /* Media stuff */
+    /* Checkmarks / Add media */
+#playlist-menu .activate-button i.icon-check-purple,
+.pop-menu li i.icon-check-purple{
+  background-position: -270px  -120px !important;
+}
+#playlist-menu .activate-button i.icon-check-white{
+  background-position: -270px -135px !important;
+}
+#playlist-activate-button.active .icon-check-circle{
+  background-position: -210px -120px !important;
+}
+#playlist-activate-button .icon-check-purple,
+#your-active-playlist .icon-check-purple{
+  background-position: -240px -120px !important;
+}
+.pop-menu li:not(:hover) i.icon-create-playlist{
+  background-position: -240px -99px !Important;
+}
+#dialog-media-update .icon-swap{
+  background-position: -240px -150px !Important;
+}
+    /* Menu icons */
+#search-menu .icon-menu-arrow{
+  background-position: -270px -60px !Important;
+}
+
+#media-panel .icon-playlist-small{
+  background-position: -270px -75px !Important;
+}
+      /* Arrows */
+#history-button .icon-arrow-up,
+#user-view .dropdown i,
+#media-panel .back i,
+#chat-messages .moderation .icon-arrow-up,
+#chat-messages .moderation .icon-arrow-down{
+  background-position: -120px -30px !important;
+}
+      /* Search icons */
+#app .icon-search,
+#user-view .icon-search{
+  background-position: -30px -90px !important;
+}
+#filter-bar .icon-filter{
+  background-position: -30px -120px !Important;
+}
+#search-menu .icon-youtube{
+  background-position: -150px -35px !Important;
+}
+#search-menu .icon-soundcloud{
+  background-position: -210px -50px !Important;
+}
+#search-menu .icon-playlist{
+  background-position: -180px -60px !Important;
+}
+  /* Votes and media actions */
+#app .actions .icon-edit-white,
+#media-panel .button:not(.back):not(:hover) .icon-edit-white{
+  background-position: -150px -210px !Important;
+}
+#media-panel .button:not(.back):not(:hover) .icon-shuffle{
+  background-position: -180px -210px !Important;
+}
+#app .actions .icon-add{
+  background-position: -150px -240px !Important;
+}
+#app .actions .icon-related{
+  background-position: -180px -240px !Important;
+}
+#app .actions .icon-woot-disabled,
+#vote .crowd-response.disabled .icon-woot-disabled{
+  background-position: -240px -180px !Important;
+}
+#vote .crowd-response.disabled .icon-grab-disabled{
+  background-position: -240px -210px !Important;
+}
+#app .actions .icon-meh-disabled,
+#vote .crowd-response.disabled .icon-meh-disabled{
+  background-position: -240px -240px !Important;
+}
+#app .actions .icon-play-next{
+  background-position: -210px -240px !Important;
+}
+#media-panel .button:not(.back):not(:hover) .icon-delete,
+#app .actions .icon-delete{
+  background-position: -210px -210px !Important;
+}
+#playlist-import.button:not(:hover) i{
+  background-position: -210px -90px !Important;
+}
+#playlist-create.button:not(:hover) i{
+  background-position: -240px -90px !Important;
+}
+.icon-history-listeners{
+  background-position: -270px -165px !Important;
+}
+  /* User rollover and user lists header */
+#user-rollover .icon-skip,
+#chat-messages .moderation .icon-skip,
+#chat-messages .user-action .icon-skip{
+  background-position: -150px -60px !Important;
+}
+#user-rollover .icon-gift{
+  background-position: 0px -270px !Important;
+}
+#user-rollover .actions .icon-unignore,
+#toast-notifications .icon-unignore{
+  background-position: -30px -270px !Important;
+}
+#user-rollover .icon-add-friend{
+  background-position: -60px -270px !Important;
+}
+#user-rollover .icon-join-booth,
+#chat-messages .moderation .icon-join-booth{
+  background-position: -90px -270px !Important;
+}
+#user-rollover .icon-leave-booth,
+#chat-messages .moderation .icon-leave-booth{
+  background-position: -120px -270px !Important;
+}
+#user-rollover .icon-join-waitlist,
+#chat-messages .moderation .icon-join-waitlist{
+  background-position: -150px -270px !Important;
+}
+#user-rollover .icon-leave-waitlist,
+#chat-messages .moderation .icon-leave-waitlist{
+  background-position: -180px -270px !Important;
+}
+#user-rollover .icon-staff,
+#user-lists .header .icon-staff{
+  background-position: -210px -270px !Important;
+}
+#user-rollover .icon-mute{
+  background-position: -240px -270px !Important;
+}
+#user-rollover .icon-ban,
+#user-lists .header .icon-ban,
+#chat-messages .moderation .icon-ban{
+  background-position: -270px -270px !Important;
+}
+#user-lists .header .icon-community-users{
+  background-position: -285px -120px !Important;
+}
+#user-lists .header .icon-mute{
+  background-position: -285px -150px !important;
+}
+  /* Close buttons */
+#app .icon-clear-input{
+  background-position: 0px -30px !Important;
+}
+#dialog-container .icon-dialog-close,
+    /* User actions: Remove staff */
+#chat-messages .moderation .icon-x-grey{
+  background-position: 0px 0px !Important;
+}
