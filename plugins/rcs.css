@@ -161,6 +161,10 @@
   border: none !Important;
 }
 
+#rs-skip-button{
+  background-color: transparent !important;
+}
+
 .chat-header-button.p3-s-clear,
 #rcs-clearchat,
 #playback-controls > #stream-toggle,
