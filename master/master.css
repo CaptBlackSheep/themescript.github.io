@@ -10,7 +10,7 @@
    Coded using universal properties exclusively.
    Non-CSS3 browsers will encounter compatibility issues.
    
-   Version 4 (07/31/15)
+   Version 4 (07/14/15)
 
    --- Credits and contact ---
 
@@ -205,7 +205,7 @@ button:not(:hover),
 #room-settings-menu,
 #room-settings,
 #vote > .crowd-response .bottom,
-#vote .icon,
+#vote .crowd-response .icon,
 #footer,
 #playlist-panel,
 #search,
@@ -629,7 +629,7 @@ div .user:hover .name span,
 .icon.icon-staff,
 #facebook-menu .icon.icon-facebook-selected,
 #twitter-menu .icon.icon-twitter-selected,
-#vote .icon:not(.icon-skip),
+#vote .crowd-response .icon,
 .icon.icon-grab,
 :not(.badge-box) > .icon.icon-star-white,
 #chat-messages .cm.moderation:not(.user-action) > .badge-box > .icon.icon-skip,
