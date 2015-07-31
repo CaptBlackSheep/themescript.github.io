@@ -47,23 +47,18 @@
   border-right: none !Important;
   border-top-left-radius: 4px !Important;
   border-top-right-radius: 4px !Important;
-  background-color: rgb(22, 31, 49) !important;
+  background-color: red !important;
 }     /* Woot */
-#vote .extplug-vote-list.woot{
+.app-view:not(.video-only) #vote .extplug-vote-list.woot{
   border-bottom-right-radius: 4px !Important;
   border-color: rgb(74, 108, 143) !Important;
 }     /* Grab */
 #vote .extplug-vote-list.grab{
   border-color: rgb(92, 135, 179) !Important;
 }     /* Meh */
-#vote .extplug-vote-list.meh{
+.app-view:not(.video-only) #vote .extplug-vote-list.meh{
   border-bottom-left-radius: 4px !Important;
   border-color: rgb(255, 45, 49) !important;
-}
-.app-view.video-only #vote .extplug-vote-list.woot,
-.app-view.video-only #vote .extplug-vote-list.meh{
-  border-bottom-left-radius: 0px !Important;
-  border-bottom-right-radius: 0px !Important;
 }
 
 /* Other chat mentions */
