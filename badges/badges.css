@@ -1,4 +1,4 @@
-﻿/* DO NOT EDIT: After-play notifications */
+/* DO NOT EDIT: After-play notifications */
 #toast-notifications .left .icon.icon-vote-woot-selected{
   background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
@@ -33,8 +33,9 @@
    > TEMPLATE: */
    
 /* USERNAME */
-#chat-messages [data-cid^="USERID"] .bdg{
-  background-image: url(IMAGE_URL) !important;}
+#chat-messages [data-cid^="0"] .bdg,
+#user-rollover.id-0 .bdg{
+  background-image: url(pfx.domain.sfx/img.sfx) !important;}
   
 /* User ID can be obtained in one of four ways;
    > Without addons: Inspect a user's message
@@ -48,7 +49,9 @@
      and set those preferences under here */
 
 #chat-messages [data-cid^="4404282"] .badge-box,
-#chat-messages [data-cid^="3775042"] .badge-box{
+#user-rollover.id-4404282 .bdg
+#chat-messages [data-cid^="3775042"] .badge-box,
+#user-rollover.id-3775042 .bdg{
   border-radius: 0px !Important;
 }
 
@@ -58,147 +61,182 @@
 
 /* Community, bot */
 #room-bar .icon-room:before,
-#chat-messages [data-cid^="3605383"] .bdg{
+#chat-messages [data-cid^="3605383"] .bdg,
+#user-rollover.id-3605383 .bdg{
   background-position: -30px -90px !Important;}
 
 /* Host: Nighthawk */
 #room-bar .icon-room:after,
-#chat-messages [data-cid^="3818522"] .bdg {
+#chat-messages [data-cid^="3818522"] .bdg,
+#user-rollover.id-3818522 .bdg{
   background-image: url(http://i.imgur.com/Q7K1HZX.png) !important;}
   
 /* Style developer: HEEBEEJEEBEES */
-#chat-messages [data-cid^="4404282"] .bdg{
+#chat-messages [data-cid^="4404282"] .bdg,
+#user-rollover.id-4404282 .bdg{
   background-image: url(http://i.imgur.com/VwUmpGs.gif) !Important;}
 
 /* Style director: Wizzikz */
-#chat-messages [data-cid^="3573261"] .bdg{
+#chat-messages [data-cid^="3573261"] .bdg,
+#user-rollover.id-3573261 .bdg{
   background-image: url(http://i.imgur.com/250XnQN.png) !important;}
 
 /* Wobble */
-#chat-messages [data-cid^="5052240"] .bdg {
+#chat-messages [data-cid^="5052240"] .bdg,
+#user-rollover.id-5052240 .bdg{
   background-image: url(http://i.imgur.com/JnxK79f.png) !important;}
 
 /* RyoGTO */
-#chat-messages [data-cid^="5533920"] .bdg {
+#chat-messages [data-cid^="5533920"] .bdg,
+#user-rollover.id-5533920 .bdg{
   background-image: url(http://i.imgur.com/xAM3NjO.jpg) !important;}
 
 /* HecticLad */
-#chat-messages [data-cid^="4500966"] .bdg {
+#chat-messages [data-cid^="4500966"] .bdg,
+#user-rollover.id-4500966 .bdg{
   background-image: url(http://i.imgur.com/ZkdaTtg.png);}   /* Fellers */
-#chat-messages [data-cid^="3605741"] .bdg {
+#chat-messages [data-cid^="3605741"] .bdg,
+#user-rollover.id-3605741 .bdg{
   background-image: url(http://i.imgur.com/JnxK79f.png) !important;}
 
 /* Woots */
-#chat-messages [data-cid^="3475278"] .bdg {
+#chat-messages [data-cid^="3475278"] .bdg,
+#user-rollover.id-3475278 .bdg{
   background-image: url(http://i.imgur.com/ZQKUEcO.gif) !important;}
 
 /* Powedered Toast Man */
-#chat-messages [data-cid^="4103934"] .bdg {
+#chat-messages [data-cid^="4103934"] .bdg,
+#user-rollover.id-4103934 .bdg{
   background-image: url(http://i.imgur.com/8lTuDQC.jpg) !important;}
 
 /* Lushbear */
-#chat-messages [data-cid^="5021393"] .bdg {
+#chat-messages [data-cid^="5021393"] .bdg,
+#user-rollover.id-5021393 .bdg{
   background-image: url(http://i.imgur.com/btv65Gh.png) !important;}
 
 /* derelict */
-#chat-messages [data-cid^="3869450"] .bdg{
+#chat-messages [data-cid^="3869450"] .bdg,
+#user-rollover.id-3869450 .bdg{
   background-image: url(http://i.imgur.com/d55KwPP.png) !important;}
 
 /* MrDaft */
-#chat-messages [data-cid^="6148494"] .bdg{
+#chat-messages [data-cid^="6148494"] .bdg,
+#user-rollover.id-6148494 .bdg{
   background-image: url(http://i.imgur.com/eIXxyop.png) !important;}
 
 /* T-Roy */
-#chat-messages [data-cid^="3748769"] .bdg{
+#chat-messages [data-cid^="3748769"] .bdg,
+#user-rollover.id-3748769 .bdg{
   /* background-image: url(http://i.imgur.com/wPhqWUw.png) !important; */
   background-image: url(http://i.imgur.com/xWVLFBL.png) !important;}
 
 /* leafweed */
-#chat-messages [data-cid^="4178820"] .bdg{
+#chat-messages [data-cid^="4178820"] .bdg,
+#user-rollover.id-4178820 .bdg{
   background-image: url(http://i.imgur.com/lcO6Wge.gif) !important;}
 
 /* atomjack */
-#chat-messages [data-cid^="3724170"] .bdg{
+#chat-messages [data-cid^="3724170"] .bdg,
+#user-rollover.id-3724170 .bdg{
   background-image: url(http://i.imgur.com/XkFZ24y.gif) !important;}
 
 /* DankCookie */
-#chat-messages [data-cid^="5502961"] .bdg{
+#chat-messages [data-cid^="5502961"] .bdg,
+#user-rollover.id-5502961 .bdg{
   background-image: url(https://themescript.github.io/badges/dankcookie.jpg) !important;}
 
 /* Synaesthetik */
-#chat-messages [data-cid^="3638662"] .bdg{
+#chat-messages [data-cid^="3638662"] .bdg,
+#user-rollover.id-3638662 .bdg{
   background-image: url(http://i.imgur.com/toer6ya.png) !Important;}
 
 /* KHA */
-#chat-messages [data-cid^="6011708"] .bdg{
+#chat-messages [data-cid^="6011708"] .bdg,
+#user-rollover.id-6011708 .bdg{
   background-image: url(http://i.imgur.com/g6SA4E0.png) !Important;}
 
 /* bunnystack */
-#chat-messages [data-cid^="3775042"] .bdg{
+#chat-messages [data-cid^="3775042"] .bdg,
+#user-rollover.id-3775042 .bdg{
   background-image: url(http://i.imgur.com/7oB7SSF.png) !Important;}
 
 /* Phazym */
-#chat-messages [data-cid^="3818329"] .bdg {
+#chat-messages [data-cid^="3818329"] .bdg,
+#user-rollover.id-3818329 .bdg{
   background-image: url(https://themescript.github.io/badges/phazym.png) !important;}
 
 /* Rightclik */
-#chat-messages [data-cid^="3834890"] .bdg {
+#chat-messages [data-cid^="3834890"] .bdg,
+#user-rollover.id-3834890 .bdg{
   /* background-image: url(http://i.imgur.com/SNODayh.png) !important; */
   /* background-image: url(http://i.imgur.com/FoQw9Rh.png) !important;} *//* OLD */
   background-image: url(http://i.imgur.com/xFmCuC7.png) !important;}
 
 /* TerminallyChill */
-#chat-messages [data-cid^="3537523"] .bdg{
+#chat-messages [data-cid^="3537523"] .bdg,
+#user-rollover.id-3537523 .bdg{
   background-image: url(http://i.imgur.com/Jk4TVtp.png) !important;}
 
 /* Hoarse- */
-#chat-messages [data-cid^="3988637"] .bdg{
+#chat-messages [data-cid^="3988637"] .bdg,
+#user-rollover.id-3988637 .bdg{
   background-image: url(http://i.imgur.com/1E1VjLp.png) !Important;}
 
 /* FunkyBrewster */
-#chat-messages [data-cid^="4152442"] .bdg {
+#chat-messages [data-cid^="4152442"] .bdg,
+#user-rollover.id-4152442 .bdg{
   background-image: url(http://i.imgur.com/7GRiLHj.png) !important;}
 
 /* Backend: EckerDecker */
-#chat-messages [data-cid^="4386405"] .bdg{
+#chat-messages [data-cid^="4386405"] .bdg,
+#user-rollover.id-4386405 .bdg{
   background-image: url(http://i.imgur.com/Bbbo9fN.png) !important;}
 
 /* Cannabiscuit */
-#chat-messages [data-cid^="3721683"] .bdg{
+#chat-messages [data-cid^="3721683"] .bdg,
+#user-rollover.id-3721683 .bdg{
   background-image: url(http://i.imgur.com/hTKlpGC.png) !Important;}
 
 /* Dionysu5 */
-#chat-messages [data-cid^="3852859"] .bdg{
+#chat-messages [data-cid^="3852859"] .bdg,
+#user-rollover.id-3852859 .bdg{
   background-image: url(http://i.imgur.com/2Nwgqrs.png) !Important;}
 
 /* Paradox VII */
-#chat-messages [data-cid^="3995934"] .bdg{
+#chat-messages [data-cid^="3995934"] .bdg,
+#user-rollover.id-3995934 .bdg{
   background-image: url(http://i.imgur.com/1nb6rbD.gif) !important;}
 
 /* เสือนัท */
-#chat-messages [data-cid^="4206657"] .bdg{
+#chat-messages [data-cid^="4206657"] .bdg,
+#user-rollover.id-4206657 .bdg{
   background-image: url(http://i.imgur.com/SZWAMwD.jpg) !important;}
 
 /* AKJAMS */
-#chat-messages [data-cid^="3420990"] .bdg {
+#chat-messages [data-cid^="3420990"] .bdg,
+#user-rollover.id-3420990 .bdg{
   background-image: url(http://i.imgur.com/z5Lcql4.png) !important;}
 
 /* Obzerv */
-#chat-messages [data-cid^="3767595"] .bdg{
+#chat-messages [data-cid^="3767595"] .bdg,
+#user-rollover.id-3767595 .bdg{
   background-image: url(http://i.imgur.com/W1Jchuk.png) !important;}
 
 /* Gingerbread Central */
-#chat-messages [data-cid^="6043201"] .bdg{
+#chat-messages [data-cid^="6043201"] .bdg,
+#user-rollover.id-6043201 .bdg{
   background-image: url(http://i.imgur.com/5ZlvRuB.gif) !Important;
   background-color: #5d749e !Important;}
 
 /* Pick-a-chu */
-#chat-messages [data-cid^="6630381"] .bdg {
+#chat-messages [data-cid^="6630381"] .bdg,
+#user-rollover.id-6630381 .bdg{
   background-image: url(pickachu.jpg) !important;}
 
 /* Chilly Cookoff icons */
   /* Kush */
 #chat-messages [data-cid^='4136915'] .bdg,
+#user-rollover.id-4136915 .bdg
   /* Vector */
 #chat-messages [data-cid^='3852859'] .icon-chat-subscriber,
 #chat-messages [data-cid^='4189647'] .icon-chat-subscriber,
@@ -218,7 +256,8 @@
 
   /* Badges */
     /* fluffynips */
-#chat-#chat-messages [data-cid^='4136915'] .bdg{
+#chat-#chat-messages [data-cid^='4136915'] .bdg,
+#user-rollover.id-4136915 .bdg{
   background-position: -30px 0px !Important;}
   /* Sub icons */
     /* Vector */
