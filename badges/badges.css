@@ -5,7 +5,6 @@
   background-position: -240px -210px !Important;
 }
 
-
 .badge-box {
     background: transparent;
 }
@@ -239,17 +238,27 @@
 #user-rollover.id-4136915 .bdg
   /* Vector */
 #chat-messages [data-cid^='3852859'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3852859 .icon-chat-subscriber,
 #chat-messages [data-cid^='4189647'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4189647 .icon-chat-subscriber,
 #chat-messages [data-cid^='3643570'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3643570 .icon-chat-subscriber,
 #chat-messages [data-cid^='3710134'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3710134 .icon-chat-subscriber,
 #chat-messages [data-cid^='4500966'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4500966 .icon-chat-subscriber,
 #chat-messages [data-cid^='3425119'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3425119 .icon-chat-subscriber,
 #chat-messages [data-cid^='3621237'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3621237 .icon-chat-subscriber,
 #chat-messages [data-cid^='3869450'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3869450 .icon-chat-subscriber,
 #chat-messages [data-cid^='5479999'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-5479999 .icon-chat-subscriber,
 #chat-messages [data-cid^='3709816'] .icon-chat-subscriber,
-#chat-messages [data-cid^='4152442'] .icon-chat-subscriber
-{
+#vote .extplug-vote-list .id-3709816 .icon-chat-subscriber,
+#chat-messages [data-cid^='4152442'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4152442 .icon-chat-subscriber{
   background-image: url(http://i.imgur.com/jziQ64f.png) !important;
   background-size: 90px 75px !Important;
 }
@@ -262,15 +271,26 @@
   /* Sub icons */
     /* Vector */
 #chat-messages [data-cid^='3852859'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3852859 .icon-chat-subscriber,
 #chat-messages [data-cid^='4189647'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4189647 .icon-chat-subscriber,
 #chat-messages [data-cid^='3643570'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3643570 .icon-chat-subscriber,
 #chat-messages [data-cid^='3710134'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3710134 .icon-chat-subscriber,
 #chat-messages [data-cid^='4500966'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4500966 .icon-chat-subscriber,
 #chat-messages [data-cid^='3425119'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3425119 .icon-chat-subscriber,
 #chat-messages [data-cid^='3621237'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3621237 .icon-chat-subscriber,
 #chat-messages [data-cid^='3869450'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3869450 .icon-chat-subscriber,
 #chat-messages [data-cid^='5479999'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-5479999 .icon-chat-subscriber,
 #chat-messages [data-cid^='3709816'] .icon-chat-subscriber,
-#chat-messages [data-cid^='4152442'] .icon-chat-subscriber{
+#vote .extplug-vote-list .id-3709816 .icon-chat-subscriber,
+#chat-messages [data-cid^='4152442'] .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4152442 .icon-chat-subscriber{
   background-position: -75px -30px !Important;
 }
