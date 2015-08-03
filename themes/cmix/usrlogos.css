@@ -29,7 +29,12 @@
 #user-lists .id-3995934 .name,
 #waitlist .id-3995934 .name span,
 #chat-messages [data-cid^='3995934'] .un,
-#chat-messages [data-cid^='3995934'] .un:before{
+#chat-messages [data-cid^='3995934'] .un:before,
+#user-rollover.id-5021393 .username,
+#user-lists .id-5021393 .name,
+#waitlist .id-5021393 .name span,
+#chat-messages [data-cid^='5021393'] .un,
+#chat-messages [data-cid^='5021393'] .un:before{
   color: transparent !Important;
   background-position: 0% 50% !Important;
   background-repeat: no-repeat !Important;
@@ -100,4 +105,14 @@
   width: 166px !Important;
   height: 20px !Important;
   background-image: url(http://i.imgur.com/6gekTyS.png) !important;
+}
+
+/* Lushbear */
+#user-rollover.id-5021393 .username,
+#user-lists .id-5021393 .name,
+#waitlist .id-5021393 .name span,
+#chat-messages [data-cid^='5021393'] .un:before{
+  width: 121px !Important;
+  height: 20px !Important;
+  background-image: url(http://i.imgur.com/xIJ32YN.png) !important;
 }
