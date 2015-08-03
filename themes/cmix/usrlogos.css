@@ -7,27 +7,27 @@
 /* Disappear / Image position */
 #user-rollover.id-5096841 .username,
 #user-lists .id-5096841 .name,
-#waitlist .id-5096841 .name,
+#waitlist .id-5096841 .name span,
 #chat-messages [data-cid^='5096841'] .un,
 #chat-messages [data-cid^='5096841'] .un:before,
 #user-rollover.id-3988637 .username,
 #user-lists .id-3988637 .name,
-#waitlist .id-3988637 .name,
+#waitlist .id-3988637 .name span,
 #chat-messages [data-cid^='3988637'] .un,
 #chat-messages [data-cid^='3988637'] .un:before,
 #user-rollover.id-3673826 .username,
 #user-lists .id-3673826 .name,
-#waitlist .id-3673826 .name,
+#waitlist .id-3673826 .name span,
 #chat-messages [data-cid^='3673826'] .un,
 #chat-messages [data-cid^='3673826'] .un:before,
 #user-rollover.id-3767595 .username,
 #user-lists .id-3767595 .name,
-#waitlist .id-3767595 .name,
+#waitlist .id-3767595 .name span,
 #chat-messages [data-cid^='3767595'] .un,
 #chat-messages [data-cid^='3767595'] .un:before,
 #user-rollover.id-3995934 .username,
 #user-lists .id-3995934 .name,
-#waitlist .id-3995934 .name,
+#waitlist .id-3995934 .name span,
 #chat-messages [data-cid^='3995934'] .un,
 #chat-messages [data-cid^='3995934'] .un:before{
   color: transparent !Important;
@@ -45,7 +45,7 @@
   /* Replease "0" with user ID */
 #user-rollover.id-0 .username,
 #user-lists .id-0 .name,
-#waitlist .id-0 .name,
+#waitlist .id-0 .name span,
 #chat-messages [data-cid^='0'] .un:before{
   width: 0px/* imgwidth */ !Important;
   height: 0px/* imgheight */ !Important;
@@ -55,7 +55,7 @@
 /* Vibin' */
 #user-rollover.id-5096841 .username,
 #user-lists .id-5096841 .name,
-#waitlist .id-5096841 .name,
+#waitlist .id-5096841 .name span,
 #chat-messages [data-cid^='5096841'] .un:before{
   width: 49px !Important;
   height: 18px !Important;
@@ -65,7 +65,7 @@
 /* Hoarse- */
 #user-rollover.id-3988637 .username,
 #user-lists .id-3988637 .name,
-#waitlist .id-3988637 .name,
+#waitlist .id-3988637 .name span,
 #chat-messages [data-cid^='3988637'] .un:before{
   width: 57px !Important;
   height: 18px !important;
@@ -75,7 +75,7 @@
 /* iheartcolors */
 #user-rollover.id-3673026 .username,
 #user-lists .id-3673026 .name,
-#waitlist .id-3673026 .name,
+#waitlist .id-3673026 .name span,
 #chat-messages [data-cid^='3673026'] .un:before{
   width: 194px !Important;
    height: 15px !important;
@@ -85,7 +85,7 @@
 /* Obzerv */
 #user-rollover.id-3767595 .username,
 #user-lists .id-3767595 .name,
-#waitlist .id-3767595 .name,
+#waitlist .id-3767595 .name span,
 #chat-messages [data-cid^='3767595'] .un:before{
   width: 104px !important;
   height: 20px !important;
@@ -95,7 +95,7 @@
 /* Paradox Vii */
 #user-rollover.id-3995934 .username,
 #user-lists .id-3995934 .name,
-#waitlist .id-3995934 .name,
+#waitlist .id-3995934 .name span,
 #chat-messages [data-cid^='3995934'] .un:before{
   width: 166px !Important;
   height: 20px !Important;
