@@ -47,7 +47,7 @@
   border-right: none !Important;
   border-top-left-radius: 4px !Important;
   border-top-right-radius: 4px !Important;
-  background-color: red !important;
+  background-color: rgb(22, 31, 49) !important;
 }     /* Woot */
 .app-view:not(.video-only) #vote .extplug-vote-list.woot{
   border-bottom-right-radius: 4px !Important;
