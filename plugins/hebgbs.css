@@ -1,0 +1,55 @@
+#user-rollover.id-4404282{
+  background-color: #fff !Important;
+}
+
+#user-rollover.id-4404282 .extplug-blurb-wrap{
+  background-color: #000 !Important;
+}
+
+#user-rollover.id-4404282 .info:not(.extplug-blurb-wrap){
+  text-shadow: 0px 0px 6px #000,
+               0px 0px 6px #000,
+               0px 0px 6px #000 !important;
+  background-image: url(http://i.imgur.com/WocKMM7.gif) !Important;
+}
+
+.thumb{
+  border-color: rgba(0, 0, 0, 0.75) !important;
+  background: transparent !Important;
+}
+
+#user-rollover.id-4404282 .thumb .background{
+  background: radial-gradient(ellipse at center, transparent 50%, rgba(0, 0, 0, 0.75) 100%),
+              url(http://i.imgur.com/XFYHBit.gif) 50% 50% !Important;
+}
+
+#user-rollover.id-4404282 .extplug-blurb{
+  text-shadow: 1px 1px 1px #f00,
+               2px 2px 1px #f80,
+               3px 3px 1px #ff0,
+               4px 4px 1px #8f0,
+               5px 5px 1px #0f0,
+               6px 6px 1px #0f8,
+               7px 7px 1px #0ff,
+               8px 8px 1px #08f,
+               9px 9px 1px #00f,
+               10px 10px 1px #80f,
+               11px 11px 1px #f0f,
+               12px 12px 1px #f08 !Important;
+  top: -6px !Important;
+  left: -5px !Important;
+}
+
+#user-rollover.id-4404282 .extplug-blurb,
+#user-rollover.id-4404282 .level .value{
+  color: white !Important;
+}
+
+#user-rollover.id-4404282 .username{
+  color: black !Important;
+}
+
+#user-rollover.id-4404282 .joined,
+#user-rollover.id-4404282 .level .label{
+  color: #888 !Important;
+}
