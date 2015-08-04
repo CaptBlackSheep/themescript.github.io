@@ -56,9 +56,6 @@
 /* Make user profile link scale with user image */
 #user-rollover .username a{
   position: absolute !Important;
-  white-space: pre !important;
-  background-color: red !Important;
-  opacity: 0.5 !Important;
 }
 
 /* TEMPLATE */
