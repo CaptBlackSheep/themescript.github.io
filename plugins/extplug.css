@@ -6,18 +6,23 @@
   opacity: 0.75 !Important;
 }
 
-/* Vote */
-  /* icons */
+/* Icons */
+  /* Vote lists */
 .cm.extplug-woot i.icon.icon-woot,
 .cm.extplug-grab i.icon.icon-grab,
 .cm.extplug-meh i.icon.icon-meh,
 .cm.extplug-user-join .icon.icon-community-users,
 .cm.extplug-user-leave .icon.icon-community-users,
 .cm.extplug-friend-join .emoji.emoji-2764,
-.cm.extplug-friend-leave .emoji.emoji-1f494{
+.cm.extplug-friend-leave .emoji.emoji-1f494,
+  /* User profiles */
+#extplug-user-profiles-menu .item:not(.selected) .icon{
   background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
 }
+
+/* Icon position */
+  /* Vote lists */
 .cm.extplug-woot i.icon.icon-woot{
   background-position: -90px 0px !Important;
 }
@@ -35,30 +40,13 @@
 }
 .cm.extplug-meh .text{
   color: rgb(255, 45, 49) !important;
-} /* Vote lists */
-    /* Object positioning and size */
-#vote .list{
-  height: 244px !Important;
-}   /* List border and colour */
-      /* General */
-#vote .extplug-vote-list{
-  border-left: none !important;
-  border-bottom: none !Important;
-  border-right: none !Important;
-  border-top-left-radius: 4px !Important;
-  border-top-right-radius: 4px !Important;
-  background-color: rgb(22, 31, 49) !important;
-}     /* Woot */
-.app-view:not(.video-only) #vote .extplug-vote-list.woot{
-  border-bottom-right-radius: 4px !Important;
-  border-color: rgb(74, 108, 143) !Important;
-}     /* Grab */
-#vote .extplug-vote-list.grab{
-  border-color: rgb(92, 135, 179) !Important;
-}     /* Meh */
-.app-view:not(.video-only) #vote .extplug-vote-list.meh{
-  border-bottom-left-radius: 4px !Important;
-  border-color: rgb(255, 45, 49) !important;
+}
+  /* User profiles */
+#extplug-user-profiles-menu .icon-user-grey{
+  background-position: -180px -150px !Important;
+}
+#extplug-user-profiles-menu .icon-history-grey{
+  background-position: -30px -180px !Important;
 }
 
 /* Other chat mentions */
@@ -111,9 +99,78 @@
 #user-rollover .extplug-blurb-wrap{
   background-color: rgb(50, 60, 83) !Important;
 }
+/* Vote lists */
+  /* Object positioning and size */
+#vote .list{
+  height: 244px !Important;
+}   /* List border and colour */
+      /* General */
+#vote .extplug-vote-list{
+  border-left: none !important;
+  border-bottom: none !Important;
+  border-right: none !Important;
+  border-top-left-radius: 4px !Important;
+  border-top-right-radius: 4px !Important;
+  background-color: rgb(22, 31, 49) !important;
+}     /* Woot */
+.app-view:not(.video-only) #vote .extplug-vote-list.woot{
+  border-bottom-right-radius: 4px !Important;
+  border-color: rgb(74, 108, 143) !Important;
+}     /* Grab */
+#vote .extplug-vote-list.grab{
+  border-color: rgb(92, 135, 179) !Important;
+}     /* Meh */
+.app-view:not(.video-only) #vote .extplug-vote-list.meh{
+  border-bottom-left-radius: 4px !Important;
+  border-color: rgb(255, 45, 49) !important;
+}
+  /* User profiles */
+#extplug-user-profiles .role span,
+#extplug-user-profiles .link .label{
+  color: rgb(180, 201, 222) !Important;;
+}
+
+#extplug-user-profiles{
+  background-color: rgb(30, 41, 66) !important;
+  box-shadow: inset -30px 30px 30px -30px rgb(0, 0, 0) !Important;
+}
+
+#extplug-user-profiles .blurb .box{
+  background-color: rgb(50, 60, 83) !Important;
+}
+
+#extplug-user-profiles-menu .avatar{
+  background: linear-gradient(to bottom,
+                              #074973 0px,
+                              #1C1F25 56%,
+                              #111317 73%,
+                              rgba(5, 26, 41, 0.98) 100%) repeat scroll 0% 0% transparent !important;
+}
+
+#extplug-user-profiles-menu{
+  background-color: rgb(30, 41, 66) !important;
+  background-image: linear-gradient(to bottom,
+                                    transparent 250px,
+                                    transparent 250px,
+                                    rgb(50, 60, 83) 100%) !important;
+}
+
+#extplug-user-profiles-menu .item{
+  background-color: transparent !Important;
+}
+
+#extplug-user-profiles-menu .item.selected{
+  background-image: linear-gradient(to right,
+                                    rgb(54, 95, 128) 52%,
+                                    transparent 100%) !important;
+}
 
 /* Disappear */
   /* Vote lists */
 #vote .header{
   display: none !Important;
+}
+  /* User profiles */
+#extplug-user-profiles .blurb .arrow-up{
+  border: none !Important;
 }
