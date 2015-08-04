@@ -6,31 +6,37 @@
 
 /* Disappear / Image position */
 #user-rollover.id-5096841 .username,
+#user-rollover.id-5096841 .username a,
 #user-lists .id-5096841 .name,
 #waitlist .id-5096841 .name span,
 #chat-messages [data-cid^='5096841'] .un,
 #chat-messages [data-cid^='5096841'] .un:before,
 #user-rollover.id-3988637 .username,
+#user-rollover.id-3988637 .username a,
 #user-lists .id-3988637 .name,
 #waitlist .id-3988637 .name span,
 #chat-messages [data-cid^='3988637'] .un,
 #chat-messages [data-cid^='3988637'] .un:before,
 #user-rollover.id-3673826 .username,
+#user-rollover.id-3673826 .username a,
 #user-lists .id-3673826 .name,
 #waitlist .id-3673826 .name span,
 #chat-messages [data-cid^='3673826'] .un,
 #chat-messages [data-cid^='3673826'] .un:before,
 #user-rollover.id-3767595 .username,
+#user-rollover.id-3767595 .username a,
 #user-lists .id-3767595 .name,
 #waitlist .id-3767595 .name span,
 #chat-messages [data-cid^='3767595'] .un,
 #chat-messages [data-cid^='3767595'] .un:before,
 #user-rollover.id-3995934 .username,
+#user-rollover.id-3995934 .username a,
 #user-lists .id-3995934 .name,
 #waitlist .id-3995934 .name span,
 #chat-messages [data-cid^='3995934'] .un,
 #chat-messages [data-cid^='3995934'] .un:before,
 #user-rollover.id-5021393 .username,
+#user-rollover.id-5021393 .username a,
 #user-lists .id-5021393 .name,
 #waitlist .id-5021393 .name span,
 #chat-messages [data-cid^='5021393'] .un,
@@ -46,6 +52,11 @@
   content: '' !important;
 }
 
+/* Make user profile link scale with user image */
+#user-rollover .username a{
+  position: absolute !Important;
+}
+
 /* TEMPLATE */
   /* Replease "0" with user ID */
 #user-rollover.id-0 .username,
@@ -55,6 +66,10 @@
   width: 0px/* imgwidth */ !Important;
   height: 0px/* imgheight */ !Important;
   background-image: url(http://pfx.domain.sfx/img.sfx) !important;
+} /* Make below have same image width and height */
+#user-rollover.id-0 .username a{
+  width: 0px/* imgwidth */ !Important;
+  height: 0px/* imgheight */ !Important;
 }
 
 /* Vibin' */
@@ -66,6 +81,10 @@
   height: 18px !Important;
   background-image: url(http://i.imgur.com/6sGeydG.png) !important;
 }
+#user-rollover.id-5096841 .username a{
+  width: 49px !Important;
+  height: 18px !Important;
+}
 
 /* Hoarse- */
 #user-rollover.id-3988637 .username,
@@ -76,6 +95,10 @@
   height: 18px !important;
   background-image: url(http://i.imgur.com/muW2JC6.png) !important;
 }
+#user-rollover.id-3988637 .username a{
+  width: 57px !Important;
+  height: 18px !important;
+}
 
 /* iheartcolors */
 #user-rollover.id-3673026 .username,
@@ -83,8 +106,12 @@
 #waitlist .id-3673026 .name span,
 #chat-messages [data-cid^='3673026'] .un:before{
   width: 194px !Important;
-   height: 15px !important;
-   background-image: url(http://i.imgur.com/9WAAb7H.png) !Important;
+  height: 15px !important;
+  background-image: url(http://i.imgur.com/9WAAb7H.png) !Important;
+}
+#user-rollover.id-3673026 .username a{
+  width: 194px !Important;
+  height: 15px !important;
 }
 
 /* Obzerv */
@@ -96,6 +123,10 @@
   height: 20px !important;
   background-image: url(http://i.imgur.com/OVCYca5.png) !important;
 }
+#user-rollover.id-3767595 .username a{
+  width: 104px !important;
+  height: 20px !important;
+}
 
 /* Paradox Vii */
 #user-rollover.id-3995934 .username,
@@ -106,6 +137,10 @@
   height: 20px !Important;
   background-image: url(http://i.imgur.com/6gekTyS.png) !important;
 }
+#user-rollover.id-3995934 .username{
+  width: 166px !Important;
+  height: 20px !Important;
+}
 
 /* Lushbear */
 #user-rollover.id-5021393 .username,
@@ -115,4 +150,8 @@
   width: 121px !Important;
   height: 20px !Important;
   background-image: url(http://i.imgur.com/xIJ32YN.png) !important;
+}
+#user-rollover.id-5021393 .username a{
+  width: 121px !Important;
+  height: 20px !Important;
 }
