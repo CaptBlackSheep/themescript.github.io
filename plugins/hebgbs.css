@@ -42,11 +42,12 @@
 
 #user-rollover.id-4404282 .extplug-blurb,
 #user-rollover.id-4404282 .level .value{
-  color: white !Important;
+  color: #fff !Important;
 }
 
-#user-rollover.id-4404282 .username{
-  color: black !Important;
+#user-rollover.id-4404282 .username,
+#user-rollover.id-4404282 .username a{
+  color: #000 !Important;
 }
 
 #user-rollover.id-4404282 .joined,
