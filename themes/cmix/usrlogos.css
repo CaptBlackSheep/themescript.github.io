@@ -5,36 +5,42 @@
 */
 
 /* Disappear / Image position */
+#extplug-user-profiles.id-5096841 .username,
 #user-rollover.id-5096841 .username,
 #user-rollover.id-5096841 .username a,
 #user-lists .id-5096841 .name,
 #waitlist .id-5096841 .name span,
 #chat-messages [data-cid^='5096841'] .un,
 #chat-messages [data-cid^='5096841'] .un:before,
+#extplug-user-profiles.id-3988637 .username,
 #user-rollover.id-3988637 .username,
 #user-rollover.id-3988637 .username a,
 #user-lists .id-3988637 .name,
 #waitlist .id-3988637 .name span,
 #chat-messages [data-cid^='3988637'] .un,
 #chat-messages [data-cid^='3988637'] .un:before,
+#extplug-user-profiles.id-3673826 .username,
 #user-rollover.id-3673826 .username,
 #user-rollover.id-3673826 .username a,
 #user-lists .id-3673826 .name,
 #waitlist .id-3673826 .name span,
 #chat-messages [data-cid^='3673826'] .un,
 #chat-messages [data-cid^='3673826'] .un:before,
+#extplug-user-profiles.id-3767595 .username,
 #user-rollover.id-3767595 .username,
 #user-rollover.id-3767595 .username a,
 #user-lists .id-3767595 .name,
 #waitlist .id-3767595 .name span,
 #chat-messages [data-cid^='3767595'] .un,
 #chat-messages [data-cid^='3767595'] .un:before,
+#extplug-user-profiles.id-3995934 .username,
 #user-rollover.id-3995934 .username,
 #user-rollover.id-3995934 .username a,
 #user-lists .id-3995934 .name,
 #waitlist .id-3995934 .name span,
 #chat-messages [data-cid^='3995934'] .un,
 #chat-messages [data-cid^='3995934'] .un:before,
+#extplug-user-profiles.id-5021393 .username,
 #user-rollover.id-5021393 .username,
 #user-rollover.id-5021393 .username a,
 #user-lists .id-5021393 .name,
@@ -60,6 +66,7 @@
 
 /* TEMPLATE */
   /* Replease "0" with user ID */
+#extplug-user-profiles.id-0 .username,
 #user-rollover.id-0 .username,
 #user-lists .id-0 .name,
 #waitlist .id-0 .name span,
@@ -72,6 +79,7 @@
 }
 
 /* Vibin' */
+#extplug-user-profiles.id-5096841 .username,
 #user-rollover.id-5096841 .username,
 #user-lists .id-5096841 .name,
 #waitlist .id-5096841 .name span,
@@ -84,6 +92,7 @@
 }
 
 /* Hoarse- */
+#extplug-user-profiles.id-3988637 .username,
 #user-rollover.id-3988637 .username,
 #user-lists .id-3988637 .name,
 #waitlist .id-3988637 .name span,
@@ -96,6 +105,7 @@
 }
 
 /* iheartcolors */
+#extplug-user-profiles.id-3673026 .username,
 #user-rollover.id-3673026 .username,
 #user-lists .id-3673026 .name,
 #waitlist .id-3673026 .name span,
@@ -108,6 +118,7 @@
 }
 
 /* Obzerv */
+#extplug-user-profiles.id-3767595 .username,
 #user-rollover.id-3767595 .username,
 #user-lists .id-3767595 .name,
 #waitlist .id-3767595 .name span,
@@ -119,7 +130,8 @@
   width: 96px !important;
 }
 
-/* Paradox Vii */
+/* Paradox Viii */
+#extplug-user-profiles.id-3995934 .username,
 #user-rollover.id-3995934 .username,
 #user-lists .id-3995934 .name,
 #waitlist .id-3995934 .name span,
@@ -132,6 +144,7 @@
 }
 
 /* Lushbear */
+#extplug-user-profiles.id-5021393 .username,
 #user-rollover.id-5021393 .username,
 #user-lists .id-5021393 .name,
 #waitlist .id-5021393 .name span,
