@@ -57,11 +57,7 @@
 #user-rollover .username a:before{
   position: absolute !Important;
   content: '' !important;
-}
-
-/* Max height for images */
-#user-rollover .username a:before{
-  height: 20px !Important;
+  height: 20px !Important; /* Max height! */
 }
 
 /* TEMPLATE */
