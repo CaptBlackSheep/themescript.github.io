@@ -1,12 +1,12 @@
-#user-rollover.id-4404282{
+#user-rollover{
   background-color: #fff !Important;
 }
 
-#user-rollover.id-4404282 .extplug-blurb-wrap{
+#user-rollover .extplug-blurb-wrap{
   background-color: #000 !Important;
 }
 
-#user-rollover.id-4404282 .info:not(.extplug-blurb-wrap){
+#user-rollover .info:not(.extplug-blurb-wrap){
   text-shadow: 0px 0px 6px #000,
                0px 0px 6px #000,
                0px 0px 6px #000 !important;
@@ -18,12 +18,12 @@
   background: transparent !Important;
 }
 
-#user-rollover.id-4404282 .thumb .background{
+#user-rollover .thumb .background{
   background: radial-gradient(ellipse at center, transparent 50%, rgba(0, 0, 0, 0.75) 100%),
               url(http://i.imgur.com/XFYHBit.gif) 50% 50% !Important;
 }
 
-#user-rollover.id-4404282 .extplug-blurb{
+#user-rollover .extplug-blurb{
   text-shadow: 1px 1px 1px #f00,
                2px 2px 1px #f80,
                3px 3px 1px #ff0,
@@ -40,68 +40,68 @@
   left: -5px !Important;
 }
 
-#user-rollover.id-4404282 .extplug-blurb,
-#user-rollover.id-4404282 .level .value{
+#user-rollover .extplug-blurb,
+#user-rollover .level .value{
   color: #fff !Important;
 }
 
-#user-rollover.id-4404282 .username,
-#user-rollover.id-4404282 .username a{
+#user-rollover .username,
+#user-rollover .username a{
   color: #000 !Important;
 }
 
-#user-rollover.id-4404282 .joined,
-#user-rollover.id-4404282 .level .label{
+#user-rollover .joined,
+#user-rollover .level .label{
   color: #888 !Important;
 }
 
 /* Icon map */
-#user-rollover.id-4404282 .action .icon:not(.icon-ignore){
+#user-rollover .action .icon:not(.icon-ignore){
   background-image: url(http://i.imgur.com/nTsyi8g.png) !important;
   background-size: 216px 72px !Important;
 }
 /* Top row */
-#user-rollover.id-4404282 .action .icon.icon-skip{
+#user-rollover .action .icon.icon-skip{
   background-position: -4px -4px !important;
 }
 
-#user-rollover.id-4404282 .action .icon.icon-mention{
+#user-rollover .action .icon.icon-mention{
   background-position: -3px -39px !Important;
 }
 
-#user-rollover.id-4404282 .action .icon.icon-gift{
+#user-rollover .action .icon.icon-gift{
   background-position: -183px -4px !Important;
 }
 
-#user-rollover.id-4404282 .action .icon.icon-unignore{
+#user-rollover .action .icon.icon-unignore{
   background-position: -183px -36px !important;
 }
 
-#user-rollover.id-4404282 .action .icon.icon-add-friend{
+#user-rollover .action .icon.icon-add-friend{
   background-position: -37px -2px
 }
 /* Bottom row */
-#user-rollover.id-4404282 .action .icon.icon-join-booth{
+#user-rollover .action .icon.icon-join-booth{
   background-position: -110px -2px !Important;
 }
-#user-rollover.id-4404282 .action .icon.icon-leave-booth{
+#user-rollover .action .icon.icon-leave-booth{
   background-position: -110px -38px !Important;
 }
-#user-rollover.id-4404282 .action .icon.icon-join-waitlist{
+#user-rollover .action .icon.icon-join-waitlist{
   background-position: -144px -2px !Important;
 }
-#user-rollover.id-4404282 .action .icon.icon-leave-waitlist{
+#user-rollover .action .icon.icon-leave-waitlist{
   background-position: -144px -38px !Important;
 }
 
-#user-rollover.id-4404282 .action .icon.icon-staff{
+#user-rollover .action .icon.icon-staff{
   background-position: -39px -38px !Important;
 }
 
-#user-rollover.id-4404282 .action .icon.icon-mute-big{
-  background-position: -72px -3px
+#user-rollover .action .icon.icon-mute-big{
+  background-position: -72px -3px !important;
 }
 
-#user-rollover.id-4404282 .action .icon.icon-ban{
-  background-position: -73px -39px
+#user-rollover .action .icon.icon-ban{
+  background-position: -73px -39px !important;
 }
