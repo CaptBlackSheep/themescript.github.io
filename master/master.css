@@ -666,21 +666,20 @@ div .user:hover .name span,
     /* Bot staff icons and emoji */
 #chat-messages [data-cid^="3605383"] .icon.icon-chat-manager,
 #chat-messages [data-cid^="3475278"] .icon.icon-chat-bouncer,/*
-#chat-messages [data-cid^="3475278"] .emoji-2139,  These icons do
-#chat-messages [data-cid^="3475278"] .emoji-1f4be, not exist yet. */
-#chat-messages [data-cid^="3605383"] .emoji-1f44d,
-#chat-messages [data-cid^="3475278"] .emoji-1f195,
-#chat-messages [data-cid^="3605383"] .emoji-2b50,
-#chat-messages [data-cid^="3605383"] .emoji-1f44e,
-#chat-messages [data-cid^="3605383"] .emoji-1f3c3,
-#chat-messages [data-cid^="3605383"] .emoji-1f3b5,
-#chat-messages [data-cid^="3475278"] .emoji-1f3b5,
-#chat-messages [data-cid^="3605383"] .emoji-1f501,
-#chat-messages [data-cid^="3475278"] .emoji-1f501,
-#chat-messages [data-cid^="3605383"] .emoji-25b6,
-#chat-messages [data-cid^="3475278"] .emoji-25b6,
-#chat-messages [data-cid^="3605383"] .emoji-1f195,
-#chat-messages [data-cid^="3475278"] .emoji-1f195,
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:0% 14.705882352941178%;background-size:3500%"],               These icons do
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:61.76470588235294% 44.117647058823536%;background-size:3500%"], not exist yet. */
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:41.1764705882353% 50%;background-size:3500%"],
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:8.823529411764707% 76.47058823529412%;background-size:3500%"],
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:41.1764705882353% 67.64705882352942%;background-size:3500%"],
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:26.47058823529412% 67.64705882352942%;background-size:3500%"],
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:26.47058823529412% 26.47058823529412%;background-size:3500%"],
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:26.47058823529412% 26.47058823529412%;background-size:3500%"],
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:67.64705882352942% 23.529411764705884%;background-size:3500%"],
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:67.64705882352942% 23.529411764705884%;background-size:3500%"],
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:0% 73.52941176470588%;background-size:3500%"],
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:0% 73.52941176470588%;background-size:3500%"],
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:11.764705882352942% 23.529411764705884%;background-size:3500%"],
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:11.764705882352942% 23.529411764705884%;background-size:3500%"],
 #chat-messages [data-cid^="3605383"] .bdg{
   background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
   background-size: 270px 480px !Important;
@@ -881,35 +880,35 @@ div .user:hover .name span,
 #chat-messages [data-cid^="3475278"] .emoji-1f4be{
    background-position: -255px -135px !Important;
 } */
-#chat-messages [data-cid^="3605383"] .emoji-1f44d,
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:41.1764705882353% 50%;background-size:3500%"],
 .icon.icon-history-positive{
   background-position: -97px -7px !Important;
 }
-#chat-messages [data-cid^="3605383"] .emoji-2b50,
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:8.823529411764707% 76.47058823529412%;background-size:3500%"],
 .icon.icon-history-grabs{
   background-position: -127px -7px !important;
 }
-#chat-messages [data-cid^="3605383"] .emoji-1f44e,
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:41.1764705882353% 67.64705882352942%;background-size:3500%"],
 .icon.icon-history-negative{
   background-position: -97px -37px !Important;
 }         /* Emoji replacement specific to bot messages */
-#chat-messages [data-cid^="3605383"] .emoji-1f3c3{
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:26.47058823529412% 67.64705882352942%;background-size:3500%"]{
   background-position: -45px -74px !important;
 }
-#chat-messages [data-cid^="3605383"] .emoji-1f3b5,
-#chat-messages [data-cid^="3475278"] .emoji-1f3b5{
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:26.47058823529412% 26.47058823529412%;background-size:3500%"],
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:26.47058823529412% 26.47058823529412%;background-size:3500%"]{
   background-position: -225px -135px !Important;
 }
-#chat-messages [data-cid^="3605383"] .emoji-1f501,
-#chat-messages [data-cid^="3475278"] .emoji-1f501{
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:67.64705882352942% 23.529411764705884%;background-size:3500%"],
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:67.64705882352942% 23.529411764705884%;background-size:3500%"]{
   background-position: -210px -120px !Important;
 }
-#chat-messages [data-cid^="3605383"] .emoji-25b6,
-#chat-messages [data-cid^="3475278"] .emoji-25b6{
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:0% 73.52941176470588%;background-size:3500%"],
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:0% 73.52941176470588%;background-size:3500%"]{
   background-position: -180px -120px !Important;
 }
-#chat-messages [data-cid^="3605383"] .emoji-1f195,
-#chat-messages [data-cid^="3475278"] .emoji-1f195{
+#chat-messages [data-cid^="3605383"] .emoji-inner[style="background-position:11.764705882352942% 23.529411764705884%;background-size:3500%"],
+#chat-messages [data-cid^="3475278"] .emoji-inner[style="background-position:11.764705882352942% 23.529411764705884%;background-size:3500%"]{
   background-position: -195px -135px !Important;
 }     /* Favourite */
 :not(.badge-box) > .icon.icon-star-white{
